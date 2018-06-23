@@ -25,15 +25,17 @@ Partial Class Form1
         Me.btnExit = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnMembers = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnExit
         '
+        Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnExit.Location = New System.Drawing.Point(579, 336)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 0
-        Me.btnExit.Text = "Exit"
+        Me.btnExit.Text = "E&xit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'Label1
@@ -47,18 +49,29 @@ Partial Class Form1
         '
         'btnMembers
         '
-        Me.btnMembers.Location = New System.Drawing.Point(350, 204)
+        Me.btnMembers.Location = New System.Drawing.Point(350, 336)
         Me.btnMembers.Name = "btnMembers"
         Me.btnMembers.Size = New System.Drawing.Size(75, 23)
         Me.btnMembers.TabIndex = 2
         Me.btnMembers.Text = "Members"
         Me.btnMembers.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(84, 265)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(151, 31)
+        Me.Button1.TabIndex = 3
+        Me.Button1.Text = "Choose your film"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.CancelButton = Me.btnExit
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnMembers)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
@@ -72,4 +85,5 @@ Partial Class Form1
     Friend WithEvents btnExit As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents btnMembers As Button
+    Friend WithEvents Button1 As Button
 End Class
