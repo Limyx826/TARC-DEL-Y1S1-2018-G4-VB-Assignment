@@ -47,6 +47,15 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -85,6 +94,18 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -108,6 +129,13 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -126,6 +154,48 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Children-of-Heaven_v2_Approved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark_Knight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220px-John_Q_film_poster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p23762_p_v8_aa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MPW-41271.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p162523_p_v8_ad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220px-Death_on_the_Nile_UK_original_poster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220px-Spider-Man_2_Poster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p34442_p_v8_an.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\227x227bb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p174374_p_v8_ab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p163151_p_v8_an.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok_check_yes_tick_accept_success_green_correct.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
