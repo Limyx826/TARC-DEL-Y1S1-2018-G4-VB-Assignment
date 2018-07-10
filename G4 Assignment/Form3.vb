@@ -10,8 +10,8 @@ Public Class frmMRegister
         End If
     End Sub
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
-        Me.Close()
-        Form2.Show()
+        Me.Hide()
+        frmHome.Show()
     End Sub
     Private Sub btnCheck_Click(sender As Object, e As EventArgs)
         TxtPass.Copy()
@@ -39,7 +39,7 @@ Public Class frmMRegister
         Else
             MessageBox.Show("Thank you for register !!!")
             Me.Close()
-            Form2.Show()
+            frmHome.Show()
         End If
     End Sub
 

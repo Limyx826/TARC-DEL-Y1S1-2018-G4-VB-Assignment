@@ -4,21 +4,31 @@
 'Project: Cinema Booking System
 'Date: 19/06/2018
 
-Public Class Form1
+Public Class frmHome
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        'Close Form1
-        Close()
+        'Exit application
+
+        Application.Exit()
     End Sub
 
     Private Sub btnMembers_Click(sender As Object, e As EventArgs) Handles btnMembers.Click
+        'Show names
 
         Label1.Text = "Lim Yang Xuan, Seow Zhi Hung, Tan Lin Ee, Tan Wei Hang"
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnFilm.Click
+        'Show frmMovie
 
-        Form2.Show()
+        frmMovie.Show()
         Me.Hide()
 
+    End Sub
+
+    Private Sub btnMemReg_Click(sender As Object, e As EventArgs) Handles btnMemReg.Click
+        'show frmMRegister
+
+        frmMRegister.Show()
+        Me.Hide()
     End Sub
 End Class

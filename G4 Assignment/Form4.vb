@@ -1,5 +1,4 @@
-﻿Imports DevExpress.XtraScheduler
-Public Class frmMovie
+﻿Public Class frmMovie
     Private Sub frmMovie_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Enabled = True
     End Sub
@@ -9,7 +8,7 @@ Public Class frmMovie
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        Me.Close()
-        Form2.Show()
+        Me.Hide()
+        frmHome.Show()
     End Sub
 End Class
