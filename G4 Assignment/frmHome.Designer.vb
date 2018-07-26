@@ -27,6 +27,7 @@ Partial Class frmHome
         Me.btnMembers = New System.Windows.Forms.Button()
         Me.btnFilm = New System.Windows.Forms.Button()
         Me.btnMemReg = New System.Windows.Forms.Button()
+        Me.btnLogin = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnExit
@@ -50,7 +51,7 @@ Partial Class frmHome
         '
         'btnMembers
         '
-        Me.btnMembers.Location = New System.Drawing.Point(350, 336)
+        Me.btnMembers.Location = New System.Drawing.Point(84, 336)
         Me.btnMembers.Name = "btnMembers"
         Me.btnMembers.Size = New System.Drawing.Size(75, 23)
         Me.btnMembers.TabIndex = 2
@@ -75,12 +76,22 @@ Partial Class frmHome
         Me.btnMemReg.Text = "Member Registration"
         Me.btnMemReg.UseVisualStyleBackColor = True
         '
+        'btnLogin
+        '
+        Me.btnLogin.Location = New System.Drawing.Point(350, 336)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.Size = New System.Drawing.Size(75, 23)
+        Me.btnLogin.TabIndex = 5
+        Me.btnLogin.Text = "Login"
+        Me.btnLogin.UseVisualStyleBackColor = True
+        '
         'frmHome
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.btnExit
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.btnMemReg)
         Me.Controls.Add(Me.btnFilm)
         Me.Controls.Add(Me.btnMembers)
@@ -98,4 +109,5 @@ Partial Class frmHome
     Friend WithEvents btnMembers As Button
     Friend WithEvents btnFilm As Button
     Friend WithEvents btnMemReg As Button
+    Friend WithEvents btnLogin As Button
 End Class

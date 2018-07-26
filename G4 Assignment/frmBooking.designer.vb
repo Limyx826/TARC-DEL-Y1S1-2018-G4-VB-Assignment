@@ -23,7 +23,7 @@ Partial Class frmBooking
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnBack = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -36,14 +36,14 @@ Partial Class frmBooking
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnBack
         '
-        Me.Button2.Location = New System.Drawing.Point(654, 375)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(242, 111)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnBack.Location = New System.Drawing.Point(654, 375)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(242, 111)
+        Me.btnBack.TabIndex = 1
+        Me.btnBack.Text = "Back"
+        Me.btnBack.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -54,21 +54,21 @@ Partial Class frmBooking
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Movie Booking"
         '
-        'Form2
+        'frmBooking
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(981, 611)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "Form2"
+        Me.Name = "frmBooking"
         Me.Text = "Form2"
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnBack As Button
     Friend WithEvents Label1 As Label
 End Class

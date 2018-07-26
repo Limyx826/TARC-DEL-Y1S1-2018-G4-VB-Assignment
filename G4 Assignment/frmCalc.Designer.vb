@@ -22,9 +22,29 @@ Partial Class frmCalc
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.btnBack = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'btnBack
+        '
+        Me.btnBack.Location = New System.Drawing.Point(338, 331)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(75, 23)
+        Me.btnBack.TabIndex = 0
+        Me.btnBack.Text = "Back"
+        Me.btnBack.UseVisualStyleBackColor = True
+        '
+        'frmCalc
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnBack)
+        Me.Name = "frmCalc"
         Me.Text = "Calc"
+        Me.ResumeLayout(False)
+
     End Sub
+
+    Friend WithEvents btnBack As Button
 End Class
