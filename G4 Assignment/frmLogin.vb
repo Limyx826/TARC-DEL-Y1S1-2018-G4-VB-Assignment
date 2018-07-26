@@ -4,6 +4,7 @@
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        frmHome.Show()
         Me.Close()
 
     End Sub
