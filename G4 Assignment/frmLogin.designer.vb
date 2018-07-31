@@ -119,7 +119,7 @@ Partial Class frmLogin
         Me.btnExit.Text = "&Exit"
         Me.btnExit.UseVisualStyleBackColor = False
         '
-        'Form1
+        'frmLogin
         '
         Me.AcceptButton = Me.btnSubmit
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -135,7 +135,8 @@ Partial Class frmLogin
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblName)
-        Me.Name = "Form1"
+        Me.Name = "frmLogin"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()

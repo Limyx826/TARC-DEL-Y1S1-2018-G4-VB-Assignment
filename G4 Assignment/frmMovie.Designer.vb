@@ -40,14 +40,14 @@ Partial Class frmMovie
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnCine1 = New System.Windows.Forms.Button()
+        Me.btnCine7 = New System.Windows.Forms.Button()
+        Me.btnCine6 = New System.Windows.Forms.Button()
+        Me.btnCine5 = New System.Windows.Forms.Button()
+        Me.btnCine4 = New System.Windows.Forms.Button()
+        Me.btnCine3 = New System.Windows.Forms.Button()
+        Me.btnCine2 = New System.Windows.Forms.Button()
+        Me.btnCine8 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -259,109 +259,109 @@ Partial Class frmMovie
         Me.Label13.TabIndex = 23
         Me.Label13.Text = "THE PURSUIT OF HAPPYNESS"
         '
-        'Button1
+        'btnCine1
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.Button1.Location = New System.Drawing.Point(125, 210)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(46, 31)
-        Me.Button1.TabIndex = 25
-        Me.Button1.Text = "Book"
-        Me.ToolTip1.SetToolTip(Me.Button1, "Book Now !")
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnCine1.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnCine1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine1.ForeColor = System.Drawing.SystemColors.InactiveBorder
+        Me.btnCine1.Location = New System.Drawing.Point(125, 210)
+        Me.btnCine1.Name = "btnCine1"
+        Me.btnCine1.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine1.TabIndex = 25
+        Me.btnCine1.Text = "Book"
+        Me.ToolTip1.SetToolTip(Me.btnCine1, "Book Now !")
+        Me.btnCine1.UseVisualStyleBackColor = False
         '
-        'Button9
+        'btnCine7
         '
-        Me.Button9.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.ForeColor = System.Drawing.SystemColors.Menu
-        Me.Button9.Location = New System.Drawing.Point(511, 442)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(46, 31)
-        Me.Button9.TabIndex = 33
-        Me.Button9.Text = "Book"
-        Me.ToolTip1.SetToolTip(Me.Button9, "Book Now !")
-        Me.Button9.UseVisualStyleBackColor = False
+        Me.btnCine7.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.btnCine7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine7.ForeColor = System.Drawing.SystemColors.Menu
+        Me.btnCine7.Location = New System.Drawing.Point(511, 442)
+        Me.btnCine7.Name = "btnCine7"
+        Me.btnCine7.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine7.TabIndex = 33
+        Me.btnCine7.Text = "Book"
+        Me.ToolTip1.SetToolTip(Me.btnCine7, "Book Now !")
+        Me.btnCine7.UseVisualStyleBackColor = False
         '
-        'Button10
+        'btnCine6
         '
-        Me.Button10.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.ForeColor = System.Drawing.SystemColors.Menu
-        Me.Button10.Location = New System.Drawing.Point(322, 442)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(46, 31)
-        Me.Button10.TabIndex = 34
-        Me.Button10.Text = "Book"
-        Me.ToolTip1.SetToolTip(Me.Button10, "Book Now !")
-        Me.Button10.UseVisualStyleBackColor = False
+        Me.btnCine6.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.btnCine6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine6.ForeColor = System.Drawing.SystemColors.Menu
+        Me.btnCine6.Location = New System.Drawing.Point(322, 442)
+        Me.btnCine6.Name = "btnCine6"
+        Me.btnCine6.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine6.TabIndex = 34
+        Me.btnCine6.Text = "Book"
+        Me.ToolTip1.SetToolTip(Me.btnCine6, "Book Now !")
+        Me.btnCine6.UseVisualStyleBackColor = False
         '
-        'Button11
+        'btnCine5
         '
-        Me.Button11.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.ForeColor = System.Drawing.SystemColors.Menu
-        Me.Button11.Location = New System.Drawing.Point(125, 442)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(46, 31)
-        Me.Button11.TabIndex = 35
-        Me.Button11.Text = "Book"
-        Me.ToolTip1.SetToolTip(Me.Button11, "Book Now !")
-        Me.Button11.UseVisualStyleBackColor = False
+        Me.btnCine5.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.btnCine5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine5.ForeColor = System.Drawing.SystemColors.Menu
+        Me.btnCine5.Location = New System.Drawing.Point(125, 442)
+        Me.btnCine5.Name = "btnCine5"
+        Me.btnCine5.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine5.TabIndex = 35
+        Me.btnCine5.Text = "Book"
+        Me.ToolTip1.SetToolTip(Me.btnCine5, "Book Now !")
+        Me.btnCine5.UseVisualStyleBackColor = False
         '
-        'Button12
+        'btnCine4
         '
-        Me.Button12.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.Button12.Location = New System.Drawing.Point(696, 210)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(46, 31)
-        Me.Button12.TabIndex = 36
-        Me.Button12.Text = "Book"
-        Me.ToolTip1.SetToolTip(Me.Button12, "Book Now !")
-        Me.Button12.UseVisualStyleBackColor = False
+        Me.btnCine4.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnCine4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine4.ForeColor = System.Drawing.SystemColors.InactiveBorder
+        Me.btnCine4.Location = New System.Drawing.Point(696, 210)
+        Me.btnCine4.Name = "btnCine4"
+        Me.btnCine4.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine4.TabIndex = 36
+        Me.btnCine4.Text = "Book"
+        Me.ToolTip1.SetToolTip(Me.btnCine4, "Book Now !")
+        Me.btnCine4.UseVisualStyleBackColor = False
         '
-        'Button13
+        'btnCine3
         '
-        Me.Button13.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.Button13.Location = New System.Drawing.Point(511, 210)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(46, 31)
-        Me.Button13.TabIndex = 37
-        Me.Button13.Text = "Book"
-        Me.ToolTip1.SetToolTip(Me.Button13, "Book Now !")
-        Me.Button13.UseVisualStyleBackColor = False
+        Me.btnCine3.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnCine3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine3.ForeColor = System.Drawing.SystemColors.InactiveBorder
+        Me.btnCine3.Location = New System.Drawing.Point(511, 210)
+        Me.btnCine3.Name = "btnCine3"
+        Me.btnCine3.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine3.TabIndex = 37
+        Me.btnCine3.Text = "Book"
+        Me.ToolTip1.SetToolTip(Me.btnCine3, "Book Now !")
+        Me.btnCine3.UseVisualStyleBackColor = False
         '
-        'Button14
+        'btnCine2
         '
-        Me.Button14.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.Button14.Location = New System.Drawing.Point(322, 210)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(46, 31)
-        Me.Button14.TabIndex = 38
-        Me.Button14.Text = "Book"
-        Me.ToolTip1.SetToolTip(Me.Button14, "Book Now !")
-        Me.Button14.UseVisualStyleBackColor = False
+        Me.btnCine2.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnCine2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine2.ForeColor = System.Drawing.SystemColors.InactiveBorder
+        Me.btnCine2.Location = New System.Drawing.Point(322, 210)
+        Me.btnCine2.Name = "btnCine2"
+        Me.btnCine2.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine2.TabIndex = 38
+        Me.btnCine2.Text = "Book"
+        Me.ToolTip1.SetToolTip(Me.btnCine2, "Book Now !")
+        Me.btnCine2.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnCine8
         '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.Menu
-        Me.Button2.Location = New System.Drawing.Point(696, 442)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(46, 31)
-        Me.Button2.TabIndex = 39
-        Me.Button2.Text = "Book"
-        Me.ToolTip1.SetToolTip(Me.Button2, "Book Now !")
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnCine8.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.btnCine8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine8.ForeColor = System.Drawing.SystemColors.Menu
+        Me.btnCine8.Location = New System.Drawing.Point(696, 442)
+        Me.btnCine8.Name = "btnCine8"
+        Me.btnCine8.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine8.TabIndex = 39
+        Me.btnCine8.Text = "Book"
+        Me.ToolTip1.SetToolTip(Me.btnCine8, "Book Now !")
+        Me.btnCine8.UseVisualStyleBackColor = False
         '
         'Label4
         '
@@ -496,14 +496,14 @@ Partial Class frmMovie
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button14)
-        Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnCine8)
+        Me.Controls.Add(Me.btnCine2)
+        Me.Controls.Add(Me.btnCine3)
+        Me.Controls.Add(Me.btnCine4)
+        Me.Controls.Add(Me.btnCine5)
+        Me.Controls.Add(Me.btnCine6)
+        Me.Controls.Add(Me.btnCine7)
+        Me.Controls.Add(Me.btnCine1)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
@@ -523,6 +523,7 @@ Partial Class frmMovie
         Me.Controls.Add(Me.PictureBox1)
         Me.ForeColor = System.Drawing.SystemColors.MenuHighlight
         Me.Name = "frmMovie"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Movie"
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
@@ -554,14 +555,14 @@ Partial Class frmMovie
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label13 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnCine1 As Button
+    Friend WithEvents btnCine7 As Button
+    Friend WithEvents btnCine6 As Button
+    Friend WithEvents btnCine5 As Button
+    Friend WithEvents btnCine4 As Button
+    Friend WithEvents btnCine3 As Button
+    Friend WithEvents btnCine2 As Button
+    Friend WithEvents btnCine8 As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label11 As Label

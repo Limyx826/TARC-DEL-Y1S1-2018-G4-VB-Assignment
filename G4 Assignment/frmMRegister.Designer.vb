@@ -436,6 +436,7 @@ Partial Class frmMRegister
         Me.Controls.Add(Me.lblBirth)
         Me.Controls.Add(Me.lblName)
         Me.Name = "frmMRegister"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Member Registration"
         Me.GpbGender.ResumeLayout(False)
         Me.GpbGender.PerformLayout()

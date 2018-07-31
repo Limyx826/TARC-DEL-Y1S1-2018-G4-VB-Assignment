@@ -37,4 +37,8 @@ Public Class frmHome
         frmLogin.Show()
         Me.Hide()
     End Sub
+
+    Private Sub btnStaff_Click(sender As Object, e As EventArgs) Handles btnStaff.Click
+        frmLogin.Show()
+    End Sub
 End Class

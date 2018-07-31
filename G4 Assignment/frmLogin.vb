@@ -21,7 +21,9 @@
     End Sub
 
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
+        MessageBox.Show("Welcome back, ", "Hi", MessageBoxButtons.OK, MessageBoxIcon.None)
+
         Me.Hide()
-        frmBooking.Show()
+        frmHome.Show()
     End Sub
 End Class

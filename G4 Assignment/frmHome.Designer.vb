@@ -28,6 +28,7 @@ Partial Class frmHome
         Me.btnFilm = New System.Windows.Forms.Button()
         Me.btnMemReg = New System.Windows.Forms.Button()
         Me.btnLogin = New System.Windows.Forms.Button()
+        Me.btnStaff = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnExit
@@ -85,12 +86,22 @@ Partial Class frmHome
         Me.btnLogin.Text = "Login"
         Me.btnLogin.UseVisualStyleBackColor = True
         '
+        'btnStaff
+        '
+        Me.btnStaff.Location = New System.Drawing.Point(12, 12)
+        Me.btnStaff.Name = "btnStaff"
+        Me.btnStaff.Size = New System.Drawing.Size(75, 23)
+        Me.btnStaff.TabIndex = 6
+        Me.btnStaff.Text = "Staff Login"
+        Me.btnStaff.UseVisualStyleBackColor = True
+        '
         'frmHome
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.btnExit
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnStaff)
         Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.btnMemReg)
         Me.Controls.Add(Me.btnFilm)
@@ -98,6 +109,7 @@ Partial Class frmHome
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
         Me.Name = "frmHome"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -110,4 +122,5 @@ Partial Class frmHome
     Friend WithEvents btnFilm As Button
     Friend WithEvents btnMemReg As Button
     Friend WithEvents btnLogin As Button
+    Friend WithEvents btnStaff As Button
 End Class

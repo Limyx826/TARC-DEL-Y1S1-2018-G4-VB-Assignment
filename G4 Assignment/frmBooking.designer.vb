@@ -63,6 +63,7 @@ Partial Class frmBooking
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.Button1)
         Me.Name = "frmBooking"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
         Me.ResumeLayout(False)
 
