@@ -22,12 +22,6 @@ Partial Class frmSeat
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -57,24 +51,58 @@ Partial Class frmSeat
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox22 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox23 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.PictureBox73 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox74 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox75 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox76 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox77 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox78 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox79 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox80 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox81 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox82 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox83 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox84 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox85 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox86 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox87 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox88 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox89 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox90 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox91 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox92 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox93 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox94 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox95 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox96 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox49 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox50 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox51 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox52 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox53 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox54 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox55 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox56 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox57 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox58 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox59 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox60 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox61 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox62 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox63 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox64 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox65 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox66 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox67 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox68 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox69 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox70 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox71 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox72 = New System.Windows.Forms.PictureBox()
         Me.PictureBox25 = New System.Windows.Forms.PictureBox()
         Me.PictureBox26 = New System.Windows.Forms.PictureBox()
         Me.PictureBox27 = New System.Windows.Forms.PictureBox()
@@ -99,130 +127,30 @@ Partial Class frmSeat
         Me.PictureBox46 = New System.Windows.Forms.PictureBox()
         Me.PictureBox47 = New System.Windows.Forms.PictureBox()
         Me.PictureBox48 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox49 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox50 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox51 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox52 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox53 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox54 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox55 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox56 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox57 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox58 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox59 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox60 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox61 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox62 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox63 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox64 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox65 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox66 = New System.Windows.Forms.PictureBox()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.PictureBox67 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox68 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox69 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox70 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox71 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox72 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox73 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox74 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox75 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox76 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox77 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox78 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox79 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox80 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox81 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox82 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox83 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox84 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox85 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox86 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox87 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox88 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox89 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox90 = New System.Windows.Forms.PictureBox()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.PictureBox91 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox92 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox93 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox94 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox95 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox96 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox36, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox37, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox38, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox39, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox40, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox41, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox42, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox43, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox44, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox45, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox46, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox47, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox48, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox49, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox50, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox52, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox53, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox54, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox55, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox56, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox68, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox69, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox21 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox22 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox23 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -247,1077 +175,1278 @@ Partial Class frmSeat
         CType(Me.PictureBox94, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox95, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox96, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox49, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox50, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox52, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox53, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox54, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox55, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox56, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox68, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox69, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox36, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox37, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox38, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox39, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox40, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox41, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox42, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox43, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox44, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox45, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox46, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox47, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox48, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(47, 522)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Location = New System.Drawing.Point(114, 522)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox2.TabIndex = 1
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Location = New System.Drawing.Point(184, 522)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox3.TabIndex = 2
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Location = New System.Drawing.Point(251, 522)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox4.TabIndex = 3
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Location = New System.Drawing.Point(319, 522)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox5.TabIndex = 4
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Location = New System.Drawing.Point(387, 522)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox6.TabIndex = 5
-        Me.PictureBox6.TabStop = False
         '
         'Label1
         '
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label1.Location = New System.Drawing.Point(228, 597)
+        Me.Label1.Location = New System.Drawing.Point(171, 485)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(443, 114)
+        Me.Label1.Size = New System.Drawing.Size(333, 93)
         Me.Label1.TabIndex = 96
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(24, 522)
+        Me.Label2.Location = New System.Drawing.Point(18, 424)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(17, 17)
+        Me.Label2.Size = New System.Drawing.Size(14, 13)
         Me.Label2.TabIndex = 97
         Me.Label2.Text = "A"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(469, 88)
+        Me.Label10.Location = New System.Drawing.Point(352, 72)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(18, 17)
+        Me.Label10.Size = New System.Drawing.Size(15, 13)
         Me.Label10.TabIndex = 112
         Me.Label10.Text = "H"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(469, 149)
+        Me.Label11.Location = New System.Drawing.Point(352, 121)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(19, 17)
+        Me.Label11.Size = New System.Drawing.Size(15, 13)
         Me.Label11.TabIndex = 111
         Me.Label11.Text = "G"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(469, 212)
+        Me.Label12.Location = New System.Drawing.Point(352, 172)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(16, 17)
+        Me.Label12.Size = New System.Drawing.Size(13, 13)
         Me.Label12.TabIndex = 110
         Me.Label12.Text = "F"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(469, 275)
+        Me.Label13.Location = New System.Drawing.Point(352, 223)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(17, 17)
+        Me.Label13.Size = New System.Drawing.Size(14, 13)
         Me.Label13.TabIndex = 109
         Me.Label13.Text = "E"
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(470, 339)
+        Me.Label14.Location = New System.Drawing.Point(352, 275)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(18, 17)
+        Me.Label14.Size = New System.Drawing.Size(15, 13)
         Me.Label14.TabIndex = 108
         Me.Label14.Text = "D"
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(470, 399)
+        Me.Label15.Location = New System.Drawing.Point(352, 324)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(17, 17)
+        Me.Label15.Size = New System.Drawing.Size(14, 13)
         Me.Label15.TabIndex = 107
         Me.Label15.Text = "C"
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(470, 461)
+        Me.Label16.Location = New System.Drawing.Point(352, 375)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(17, 17)
+        Me.Label16.Size = New System.Drawing.Size(14, 13)
         Me.Label16.TabIndex = 106
         Me.Label16.Text = "B"
         '
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(470, 522)
+        Me.Label17.Location = New System.Drawing.Point(352, 424)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(17, 17)
+        Me.Label17.Size = New System.Drawing.Size(14, 13)
         Me.Label17.TabIndex = 105
         Me.Label17.Text = "A"
         '
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(60, 58)
+        Me.Label18.Location = New System.Drawing.Point(45, 47)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(16, 17)
+        Me.Label18.Size = New System.Drawing.Size(13, 13)
         Me.Label18.TabIndex = 113
         Me.Label18.Text = "1"
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(127, 58)
+        Me.Label19.Location = New System.Drawing.Point(95, 47)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(16, 17)
+        Me.Label19.Size = New System.Drawing.Size(13, 13)
         Me.Label19.TabIndex = 114
         Me.Label19.Text = "2"
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(197, 58)
+        Me.Label20.Location = New System.Drawing.Point(148, 47)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(16, 17)
+        Me.Label20.Size = New System.Drawing.Size(13, 13)
         Me.Label20.TabIndex = 115
         Me.Label20.Text = "3"
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(402, 58)
+        Me.Label21.Location = New System.Drawing.Point(302, 47)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(16, 17)
+        Me.Label21.Size = New System.Drawing.Size(13, 13)
         Me.Label21.TabIndex = 118
         Me.Label21.Text = "6"
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(332, 58)
+        Me.Label22.Location = New System.Drawing.Point(249, 47)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(16, 17)
+        Me.Label22.Size = New System.Drawing.Size(13, 13)
         Me.Label22.TabIndex = 117
         Me.Label22.Text = "5"
         '
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(265, 58)
+        Me.Label23.Location = New System.Drawing.Point(199, 47)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(16, 17)
+        Me.Label23.Size = New System.Drawing.Size(13, 13)
         Me.Label23.TabIndex = 116
         Me.Label23.Text = "4"
         '
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(643, 58)
+        Me.Label24.Location = New System.Drawing.Point(482, 47)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(16, 17)
+        Me.Label24.Size = New System.Drawing.Size(13, 13)
         Me.Label24.TabIndex = 121
         Me.Label24.Text = "9"
         '
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(573, 58)
+        Me.Label25.Location = New System.Drawing.Point(430, 47)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(16, 17)
+        Me.Label25.Size = New System.Drawing.Size(13, 13)
         Me.Label25.TabIndex = 120
         Me.Label25.Text = "8"
         '
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(506, 58)
+        Me.Label26.Location = New System.Drawing.Point(380, 47)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(16, 17)
+        Me.Label26.Size = New System.Drawing.Size(13, 13)
         Me.Label26.TabIndex = 119
         Me.Label26.Text = "7"
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(835, 58)
+        Me.Label27.Location = New System.Drawing.Point(626, 47)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(24, 17)
+        Me.Label27.Size = New System.Drawing.Size(19, 13)
         Me.Label27.TabIndex = 124
         Me.Label27.Text = "12"
         '
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(780, 58)
+        Me.Label28.Location = New System.Drawing.Point(585, 47)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(24, 17)
+        Me.Label28.Size = New System.Drawing.Size(19, 13)
         Me.Label28.TabIndex = 123
         Me.Label28.Text = "11"
         '
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(710, 58)
+        Me.Label29.Location = New System.Drawing.Point(532, 47)
+        Me.Label29.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(24, 17)
+        Me.Label29.Size = New System.Drawing.Size(19, 13)
         Me.Label29.TabIndex = 122
         Me.Label29.Text = "10"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(23, 88)
+        Me.Label9.Location = New System.Drawing.Point(17, 72)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(18, 17)
+        Me.Label9.Size = New System.Drawing.Size(15, 13)
         Me.Label9.TabIndex = 104
         Me.Label9.Text = "H"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(24, 461)
+        Me.Label3.Location = New System.Drawing.Point(18, 375)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(17, 17)
+        Me.Label3.Size = New System.Drawing.Size(14, 13)
         Me.Label3.TabIndex = 98
         Me.Label3.Text = "B"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(24, 399)
+        Me.Label4.Location = New System.Drawing.Point(18, 324)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(17, 17)
+        Me.Label4.Size = New System.Drawing.Size(14, 13)
         Me.Label4.TabIndex = 99
         Me.Label4.Text = "C"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(24, 339)
+        Me.Label5.Location = New System.Drawing.Point(18, 275)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(18, 17)
+        Me.Label5.Size = New System.Drawing.Size(15, 13)
         Me.Label5.TabIndex = 100
         Me.Label5.Text = "D"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(23, 275)
+        Me.Label6.Location = New System.Drawing.Point(17, 223)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(17, 17)
+        Me.Label6.Size = New System.Drawing.Size(14, 13)
         Me.Label6.TabIndex = 101
         Me.Label6.Text = "E"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(23, 212)
+        Me.Label7.Location = New System.Drawing.Point(17, 172)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(16, 17)
+        Me.Label7.Size = New System.Drawing.Size(13, 13)
         Me.Label7.TabIndex = 102
         Me.Label7.Text = "F"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(23, 149)
+        Me.Label8.Location = New System.Drawing.Point(17, 121)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(19, 17)
+        Me.Label8.Size = New System.Drawing.Size(15, 13)
         Me.Label8.TabIndex = 103
         Me.Label8.Text = "G"
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.Location = New System.Drawing.Point(493, 522)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox7.TabIndex = 130
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.Location = New System.Drawing.Point(559, 522)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox8.TabIndex = 129
-        Me.PictureBox8.TabStop = False
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.Location = New System.Drawing.Point(629, 522)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox9.TabIndex = 128
-        Me.PictureBox9.TabStop = False
-        '
-        'PictureBox10
-        '
-        Me.PictureBox10.Location = New System.Drawing.Point(703, 522)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox10.TabIndex = 127
-        Me.PictureBox10.TabStop = False
-        '
-        'PictureBox11
-        '
-        Me.PictureBox11.Location = New System.Drawing.Point(771, 522)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox11.TabIndex = 126
-        Me.PictureBox11.TabStop = False
-        '
-        'PictureBox12
-        '
-        Me.PictureBox12.Location = New System.Drawing.Point(838, 522)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox12.TabIndex = 125
-        Me.PictureBox12.TabStop = False
-        '
-        'PictureBox13
-        '
-        Me.PictureBox13.Location = New System.Drawing.Point(48, 461)
-        Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox13.TabIndex = 143
-        Me.PictureBox13.TabStop = False
-        '
-        'PictureBox14
-        '
-        Me.PictureBox14.Location = New System.Drawing.Point(114, 461)
-        Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox14.TabIndex = 142
-        Me.PictureBox14.TabStop = False
-        '
-        'PictureBox15
-        '
-        Me.PictureBox15.Location = New System.Drawing.Point(184, 461)
-        Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox15.TabIndex = 141
-        Me.PictureBox15.TabStop = False
-        '
-        'PictureBox16
-        '
-        Me.PictureBox16.Location = New System.Drawing.Point(251, 461)
-        Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox16.TabIndex = 140
-        Me.PictureBox16.TabStop = False
-        '
-        'PictureBox17
-        '
-        Me.PictureBox17.Location = New System.Drawing.Point(319, 461)
-        Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox17.TabIndex = 139
-        Me.PictureBox17.TabStop = False
-        '
-        'PictureBox18
-        '
-        Me.PictureBox18.Location = New System.Drawing.Point(387, 461)
-        Me.PictureBox18.Name = "PictureBox18"
-        Me.PictureBox18.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox18.TabIndex = 138
-        Me.PictureBox18.TabStop = False
-        '
-        'PictureBox19
-        '
-        Me.PictureBox19.Location = New System.Drawing.Point(493, 461)
-        Me.PictureBox19.Name = "PictureBox19"
-        Me.PictureBox19.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox19.TabIndex = 136
-        Me.PictureBox19.TabStop = False
-        '
-        'PictureBox20
-        '
-        Me.PictureBox20.Location = New System.Drawing.Point(559, 461)
-        Me.PictureBox20.Name = "PictureBox20"
-        Me.PictureBox20.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox20.TabIndex = 135
-        Me.PictureBox20.TabStop = False
-        '
-        'PictureBox21
-        '
-        Me.PictureBox21.Location = New System.Drawing.Point(629, 461)
-        Me.PictureBox21.Name = "PictureBox21"
-        Me.PictureBox21.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox21.TabIndex = 134
-        Me.PictureBox21.TabStop = False
-        '
-        'PictureBox22
-        '
-        Me.PictureBox22.Location = New System.Drawing.Point(702, 461)
-        Me.PictureBox22.Name = "PictureBox22"
-        Me.PictureBox22.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox22.TabIndex = 133
-        Me.PictureBox22.TabStop = False
-        '
-        'PictureBox23
-        '
-        Me.PictureBox23.Location = New System.Drawing.Point(771, 461)
-        Me.PictureBox23.Name = "PictureBox23"
-        Me.PictureBox23.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox23.TabIndex = 132
-        Me.PictureBox23.TabStop = False
-        '
-        'PictureBox24
-        '
-        Me.PictureBox24.Location = New System.Drawing.Point(838, 461)
-        Me.PictureBox24.Name = "PictureBox24"
-        Me.PictureBox24.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox24.TabIndex = 131
-        Me.PictureBox24.TabStop = False
-        '
-        'PictureBox25
-        '
-        Me.PictureBox25.Location = New System.Drawing.Point(48, 399)
-        Me.PictureBox25.Name = "PictureBox25"
-        Me.PictureBox25.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox25.TabIndex = 169
-        Me.PictureBox25.TabStop = False
-        '
-        'PictureBox26
-        '
-        Me.PictureBox26.Location = New System.Drawing.Point(114, 399)
-        Me.PictureBox26.Name = "PictureBox26"
-        Me.PictureBox26.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox26.TabIndex = 168
-        Me.PictureBox26.TabStop = False
-        '
-        'PictureBox27
-        '
-        Me.PictureBox27.Location = New System.Drawing.Point(184, 399)
-        Me.PictureBox27.Name = "PictureBox27"
-        Me.PictureBox27.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox27.TabIndex = 167
-        Me.PictureBox27.TabStop = False
-        '
-        'PictureBox28
-        '
-        Me.PictureBox28.Location = New System.Drawing.Point(251, 399)
-        Me.PictureBox28.Name = "PictureBox28"
-        Me.PictureBox28.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox28.TabIndex = 166
-        Me.PictureBox28.TabStop = False
-        '
-        'PictureBox29
-        '
-        Me.PictureBox29.Location = New System.Drawing.Point(319, 399)
-        Me.PictureBox29.Name = "PictureBox29"
-        Me.PictureBox29.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox29.TabIndex = 165
-        Me.PictureBox29.TabStop = False
-        '
-        'PictureBox30
-        '
-        Me.PictureBox30.Location = New System.Drawing.Point(387, 399)
-        Me.PictureBox30.Name = "PictureBox30"
-        Me.PictureBox30.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox30.TabIndex = 164
-        Me.PictureBox30.TabStop = False
-        '
-        'PictureBox31
-        '
-        Me.PictureBox31.Location = New System.Drawing.Point(493, 399)
-        Me.PictureBox31.Name = "PictureBox31"
-        Me.PictureBox31.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox31.TabIndex = 163
-        Me.PictureBox31.TabStop = False
-        '
-        'PictureBox32
-        '
-        Me.PictureBox32.Location = New System.Drawing.Point(559, 399)
-        Me.PictureBox32.Name = "PictureBox32"
-        Me.PictureBox32.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox32.TabIndex = 162
-        Me.PictureBox32.TabStop = False
-        '
-        'PictureBox33
-        '
-        Me.PictureBox33.Location = New System.Drawing.Point(629, 399)
-        Me.PictureBox33.Name = "PictureBox33"
-        Me.PictureBox33.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox33.TabIndex = 161
-        Me.PictureBox33.TabStop = False
-        '
-        'PictureBox34
-        '
-        Me.PictureBox34.Location = New System.Drawing.Point(702, 399)
-        Me.PictureBox34.Name = "PictureBox34"
-        Me.PictureBox34.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox34.TabIndex = 160
-        Me.PictureBox34.TabStop = False
-        '
-        'PictureBox35
-        '
-        Me.PictureBox35.Location = New System.Drawing.Point(771, 399)
-        Me.PictureBox35.Name = "PictureBox35"
-        Me.PictureBox35.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox35.TabIndex = 159
-        Me.PictureBox35.TabStop = False
-        '
-        'PictureBox36
-        '
-        Me.PictureBox36.Location = New System.Drawing.Point(838, 399)
-        Me.PictureBox36.Name = "PictureBox36"
-        Me.PictureBox36.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox36.TabIndex = 158
-        Me.PictureBox36.TabStop = False
-        '
-        'PictureBox37
-        '
-        Me.PictureBox37.Location = New System.Drawing.Point(48, 339)
-        Me.PictureBox37.Name = "PictureBox37"
-        Me.PictureBox37.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox37.TabIndex = 157
-        Me.PictureBox37.TabStop = False
-        '
-        'PictureBox38
-        '
-        Me.PictureBox38.Location = New System.Drawing.Point(114, 339)
-        Me.PictureBox38.Name = "PictureBox38"
-        Me.PictureBox38.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox38.TabIndex = 156
-        Me.PictureBox38.TabStop = False
-        '
-        'PictureBox39
-        '
-        Me.PictureBox39.Location = New System.Drawing.Point(184, 339)
-        Me.PictureBox39.Name = "PictureBox39"
-        Me.PictureBox39.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox39.TabIndex = 155
-        Me.PictureBox39.TabStop = False
-        '
-        'PictureBox40
-        '
-        Me.PictureBox40.Location = New System.Drawing.Point(252, 339)
-        Me.PictureBox40.Name = "PictureBox40"
-        Me.PictureBox40.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox40.TabIndex = 154
-        Me.PictureBox40.TabStop = False
-        '
-        'PictureBox41
-        '
-        Me.PictureBox41.Location = New System.Drawing.Point(320, 339)
-        Me.PictureBox41.Name = "PictureBox41"
-        Me.PictureBox41.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox41.TabIndex = 153
-        Me.PictureBox41.TabStop = False
-        '
-        'PictureBox42
-        '
-        Me.PictureBox42.Location = New System.Drawing.Point(387, 339)
-        Me.PictureBox42.Name = "PictureBox42"
-        Me.PictureBox42.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox42.TabIndex = 152
-        Me.PictureBox42.TabStop = False
-        '
-        'PictureBox43
-        '
-        Me.PictureBox43.Location = New System.Drawing.Point(493, 339)
-        Me.PictureBox43.Name = "PictureBox43"
-        Me.PictureBox43.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox43.TabIndex = 149
-        Me.PictureBox43.TabStop = False
-        '
-        'PictureBox44
-        '
-        Me.PictureBox44.Location = New System.Drawing.Point(559, 339)
-        Me.PictureBox44.Name = "PictureBox44"
-        Me.PictureBox44.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox44.TabIndex = 148
-        Me.PictureBox44.TabStop = False
-        '
-        'PictureBox45
-        '
-        Me.PictureBox45.Location = New System.Drawing.Point(629, 339)
-        Me.PictureBox45.Name = "PictureBox45"
-        Me.PictureBox45.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox45.TabIndex = 147
-        Me.PictureBox45.TabStop = False
-        '
-        'PictureBox46
-        '
-        Me.PictureBox46.Location = New System.Drawing.Point(703, 339)
-        Me.PictureBox46.Name = "PictureBox46"
-        Me.PictureBox46.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox46.TabIndex = 146
-        Me.PictureBox46.TabStop = False
-        '
-        'PictureBox47
-        '
-        Me.PictureBox47.Location = New System.Drawing.Point(771, 339)
-        Me.PictureBox47.Name = "PictureBox47"
-        Me.PictureBox47.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox47.TabIndex = 145
-        Me.PictureBox47.TabStop = False
-        '
-        'PictureBox48
-        '
-        Me.PictureBox48.Location = New System.Drawing.Point(838, 339)
-        Me.PictureBox48.Name = "PictureBox48"
-        Me.PictureBox48.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox48.TabIndex = 144
-        Me.PictureBox48.TabStop = False
-        '
-        'PictureBox49
-        '
-        Me.PictureBox49.Location = New System.Drawing.Point(48, 275)
-        Me.PictureBox49.Name = "PictureBox49"
-        Me.PictureBox49.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox49.TabIndex = 195
-        Me.PictureBox49.TabStop = False
-        '
-        'PictureBox50
-        '
-        Me.PictureBox50.Location = New System.Drawing.Point(114, 275)
-        Me.PictureBox50.Name = "PictureBox50"
-        Me.PictureBox50.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox50.TabIndex = 194
-        Me.PictureBox50.TabStop = False
-        '
-        'PictureBox51
-        '
-        Me.PictureBox51.Location = New System.Drawing.Point(184, 275)
-        Me.PictureBox51.Name = "PictureBox51"
-        Me.PictureBox51.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox51.TabIndex = 193
-        Me.PictureBox51.TabStop = False
-        '
-        'PictureBox52
-        '
-        Me.PictureBox52.Location = New System.Drawing.Point(251, 275)
-        Me.PictureBox52.Name = "PictureBox52"
-        Me.PictureBox52.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox52.TabIndex = 192
-        Me.PictureBox52.TabStop = False
-        '
-        'PictureBox53
-        '
-        Me.PictureBox53.Location = New System.Drawing.Point(319, 275)
-        Me.PictureBox53.Name = "PictureBox53"
-        Me.PictureBox53.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox53.TabIndex = 191
-        Me.PictureBox53.TabStop = False
-        '
-        'PictureBox54
-        '
-        Me.PictureBox54.Location = New System.Drawing.Point(387, 275)
-        Me.PictureBox54.Name = "PictureBox54"
-        Me.PictureBox54.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox54.TabIndex = 190
-        Me.PictureBox54.TabStop = False
-        '
-        'PictureBox55
-        '
-        Me.PictureBox55.Location = New System.Drawing.Point(493, 275)
-        Me.PictureBox55.Name = "PictureBox55"
-        Me.PictureBox55.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox55.TabIndex = 189
-        Me.PictureBox55.TabStop = False
-        '
-        'PictureBox56
-        '
-        Me.PictureBox56.Location = New System.Drawing.Point(559, 275)
-        Me.PictureBox56.Name = "PictureBox56"
-        Me.PictureBox56.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox56.TabIndex = 188
-        Me.PictureBox56.TabStop = False
-        '
-        'PictureBox57
-        '
-        Me.PictureBox57.Location = New System.Drawing.Point(629, 275)
-        Me.PictureBox57.Name = "PictureBox57"
-        Me.PictureBox57.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox57.TabIndex = 187
-        Me.PictureBox57.TabStop = False
-        '
-        'PictureBox58
-        '
-        Me.PictureBox58.Location = New System.Drawing.Point(702, 275)
-        Me.PictureBox58.Name = "PictureBox58"
-        Me.PictureBox58.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox58.TabIndex = 186
-        Me.PictureBox58.TabStop = False
-        '
-        'PictureBox59
-        '
-        Me.PictureBox59.Location = New System.Drawing.Point(771, 275)
-        Me.PictureBox59.Name = "PictureBox59"
-        Me.PictureBox59.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox59.TabIndex = 185
-        Me.PictureBox59.TabStop = False
-        '
-        'PictureBox60
-        '
-        Me.PictureBox60.Location = New System.Drawing.Point(838, 275)
-        Me.PictureBox60.Name = "PictureBox60"
-        Me.PictureBox60.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox60.TabIndex = 184
-        Me.PictureBox60.TabStop = False
-        '
-        'PictureBox61
-        '
-        Me.PictureBox61.Location = New System.Drawing.Point(47, 212)
-        Me.PictureBox61.Name = "PictureBox61"
-        Me.PictureBox61.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox61.TabIndex = 183
-        Me.PictureBox61.TabStop = False
-        '
-        'PictureBox62
-        '
-        Me.PictureBox62.Location = New System.Drawing.Point(114, 212)
-        Me.PictureBox62.Name = "PictureBox62"
-        Me.PictureBox62.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox62.TabIndex = 182
-        Me.PictureBox62.TabStop = False
-        '
-        'PictureBox63
-        '
-        Me.PictureBox63.Location = New System.Drawing.Point(184, 212)
-        Me.PictureBox63.Name = "PictureBox63"
-        Me.PictureBox63.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox63.TabIndex = 181
-        Me.PictureBox63.TabStop = False
-        '
-        'PictureBox64
-        '
-        Me.PictureBox64.Location = New System.Drawing.Point(251, 212)
-        Me.PictureBox64.Name = "PictureBox64"
-        Me.PictureBox64.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox64.TabIndex = 180
-        Me.PictureBox64.TabStop = False
-        '
-        'PictureBox65
-        '
-        Me.PictureBox65.Location = New System.Drawing.Point(319, 212)
-        Me.PictureBox65.Name = "PictureBox65"
-        Me.PictureBox65.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox65.TabIndex = 179
-        Me.PictureBox65.TabStop = False
-        '
-        'PictureBox66
-        '
-        Me.PictureBox66.Location = New System.Drawing.Point(387, 212)
-        Me.PictureBox66.Name = "PictureBox66"
-        Me.PictureBox66.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox66.TabIndex = 178
-        Me.PictureBox66.TabStop = False
         '
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Location = New System.Drawing.Point(470, 212)
+        Me.Label30.Location = New System.Drawing.Point(352, 172)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(17, 17)
+        Me.Label30.Size = New System.Drawing.Size(13, 13)
         Me.Label30.TabIndex = 177
-        Me.Label30.Text = "B"
+        Me.Label30.Text = "F"
         '
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.Location = New System.Drawing.Point(470, 273)
+        Me.Label31.Location = New System.Drawing.Point(352, 222)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(17, 17)
+        Me.Label31.Size = New System.Drawing.Size(14, 13)
         Me.Label31.TabIndex = 176
-        Me.Label31.Text = "A"
+        Me.Label31.Text = "E"
         '
-        'PictureBox67
+        'Label32
         '
-        Me.PictureBox67.Location = New System.Drawing.Point(493, 212)
-        Me.PictureBox67.Name = "PictureBox67"
-        Me.PictureBox67.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox67.TabIndex = 175
-        Me.PictureBox67.TabStop = False
+        Me.Label32.AutoSize = True
+        Me.Label32.Location = New System.Drawing.Point(352, 72)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(15, 13)
+        Me.Label32.TabIndex = 203
+        Me.Label32.Text = "H"
         '
-        'PictureBox68
+        'Label33
         '
-        Me.PictureBox68.Location = New System.Drawing.Point(559, 212)
-        Me.PictureBox68.Name = "PictureBox68"
-        Me.PictureBox68.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox68.TabIndex = 174
-        Me.PictureBox68.TabStop = False
-        '
-        'PictureBox69
-        '
-        Me.PictureBox69.Location = New System.Drawing.Point(629, 212)
-        Me.PictureBox69.Name = "PictureBox69"
-        Me.PictureBox69.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox69.TabIndex = 173
-        Me.PictureBox69.TabStop = False
-        '
-        'PictureBox70
-        '
-        Me.PictureBox70.Location = New System.Drawing.Point(702, 212)
-        Me.PictureBox70.Name = "PictureBox70"
-        Me.PictureBox70.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox70.TabIndex = 172
-        Me.PictureBox70.TabStop = False
-        '
-        'PictureBox71
-        '
-        Me.PictureBox71.Location = New System.Drawing.Point(771, 212)
-        Me.PictureBox71.Name = "PictureBox71"
-        Me.PictureBox71.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox71.TabIndex = 171
-        Me.PictureBox71.TabStop = False
-        '
-        'PictureBox72
-        '
-        Me.PictureBox72.Location = New System.Drawing.Point(838, 212)
-        Me.PictureBox72.Name = "PictureBox72"
-        Me.PictureBox72.Size = New System.Drawing.Size(42, 42)
-        Me.PictureBox72.TabIndex = 170
-        Me.PictureBox72.TabStop = False
+        Me.Label33.AutoSize = True
+        Me.Label33.Location = New System.Drawing.Point(352, 121)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(15, 13)
+        Me.Label33.TabIndex = 202
+        Me.Label33.Text = "G"
         '
         'PictureBox73
         '
-        Me.PictureBox73.Location = New System.Drawing.Point(48, 149)
+        Me.PictureBox73.Location = New System.Drawing.Point(36, 121)
+        Me.PictureBox73.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox73.Name = "PictureBox73"
-        Me.PictureBox73.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox73.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox73.TabIndex = 221
         Me.PictureBox73.TabStop = False
         '
         'PictureBox74
         '
-        Me.PictureBox74.Location = New System.Drawing.Point(114, 149)
+        Me.PictureBox74.Location = New System.Drawing.Point(86, 121)
+        Me.PictureBox74.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox74.Name = "PictureBox74"
-        Me.PictureBox74.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox74.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox74.TabIndex = 220
         Me.PictureBox74.TabStop = False
         '
         'PictureBox75
         '
-        Me.PictureBox75.Location = New System.Drawing.Point(184, 149)
+        Me.PictureBox75.Location = New System.Drawing.Point(138, 121)
+        Me.PictureBox75.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox75.Name = "PictureBox75"
-        Me.PictureBox75.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox75.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox75.TabIndex = 219
         Me.PictureBox75.TabStop = False
         '
         'PictureBox76
         '
-        Me.PictureBox76.Location = New System.Drawing.Point(251, 149)
+        Me.PictureBox76.Location = New System.Drawing.Point(188, 121)
+        Me.PictureBox76.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox76.Name = "PictureBox76"
-        Me.PictureBox76.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox76.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox76.TabIndex = 218
         Me.PictureBox76.TabStop = False
         '
         'PictureBox77
         '
-        Me.PictureBox77.Location = New System.Drawing.Point(319, 149)
+        Me.PictureBox77.Location = New System.Drawing.Point(239, 121)
+        Me.PictureBox77.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox77.Name = "PictureBox77"
-        Me.PictureBox77.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox77.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox77.TabIndex = 217
         Me.PictureBox77.TabStop = False
         '
         'PictureBox78
         '
-        Me.PictureBox78.Location = New System.Drawing.Point(387, 149)
+        Me.PictureBox78.Location = New System.Drawing.Point(290, 121)
+        Me.PictureBox78.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox78.Name = "PictureBox78"
-        Me.PictureBox78.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox78.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox78.TabIndex = 216
         Me.PictureBox78.TabStop = False
         '
         'PictureBox79
         '
-        Me.PictureBox79.Location = New System.Drawing.Point(493, 149)
+        Me.PictureBox79.Location = New System.Drawing.Point(370, 121)
+        Me.PictureBox79.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox79.Name = "PictureBox79"
-        Me.PictureBox79.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox79.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox79.TabIndex = 215
         Me.PictureBox79.TabStop = False
         '
         'PictureBox80
         '
-        Me.PictureBox80.Location = New System.Drawing.Point(559, 149)
+        Me.PictureBox80.Location = New System.Drawing.Point(419, 121)
+        Me.PictureBox80.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox80.Name = "PictureBox80"
-        Me.PictureBox80.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox80.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox80.TabIndex = 214
         Me.PictureBox80.TabStop = False
         '
         'PictureBox81
         '
-        Me.PictureBox81.Location = New System.Drawing.Point(629, 149)
+        Me.PictureBox81.Location = New System.Drawing.Point(472, 121)
+        Me.PictureBox81.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox81.Name = "PictureBox81"
-        Me.PictureBox81.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox81.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox81.TabIndex = 213
         Me.PictureBox81.TabStop = False
         '
         'PictureBox82
         '
-        Me.PictureBox82.Location = New System.Drawing.Point(702, 149)
+        Me.PictureBox82.Location = New System.Drawing.Point(526, 121)
+        Me.PictureBox82.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox82.Name = "PictureBox82"
-        Me.PictureBox82.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox82.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox82.TabIndex = 212
         Me.PictureBox82.TabStop = False
         '
         'PictureBox83
         '
-        Me.PictureBox83.Location = New System.Drawing.Point(771, 149)
+        Me.PictureBox83.Location = New System.Drawing.Point(578, 121)
+        Me.PictureBox83.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox83.Name = "PictureBox83"
-        Me.PictureBox83.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox83.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox83.TabIndex = 211
         Me.PictureBox83.TabStop = False
         '
         'PictureBox84
         '
-        Me.PictureBox84.Location = New System.Drawing.Point(838, 149)
+        Me.PictureBox84.Location = New System.Drawing.Point(628, 121)
+        Me.PictureBox84.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox84.Name = "PictureBox84"
-        Me.PictureBox84.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox84.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox84.TabIndex = 210
         Me.PictureBox84.TabStop = False
         '
         'PictureBox85
         '
-        Me.PictureBox85.Location = New System.Drawing.Point(48, 88)
+        Me.PictureBox85.Location = New System.Drawing.Point(36, 72)
+        Me.PictureBox85.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox85.Name = "PictureBox85"
-        Me.PictureBox85.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox85.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox85.TabIndex = 209
         Me.PictureBox85.TabStop = False
         '
         'PictureBox86
         '
-        Me.PictureBox86.Location = New System.Drawing.Point(114, 88)
+        Me.PictureBox86.Location = New System.Drawing.Point(86, 72)
+        Me.PictureBox86.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox86.Name = "PictureBox86"
-        Me.PictureBox86.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox86.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox86.TabIndex = 208
         Me.PictureBox86.TabStop = False
         '
         'PictureBox87
         '
-        Me.PictureBox87.Location = New System.Drawing.Point(184, 88)
+        Me.PictureBox87.Location = New System.Drawing.Point(138, 72)
+        Me.PictureBox87.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox87.Name = "PictureBox87"
-        Me.PictureBox87.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox87.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox87.TabIndex = 207
         Me.PictureBox87.TabStop = False
         '
         'PictureBox88
         '
-        Me.PictureBox88.Location = New System.Drawing.Point(251, 88)
+        Me.PictureBox88.Location = New System.Drawing.Point(188, 72)
+        Me.PictureBox88.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox88.Name = "PictureBox88"
-        Me.PictureBox88.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox88.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox88.TabIndex = 206
         Me.PictureBox88.TabStop = False
         '
         'PictureBox89
         '
-        Me.PictureBox89.Location = New System.Drawing.Point(319, 88)
+        Me.PictureBox89.Location = New System.Drawing.Point(239, 72)
+        Me.PictureBox89.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox89.Name = "PictureBox89"
-        Me.PictureBox89.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox89.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox89.TabIndex = 205
         Me.PictureBox89.TabStop = False
         '
         'PictureBox90
         '
-        Me.PictureBox90.Location = New System.Drawing.Point(387, 88)
+        Me.PictureBox90.Location = New System.Drawing.Point(290, 72)
+        Me.PictureBox90.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox90.Name = "PictureBox90"
-        Me.PictureBox90.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox90.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox90.TabIndex = 204
         Me.PictureBox90.TabStop = False
         '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(470, 88)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(17, 17)
-        Me.Label32.TabIndex = 203
-        Me.Label32.Text = "B"
-        '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(470, 149)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(17, 17)
-        Me.Label33.TabIndex = 202
-        Me.Label33.Text = "A"
-        '
         'PictureBox91
         '
-        Me.PictureBox91.Location = New System.Drawing.Point(493, 88)
+        Me.PictureBox91.Location = New System.Drawing.Point(370, 72)
+        Me.PictureBox91.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox91.Name = "PictureBox91"
-        Me.PictureBox91.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox91.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox91.TabIndex = 201
         Me.PictureBox91.TabStop = False
         '
         'PictureBox92
         '
-        Me.PictureBox92.Location = New System.Drawing.Point(559, 88)
+        Me.PictureBox92.Location = New System.Drawing.Point(419, 72)
+        Me.PictureBox92.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox92.Name = "PictureBox92"
-        Me.PictureBox92.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox92.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox92.TabIndex = 200
         Me.PictureBox92.TabStop = False
         '
         'PictureBox93
         '
-        Me.PictureBox93.Location = New System.Drawing.Point(629, 88)
+        Me.PictureBox93.Location = New System.Drawing.Point(472, 72)
+        Me.PictureBox93.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox93.Name = "PictureBox93"
-        Me.PictureBox93.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox93.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox93.TabIndex = 199
         Me.PictureBox93.TabStop = False
         '
         'PictureBox94
         '
-        Me.PictureBox94.Location = New System.Drawing.Point(703, 88)
+        Me.PictureBox94.Location = New System.Drawing.Point(527, 72)
+        Me.PictureBox94.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox94.Name = "PictureBox94"
-        Me.PictureBox94.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox94.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox94.TabIndex = 198
         Me.PictureBox94.TabStop = False
         '
         'PictureBox95
         '
-        Me.PictureBox95.Location = New System.Drawing.Point(771, 88)
+        Me.PictureBox95.Location = New System.Drawing.Point(578, 72)
+        Me.PictureBox95.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox95.Name = "PictureBox95"
-        Me.PictureBox95.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox95.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox95.TabIndex = 197
         Me.PictureBox95.TabStop = False
         '
         'PictureBox96
         '
-        Me.PictureBox96.Location = New System.Drawing.Point(838, 88)
+        Me.PictureBox96.Location = New System.Drawing.Point(628, 72)
+        Me.PictureBox96.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox96.Name = "PictureBox96"
-        Me.PictureBox96.Size = New System.Drawing.Size(42, 42)
+        Me.PictureBox96.Size = New System.Drawing.Size(32, 34)
         Me.PictureBox96.TabIndex = 196
         Me.PictureBox96.TabStop = False
         '
-        'Form1
+        'PictureBox49
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.PictureBox49.Location = New System.Drawing.Point(36, 223)
+        Me.PictureBox49.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox49.Name = "PictureBox49"
+        Me.PictureBox49.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox49.TabIndex = 195
+        Me.PictureBox49.TabStop = False
+        '
+        'PictureBox50
+        '
+        Me.PictureBox50.Location = New System.Drawing.Point(86, 223)
+        Me.PictureBox50.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox50.Name = "PictureBox50"
+        Me.PictureBox50.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox50.TabIndex = 194
+        Me.PictureBox50.TabStop = False
+        '
+        'PictureBox51
+        '
+        Me.PictureBox51.Location = New System.Drawing.Point(138, 223)
+        Me.PictureBox51.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox51.Name = "PictureBox51"
+        Me.PictureBox51.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox51.TabIndex = 193
+        Me.PictureBox51.TabStop = False
+        '
+        'PictureBox52
+        '
+        Me.PictureBox52.Location = New System.Drawing.Point(188, 223)
+        Me.PictureBox52.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox52.Name = "PictureBox52"
+        Me.PictureBox52.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox52.TabIndex = 192
+        Me.PictureBox52.TabStop = False
+        '
+        'PictureBox53
+        '
+        Me.PictureBox53.Location = New System.Drawing.Point(239, 223)
+        Me.PictureBox53.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox53.Name = "PictureBox53"
+        Me.PictureBox53.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox53.TabIndex = 191
+        Me.PictureBox53.TabStop = False
+        '
+        'PictureBox54
+        '
+        Me.PictureBox54.Location = New System.Drawing.Point(290, 223)
+        Me.PictureBox54.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox54.Name = "PictureBox54"
+        Me.PictureBox54.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox54.TabIndex = 190
+        Me.PictureBox54.TabStop = False
+        '
+        'PictureBox55
+        '
+        Me.PictureBox55.Location = New System.Drawing.Point(370, 223)
+        Me.PictureBox55.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox55.Name = "PictureBox55"
+        Me.PictureBox55.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox55.TabIndex = 189
+        Me.PictureBox55.TabStop = False
+        '
+        'PictureBox56
+        '
+        Me.PictureBox56.Location = New System.Drawing.Point(419, 223)
+        Me.PictureBox56.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox56.Name = "PictureBox56"
+        Me.PictureBox56.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox56.TabIndex = 188
+        Me.PictureBox56.TabStop = False
+        '
+        'PictureBox57
+        '
+        Me.PictureBox57.Location = New System.Drawing.Point(472, 223)
+        Me.PictureBox57.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox57.Name = "PictureBox57"
+        Me.PictureBox57.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox57.TabIndex = 187
+        Me.PictureBox57.TabStop = False
+        '
+        'PictureBox58
+        '
+        Me.PictureBox58.Location = New System.Drawing.Point(526, 223)
+        Me.PictureBox58.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox58.Name = "PictureBox58"
+        Me.PictureBox58.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox58.TabIndex = 186
+        Me.PictureBox58.TabStop = False
+        '
+        'PictureBox59
+        '
+        Me.PictureBox59.Location = New System.Drawing.Point(578, 223)
+        Me.PictureBox59.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox59.Name = "PictureBox59"
+        Me.PictureBox59.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox59.TabIndex = 185
+        Me.PictureBox59.TabStop = False
+        '
+        'PictureBox60
+        '
+        Me.PictureBox60.Location = New System.Drawing.Point(628, 223)
+        Me.PictureBox60.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox60.Name = "PictureBox60"
+        Me.PictureBox60.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox60.TabIndex = 184
+        Me.PictureBox60.TabStop = False
+        '
+        'PictureBox61
+        '
+        Me.PictureBox61.Location = New System.Drawing.Point(35, 172)
+        Me.PictureBox61.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox61.Name = "PictureBox61"
+        Me.PictureBox61.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox61.TabIndex = 183
+        Me.PictureBox61.TabStop = False
+        '
+        'PictureBox62
+        '
+        Me.PictureBox62.Location = New System.Drawing.Point(86, 172)
+        Me.PictureBox62.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox62.Name = "PictureBox62"
+        Me.PictureBox62.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox62.TabIndex = 182
+        Me.PictureBox62.TabStop = False
+        '
+        'PictureBox63
+        '
+        Me.PictureBox63.Location = New System.Drawing.Point(138, 172)
+        Me.PictureBox63.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox63.Name = "PictureBox63"
+        Me.PictureBox63.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox63.TabIndex = 181
+        Me.PictureBox63.TabStop = False
+        '
+        'PictureBox64
+        '
+        Me.PictureBox64.Location = New System.Drawing.Point(188, 172)
+        Me.PictureBox64.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox64.Name = "PictureBox64"
+        Me.PictureBox64.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox64.TabIndex = 180
+        Me.PictureBox64.TabStop = False
+        '
+        'PictureBox65
+        '
+        Me.PictureBox65.Location = New System.Drawing.Point(239, 172)
+        Me.PictureBox65.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox65.Name = "PictureBox65"
+        Me.PictureBox65.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox65.TabIndex = 179
+        Me.PictureBox65.TabStop = False
+        '
+        'PictureBox66
+        '
+        Me.PictureBox66.Location = New System.Drawing.Point(290, 172)
+        Me.PictureBox66.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox66.Name = "PictureBox66"
+        Me.PictureBox66.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox66.TabIndex = 178
+        Me.PictureBox66.TabStop = False
+        '
+        'PictureBox67
+        '
+        Me.PictureBox67.Location = New System.Drawing.Point(370, 172)
+        Me.PictureBox67.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox67.Name = "PictureBox67"
+        Me.PictureBox67.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox67.TabIndex = 175
+        Me.PictureBox67.TabStop = False
+        '
+        'PictureBox68
+        '
+        Me.PictureBox68.Location = New System.Drawing.Point(419, 172)
+        Me.PictureBox68.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox68.Name = "PictureBox68"
+        Me.PictureBox68.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox68.TabIndex = 174
+        Me.PictureBox68.TabStop = False
+        '
+        'PictureBox69
+        '
+        Me.PictureBox69.Location = New System.Drawing.Point(472, 172)
+        Me.PictureBox69.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox69.Name = "PictureBox69"
+        Me.PictureBox69.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox69.TabIndex = 173
+        Me.PictureBox69.TabStop = False
+        '
+        'PictureBox70
+        '
+        Me.PictureBox70.Location = New System.Drawing.Point(526, 172)
+        Me.PictureBox70.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox70.Name = "PictureBox70"
+        Me.PictureBox70.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox70.TabIndex = 172
+        Me.PictureBox70.TabStop = False
+        '
+        'PictureBox71
+        '
+        Me.PictureBox71.Location = New System.Drawing.Point(578, 172)
+        Me.PictureBox71.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox71.Name = "PictureBox71"
+        Me.PictureBox71.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox71.TabIndex = 171
+        Me.PictureBox71.TabStop = False
+        '
+        'PictureBox72
+        '
+        Me.PictureBox72.Location = New System.Drawing.Point(628, 172)
+        Me.PictureBox72.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox72.Name = "PictureBox72"
+        Me.PictureBox72.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox72.TabIndex = 170
+        Me.PictureBox72.TabStop = False
+        '
+        'PictureBox25
+        '
+        Me.PictureBox25.Location = New System.Drawing.Point(36, 324)
+        Me.PictureBox25.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox25.Name = "PictureBox25"
+        Me.PictureBox25.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox25.TabIndex = 169
+        Me.PictureBox25.TabStop = False
+        '
+        'PictureBox26
+        '
+        Me.PictureBox26.Location = New System.Drawing.Point(86, 324)
+        Me.PictureBox26.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox26.Name = "PictureBox26"
+        Me.PictureBox26.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox26.TabIndex = 168
+        Me.PictureBox26.TabStop = False
+        '
+        'PictureBox27
+        '
+        Me.PictureBox27.Location = New System.Drawing.Point(138, 324)
+        Me.PictureBox27.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox27.Name = "PictureBox27"
+        Me.PictureBox27.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox27.TabIndex = 167
+        Me.PictureBox27.TabStop = False
+        '
+        'PictureBox28
+        '
+        Me.PictureBox28.Location = New System.Drawing.Point(188, 324)
+        Me.PictureBox28.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox28.Name = "PictureBox28"
+        Me.PictureBox28.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox28.TabIndex = 166
+        Me.PictureBox28.TabStop = False
+        '
+        'PictureBox29
+        '
+        Me.PictureBox29.Location = New System.Drawing.Point(239, 324)
+        Me.PictureBox29.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox29.Name = "PictureBox29"
+        Me.PictureBox29.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox29.TabIndex = 165
+        Me.PictureBox29.TabStop = False
+        '
+        'PictureBox30
+        '
+        Me.PictureBox30.Location = New System.Drawing.Point(290, 324)
+        Me.PictureBox30.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox30.Name = "PictureBox30"
+        Me.PictureBox30.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox30.TabIndex = 164
+        Me.PictureBox30.TabStop = False
+        '
+        'PictureBox31
+        '
+        Me.PictureBox31.Location = New System.Drawing.Point(370, 324)
+        Me.PictureBox31.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox31.Name = "PictureBox31"
+        Me.PictureBox31.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox31.TabIndex = 163
+        Me.PictureBox31.TabStop = False
+        '
+        'PictureBox32
+        '
+        Me.PictureBox32.Location = New System.Drawing.Point(419, 324)
+        Me.PictureBox32.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox32.Name = "PictureBox32"
+        Me.PictureBox32.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox32.TabIndex = 162
+        Me.PictureBox32.TabStop = False
+        '
+        'PictureBox33
+        '
+        Me.PictureBox33.Location = New System.Drawing.Point(472, 324)
+        Me.PictureBox33.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox33.Name = "PictureBox33"
+        Me.PictureBox33.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox33.TabIndex = 161
+        Me.PictureBox33.TabStop = False
+        '
+        'PictureBox34
+        '
+        Me.PictureBox34.Location = New System.Drawing.Point(526, 324)
+        Me.PictureBox34.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox34.Name = "PictureBox34"
+        Me.PictureBox34.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox34.TabIndex = 160
+        Me.PictureBox34.TabStop = False
+        '
+        'PictureBox35
+        '
+        Me.PictureBox35.Location = New System.Drawing.Point(578, 324)
+        Me.PictureBox35.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox35.Name = "PictureBox35"
+        Me.PictureBox35.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox35.TabIndex = 159
+        Me.PictureBox35.TabStop = False
+        '
+        'PictureBox36
+        '
+        Me.PictureBox36.Location = New System.Drawing.Point(628, 324)
+        Me.PictureBox36.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox36.Name = "PictureBox36"
+        Me.PictureBox36.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox36.TabIndex = 158
+        Me.PictureBox36.TabStop = False
+        '
+        'PictureBox37
+        '
+        Me.PictureBox37.Location = New System.Drawing.Point(36, 275)
+        Me.PictureBox37.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox37.Name = "PictureBox37"
+        Me.PictureBox37.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox37.TabIndex = 157
+        Me.PictureBox37.TabStop = False
+        '
+        'PictureBox38
+        '
+        Me.PictureBox38.Location = New System.Drawing.Point(86, 275)
+        Me.PictureBox38.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox38.Name = "PictureBox38"
+        Me.PictureBox38.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox38.TabIndex = 156
+        Me.PictureBox38.TabStop = False
+        '
+        'PictureBox39
+        '
+        Me.PictureBox39.Location = New System.Drawing.Point(138, 275)
+        Me.PictureBox39.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox39.Name = "PictureBox39"
+        Me.PictureBox39.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox39.TabIndex = 155
+        Me.PictureBox39.TabStop = False
+        '
+        'PictureBox40
+        '
+        Me.PictureBox40.Location = New System.Drawing.Point(189, 275)
+        Me.PictureBox40.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox40.Name = "PictureBox40"
+        Me.PictureBox40.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox40.TabIndex = 154
+        Me.PictureBox40.TabStop = False
+        '
+        'PictureBox41
+        '
+        Me.PictureBox41.Location = New System.Drawing.Point(240, 275)
+        Me.PictureBox41.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox41.Name = "PictureBox41"
+        Me.PictureBox41.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox41.TabIndex = 153
+        Me.PictureBox41.TabStop = False
+        '
+        'PictureBox42
+        '
+        Me.PictureBox42.Location = New System.Drawing.Point(290, 275)
+        Me.PictureBox42.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox42.Name = "PictureBox42"
+        Me.PictureBox42.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox42.TabIndex = 152
+        Me.PictureBox42.TabStop = False
+        '
+        'PictureBox43
+        '
+        Me.PictureBox43.Location = New System.Drawing.Point(370, 275)
+        Me.PictureBox43.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox43.Name = "PictureBox43"
+        Me.PictureBox43.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox43.TabIndex = 149
+        Me.PictureBox43.TabStop = False
+        '
+        'PictureBox44
+        '
+        Me.PictureBox44.Location = New System.Drawing.Point(419, 275)
+        Me.PictureBox44.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox44.Name = "PictureBox44"
+        Me.PictureBox44.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox44.TabIndex = 148
+        Me.PictureBox44.TabStop = False
+        '
+        'PictureBox45
+        '
+        Me.PictureBox45.Location = New System.Drawing.Point(472, 275)
+        Me.PictureBox45.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox45.Name = "PictureBox45"
+        Me.PictureBox45.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox45.TabIndex = 147
+        Me.PictureBox45.TabStop = False
+        '
+        'PictureBox46
+        '
+        Me.PictureBox46.Location = New System.Drawing.Point(527, 275)
+        Me.PictureBox46.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox46.Name = "PictureBox46"
+        Me.PictureBox46.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox46.TabIndex = 146
+        Me.PictureBox46.TabStop = False
+        '
+        'PictureBox47
+        '
+        Me.PictureBox47.Location = New System.Drawing.Point(578, 275)
+        Me.PictureBox47.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox47.Name = "PictureBox47"
+        Me.PictureBox47.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox47.TabIndex = 145
+        Me.PictureBox47.TabStop = False
+        '
+        'PictureBox48
+        '
+        Me.PictureBox48.Location = New System.Drawing.Point(628, 275)
+        Me.PictureBox48.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox48.Name = "PictureBox48"
+        Me.PictureBox48.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox48.TabIndex = 144
+        Me.PictureBox48.TabStop = False
+        '
+        'PictureBox13
+        '
+        Me.PictureBox13.Location = New System.Drawing.Point(36, 375)
+        Me.PictureBox13.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox13.TabIndex = 143
+        Me.PictureBox13.TabStop = False
+        '
+        'PictureBox14
+        '
+        Me.PictureBox14.Location = New System.Drawing.Point(86, 375)
+        Me.PictureBox14.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox14.Name = "PictureBox14"
+        Me.PictureBox14.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox14.TabIndex = 142
+        Me.PictureBox14.TabStop = False
+        '
+        'PictureBox15
+        '
+        Me.PictureBox15.Location = New System.Drawing.Point(138, 375)
+        Me.PictureBox15.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox15.Name = "PictureBox15"
+        Me.PictureBox15.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox15.TabIndex = 141
+        Me.PictureBox15.TabStop = False
+        '
+        'PictureBox16
+        '
+        Me.PictureBox16.Location = New System.Drawing.Point(188, 375)
+        Me.PictureBox16.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox16.Name = "PictureBox16"
+        Me.PictureBox16.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox16.TabIndex = 140
+        Me.PictureBox16.TabStop = False
+        '
+        'PictureBox17
+        '
+        Me.PictureBox17.Location = New System.Drawing.Point(239, 375)
+        Me.PictureBox17.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox17.Name = "PictureBox17"
+        Me.PictureBox17.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox17.TabIndex = 139
+        Me.PictureBox17.TabStop = False
+        '
+        'PictureBox18
+        '
+        Me.PictureBox18.Location = New System.Drawing.Point(290, 375)
+        Me.PictureBox18.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox18.Name = "PictureBox18"
+        Me.PictureBox18.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox18.TabIndex = 138
+        Me.PictureBox18.TabStop = False
+        '
+        'PictureBox19
+        '
+        Me.PictureBox19.Location = New System.Drawing.Point(370, 375)
+        Me.PictureBox19.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox19.Name = "PictureBox19"
+        Me.PictureBox19.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox19.TabIndex = 136
+        Me.PictureBox19.TabStop = False
+        '
+        'PictureBox20
+        '
+        Me.PictureBox20.Location = New System.Drawing.Point(419, 375)
+        Me.PictureBox20.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox20.Name = "PictureBox20"
+        Me.PictureBox20.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox20.TabIndex = 135
+        Me.PictureBox20.TabStop = False
+        '
+        'PictureBox21
+        '
+        Me.PictureBox21.Location = New System.Drawing.Point(472, 375)
+        Me.PictureBox21.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox21.Name = "PictureBox21"
+        Me.PictureBox21.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox21.TabIndex = 134
+        Me.PictureBox21.TabStop = False
+        '
+        'PictureBox22
+        '
+        Me.PictureBox22.Location = New System.Drawing.Point(526, 375)
+        Me.PictureBox22.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox22.Name = "PictureBox22"
+        Me.PictureBox22.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox22.TabIndex = 133
+        Me.PictureBox22.TabStop = False
+        '
+        'PictureBox23
+        '
+        Me.PictureBox23.Location = New System.Drawing.Point(578, 375)
+        Me.PictureBox23.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox23.Name = "PictureBox23"
+        Me.PictureBox23.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox23.TabIndex = 132
+        Me.PictureBox23.TabStop = False
+        '
+        'PictureBox24
+        '
+        Me.PictureBox24.Location = New System.Drawing.Point(628, 375)
+        Me.PictureBox24.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox24.Name = "PictureBox24"
+        Me.PictureBox24.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox24.TabIndex = 131
+        Me.PictureBox24.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Location = New System.Drawing.Point(370, 424)
+        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox7.TabIndex = 130
+        Me.PictureBox7.TabStop = False
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.Location = New System.Drawing.Point(419, 424)
+        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox8.TabIndex = 129
+        Me.PictureBox8.TabStop = False
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.Location = New System.Drawing.Point(472, 424)
+        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox9.TabIndex = 128
+        Me.PictureBox9.TabStop = False
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Location = New System.Drawing.Point(527, 424)
+        Me.PictureBox10.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox10.TabIndex = 127
+        Me.PictureBox10.TabStop = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.Location = New System.Drawing.Point(578, 424)
+        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox11.TabIndex = 126
+        Me.PictureBox11.TabStop = False
+        '
+        'PictureBox12
+        '
+        Me.PictureBox12.Location = New System.Drawing.Point(628, 424)
+        Me.PictureBox12.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox12.TabIndex = 125
+        Me.PictureBox12.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Location = New System.Drawing.Point(290, 424)
+        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox6.TabIndex = 5
+        Me.PictureBox6.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Location = New System.Drawing.Point(239, 424)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox5.TabIndex = 4
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Location = New System.Drawing.Point(188, 424)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox4.TabIndex = 3
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Location = New System.Drawing.Point(138, 424)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox3.TabIndex = 2
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Location = New System.Drawing.Point(86, 424)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox2.TabIndex = 1
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(35, 424)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(32, 34)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
+        'frmSeat
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(904, 740)
+        Me.ClientSize = New System.Drawing.Size(678, 601)
         Me.Controls.Add(Me.PictureBox73)
         Me.Controls.Add(Me.PictureBox74)
         Me.Controls.Add(Me.PictureBox75)
@@ -1447,80 +1576,9 @@ Partial Class frmSeat
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "Form1"
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Name = "frmSeat"
         Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox36, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox37, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox38, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox39, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox40, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox41, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox42, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox43, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox44, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox45, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox46, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox47, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox48, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox49, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox50, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox52, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox53, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox54, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox55, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox56, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox68, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox69, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1545,6 +1603,78 @@ Partial Class frmSeat
         CType(Me.PictureBox94, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox95, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox96, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox49, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox50, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox52, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox53, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox54, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox55, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox56, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox68, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox69, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox36, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox37, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox38, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox39, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox40, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox41, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox42, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox43, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox44, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox45, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox46, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox47, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox48, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox21, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox23, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
