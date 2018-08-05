@@ -1,9 +1,17 @@
 ﻿Public Class frmCalc
-    'Private 
+    Const PrdP As Integer = 16
+    Const PrdKP As Integer = 8
+    Const StdP As Integer = 14
+    Const StdKP As Integer = 8
+    Private Total As Decimal
+
     Private Sub frmCalc_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lblEaster.Visible = True
         Timer1.Interval = 5000
         Timer1.Start()
+
+        lblPrdQ.Text = frmCalcTest.PrdQty
+
     End Sub
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
