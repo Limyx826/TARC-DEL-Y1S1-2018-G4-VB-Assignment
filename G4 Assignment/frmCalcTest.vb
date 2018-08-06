@@ -1,7 +1,9 @@
 ﻿Public Class frmCalcTest
-    Public Shared Property PrdQty As Integer
+    Public Shared Property APrdQty As Integer
+    Public Shared Property APrdKQty As Integer
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
-        PrdQty = Integer.Parse(TextBox1.Text)
+        APrdQty = Integer.Parse(TextBox1.Text)
+        APrdKQty = Integer.Parse(Label2.Text)
 
         frmCalc.Show()
         Me.Hide()

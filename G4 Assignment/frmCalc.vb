@@ -10,7 +10,8 @@
         Timer1.Interval = 5000
         Timer1.Start()
 
-        lblPrdQ.Text = frmCalcTest.PrdQty
+        lblPrdQ.Text = frmCalcTest.APrdQty
+        lblPrdKQ.Text = frmCalcTest.APrdKQty
 
     End Sub
 

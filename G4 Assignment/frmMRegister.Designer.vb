@@ -56,7 +56,9 @@ Partial Class frmMRegister
         Me.picyes1 = New System.Windows.Forms.PictureBox()
         Me.MskIC = New System.Windows.Forms.MaskedTextBox()
         Me.MksBirth = New System.Windows.Forms.MaskedTextBox()
-        Me.btnCheck = New System.Windows.Forms.Button()
+        Me.lblb = New System.Windows.Forms.Label()
+        Me.lbla = New System.Windows.Forms.Label()
+        Me.lblc = New System.Windows.Forms.Label()
         Me.GpbGender.SuspendLayout()
         CType(Me.picno7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picno6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -75,50 +77,62 @@ Partial Class frmMRegister
         'lblName
         '
         Me.lblName.AutoSize = True
+        Me.lblName.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName.ForeColor = System.Drawing.SystemColors.ControlDark
         Me.lblName.Location = New System.Drawing.Point(38, 24)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(41, 13)
+        Me.lblName.Size = New System.Drawing.Size(45, 15)
         Me.lblName.TabIndex = 0
         Me.lblName.Text = "Name :"
         '
         'lblBirth
         '
         Me.lblBirth.AutoSize = True
+        Me.lblBirth.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblBirth.ForeColor = System.Drawing.SystemColors.ControlDark
         Me.lblBirth.Location = New System.Drawing.Point(38, 66)
         Me.lblBirth.Name = "lblBirth"
-        Me.lblBirth.Size = New System.Drawing.Size(34, 13)
+        Me.lblBirth.Size = New System.Drawing.Size(42, 15)
         Me.lblBirth.TabIndex = 1
         Me.lblBirth.Text = "Birth :"
         '
         'lblUsername
         '
         Me.lblUsername.AutoSize = True
+        Me.lblUsername.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblUsername.ForeColor = System.Drawing.SystemColors.ControlDark
         Me.lblUsername.Location = New System.Drawing.Point(34, 207)
         Me.lblUsername.Name = "lblUsername"
-        Me.lblUsername.Size = New System.Drawing.Size(75, 13)
+        Me.lblUsername.Size = New System.Drawing.Size(83, 15)
         Me.lblUsername.TabIndex = 2
         Me.lblUsername.Text = "Username ID :"
         '
         'lblPassword
         '
         Me.lblPassword.AutoSize = True
+        Me.lblPassword.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPassword.ForeColor = System.Drawing.SystemColors.ControlDark
         Me.lblPassword.Location = New System.Drawing.Point(38, 260)
         Me.lblPassword.Name = "lblPassword"
-        Me.lblPassword.Size = New System.Drawing.Size(59, 13)
+        Me.lblPassword.Size = New System.Drawing.Size(62, 15)
         Me.lblPassword.TabIndex = 3
         Me.lblPassword.Text = "Password :"
         '
         'lblIC
         '
         Me.lblIC.AutoSize = True
+        Me.lblIC.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblIC.ForeColor = System.Drawing.SystemColors.ControlDark
         Me.lblIC.Location = New System.Drawing.Point(34, 97)
         Me.lblIC.Name = "lblIC"
-        Me.lblIC.Size = New System.Drawing.Size(63, 13)
+        Me.lblIC.Size = New System.Drawing.Size(73, 15)
         Me.lblIC.TabIndex = 5
         Me.lblIC.Text = "IC Number :"
         '
         'txtName
         '
+        Me.txtName.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.txtName.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtName.Location = New System.Drawing.Point(131, 24)
         Me.txtName.Name = "txtName"
         Me.txtName.Size = New System.Drawing.Size(179, 20)
@@ -126,6 +140,8 @@ Partial Class frmMRegister
         '
         'txtID
         '
+        Me.txtID.BackColor = System.Drawing.SystemColors.MenuBar
+        Me.txtID.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtID.Location = New System.Drawing.Point(127, 207)
         Me.txtID.Name = "txtID"
         Me.txtID.Size = New System.Drawing.Size(179, 20)
@@ -133,6 +149,8 @@ Partial Class frmMRegister
         '
         'TxtPass
         '
+        Me.TxtPass.BackColor = System.Drawing.SystemColors.MenuBar
+        Me.TxtPass.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtPass.HideSelection = False
         Me.TxtPass.Location = New System.Drawing.Point(127, 260)
         Me.TxtPass.Name = "TxtPass"
@@ -144,9 +162,11 @@ Partial Class frmMRegister
         'lblGender
         '
         Me.lblGender.AutoSize = True
+        Me.lblGender.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblGender.ForeColor = System.Drawing.SystemColors.ControlDark
         Me.lblGender.Location = New System.Drawing.Point(38, 145)
         Me.lblGender.Name = "lblGender"
-        Me.lblGender.Size = New System.Drawing.Size(48, 13)
+        Me.lblGender.Size = New System.Drawing.Size(53, 15)
         Me.lblGender.TabIndex = 12
         Me.lblGender.Text = "Gender :"
         '
@@ -163,9 +183,11 @@ Partial Class frmMRegister
         'radFemale
         '
         Me.radFemale.AutoSize = True
+        Me.radFemale.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radFemale.ForeColor = System.Drawing.Color.Fuchsia
         Me.radFemale.Location = New System.Drawing.Point(109, 22)
         Me.radFemale.Name = "radFemale"
-        Me.radFemale.Size = New System.Drawing.Size(59, 17)
+        Me.radFemale.Size = New System.Drawing.Size(64, 19)
         Me.radFemale.TabIndex = 1
         Me.radFemale.Text = "Female"
         Me.radFemale.UseVisualStyleBackColor = True
@@ -174,9 +196,11 @@ Partial Class frmMRegister
         '
         Me.radMale.AutoSize = True
         Me.radMale.Checked = True
+        Me.radMale.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.radMale.ForeColor = System.Drawing.Color.DodgerBlue
         Me.radMale.Location = New System.Drawing.Point(18, 22)
         Me.radMale.Name = "radMale"
-        Me.radMale.Size = New System.Drawing.Size(48, 17)
+        Me.radMale.Size = New System.Drawing.Size(52, 19)
         Me.radMale.TabIndex = 0
         Me.radMale.TabStop = True
         Me.radMale.Text = "Male"
@@ -185,14 +209,18 @@ Partial Class frmMRegister
         'lblConfirm
         '
         Me.lblConfirm.AutoSize = True
+        Me.lblConfirm.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblConfirm.ForeColor = System.Drawing.SystemColors.ControlDark
         Me.lblConfirm.Location = New System.Drawing.Point(33, 317)
         Me.lblConfirm.Name = "lblConfirm"
-        Me.lblConfirm.Size = New System.Drawing.Size(74, 13)
+        Me.lblConfirm.Size = New System.Drawing.Size(85, 15)
         Me.lblConfirm.TabIndex = 15
         Me.lblConfirm.Text = "Confirm Pass :"
         '
         'txtCon
         '
+        Me.txtCon.BackColor = System.Drawing.SystemColors.MenuBar
+        Me.txtCon.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCon.Location = New System.Drawing.Point(127, 314)
         Me.txtCon.Name = "txtCon"
         Me.txtCon.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
@@ -201,6 +229,8 @@ Partial Class frmMRegister
         '
         'Label1
         '
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label1.Location = New System.Drawing.Point(33, 371)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(192, 16)
@@ -210,6 +240,7 @@ Partial Class frmMRegister
         'btnBack
         '
         Me.btnBack.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnBack.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBack.Location = New System.Drawing.Point(12, 407)
         Me.btnBack.Name = "btnBack"
         Me.btnBack.Size = New System.Drawing.Size(123, 34)
@@ -219,6 +250,7 @@ Partial Class frmMRegister
         '
         'btnRegister
         '
+        Me.btnRegister.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegister.Location = New System.Drawing.Point(302, 407)
         Me.btnRegister.Name = "btnRegister"
         Me.btnRegister.Size = New System.Drawing.Size(123, 34)
@@ -372,6 +404,8 @@ Partial Class frmMRegister
         '
         'MskIC
         '
+        Me.MskIC.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.MskIC.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MskIC.Location = New System.Drawing.Point(131, 94)
         Me.MskIC.Mask = "000000-00-0000"
         Me.MskIC.Name = "MskIC"
@@ -380,6 +414,8 @@ Partial Class frmMRegister
         '
         'MksBirth
         '
+        Me.MksBirth.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.MksBirth.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MksBirth.Location = New System.Drawing.Point(131, 59)
         Me.MksBirth.Mask = "00/00/0000"
         Me.MksBirth.Name = "MksBirth"
@@ -387,24 +423,47 @@ Partial Class frmMRegister
         Me.MksBirth.TabIndex = 1
         Me.MksBirth.ValidatingType = GetType(Date)
         '
-        'btnCheck
+        'lblb
         '
-        Me.btnCheck.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnCheck.Location = New System.Drawing.Point(158, 407)
-        Me.btnCheck.Name = "btnCheck"
-        Me.btnCheck.Size = New System.Drawing.Size(123, 34)
-        Me.btnCheck.TabIndex = 35
-        Me.btnCheck.Text = "Check"
-        Me.btnCheck.UseVisualStyleBackColor = True
+        Me.lblb.AutoSize = True
+        Me.lblb.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblb.ForeColor = System.Drawing.Color.Red
+        Me.lblb.Location = New System.Drawing.Point(142, 244)
+        Me.lblb.Name = "lblb"
+        Me.lblb.Size = New System.Drawing.Size(0, 13)
+        Me.lblb.TabIndex = 36
+        '
+        'lbla
+        '
+        Me.lbla.AutoSize = True
+        Me.lbla.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbla.ForeColor = System.Drawing.Color.Red
+        Me.lbla.Location = New System.Drawing.Point(142, 191)
+        Me.lbla.Name = "lbla"
+        Me.lbla.Size = New System.Drawing.Size(0, 13)
+        Me.lbla.TabIndex = 37
+        '
+        'lblc
+        '
+        Me.lblc.AutoSize = True
+        Me.lblc.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblc.ForeColor = System.Drawing.Color.Red
+        Me.lblc.Location = New System.Drawing.Point(155, 9)
+        Me.lblc.Name = "lblc"
+        Me.lblc.Size = New System.Drawing.Size(0, 13)
+        Me.lblc.TabIndex = 38
         '
         'frmMRegister
         '
         Me.AcceptButton = Me.btnRegister
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.CancelButton = Me.btnBack
         Me.ClientSize = New System.Drawing.Size(452, 453)
-        Me.Controls.Add(Me.btnCheck)
+        Me.Controls.Add(Me.lblc)
+        Me.Controls.Add(Me.lbla)
+        Me.Controls.Add(Me.lblb)
         Me.Controls.Add(Me.picno7)
         Me.Controls.Add(Me.picno6)
         Me.Controls.Add(Me.picno1)
@@ -490,5 +549,7 @@ Partial Class frmMRegister
     Friend WithEvents picno7 As PictureBox
     Friend WithEvents MskIC As MaskedTextBox
     Friend WithEvents MksBirth As MaskedTextBox
-    Friend WithEvents btnCheck As Button
+    Friend WithEvents lblb As Label
+    Friend WithEvents lbla As Label
+    Friend WithEvents lblc As Label
 End Class
