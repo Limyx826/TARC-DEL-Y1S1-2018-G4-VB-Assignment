@@ -6,11 +6,11 @@
         APrdKQty = Integer.Parse(Label2.Text)
 
         frmCalc.Show()
-        Me.Hide()
+        Me.Close()
     End Sub
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         frmHome.Show()
-        Me.Hide()
+        Me.Close()
     End Sub
 End Class

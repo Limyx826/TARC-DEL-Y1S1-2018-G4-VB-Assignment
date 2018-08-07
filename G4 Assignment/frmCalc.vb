@@ -17,7 +17,7 @@
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         frmHome.Show()
-        Me.Hide()
+        Me.Close()
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick

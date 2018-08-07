@@ -1,8 +1,8 @@
 ﻿Option Strict Off
 Public Class frmMRegister
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
-        Me.Hide()
         frmHome.Show()
+        Me.Close()
     End Sub
     Private Sub btnCheck_Click(sender As Object, e As EventArgs)
         TxtPass.Copy()
@@ -107,8 +107,8 @@ Public Class frmMRegister
             MessageBox.Show("Somethings Error !!!", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
         Else
             MessageBox.Show("Thank you for register !!!", "Member Registration", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
-            Me.Close()
             frmHome.Show()
+            Me.Close()
         End If
     End Sub
 End Class
