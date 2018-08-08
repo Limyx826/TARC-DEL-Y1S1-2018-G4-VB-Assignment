@@ -1,11 +1,11 @@
-﻿Public Class frmLogin
+﻿Public Class Form1
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lblName.Click
 
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         frmHome.Show()
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -20,24 +20,9 @@
     End Sub
 
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
+        MessageBox.Show("Welcome back, ", "Hi", MessageBoxButtons.OK, MessageBoxIcon.None)
 
-        If txtId.Text.ToUpper() = "ISISKO" And txtPw.Text.ToUpper() = "PNK6035" Then
-            MessageBox.Show("Welcome Back", "Hello", MessageBoxButtons.OK, MessageBoxIcon.None)
-            Me.Hide()
-            frmHome.Show()
-        ElseIf txtId.Text.ToUpper() = "ISISKO" Then
-            MessageBox.Show("Wrong Password", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-            txtPw.Focus()
-            txtPw.SelectAll()
-        ElseIf txtPw.Text.ToUpper() = "PNK6035" Then
-            MessageBox.Show("Wrong ID", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-            txtId.Focus()
-            txtId.SelectAll()
-        Else
-            MessageBox.Show("Wrong ID And Password", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-            txtId.Focus()
-            txtId.SelectAll()
-            Exit Sub
-        End If
+        Me.Hide()
+        frmHome.Show()
     End Sub
 End Class

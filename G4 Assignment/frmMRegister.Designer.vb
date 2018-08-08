@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmMRegister
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmMRegister
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.lblName = New System.Windows.Forms.Label()
@@ -42,6 +42,14 @@ Partial Class frmMRegister
         Me.btnRegister = New System.Windows.Forms.Button()
         Me.lblCheck = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.MskIC = New System.Windows.Forms.MaskedTextBox()
+        Me.MksBirth = New System.Windows.Forms.MaskedTextBox()
+        Me.btnCheck = New System.Windows.Forms.Button()
+        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorker2 = New System.ComponentModel.BackgroundWorker()
+        Me.LabelA = New System.Windows.Forms.Label()
+        Me.LabelB = New System.Windows.Forms.Label()
+        Me.LabelC = New System.Windows.Forms.Label()
         Me.picno7 = New System.Windows.Forms.PictureBox()
         Me.picno6 = New System.Windows.Forms.PictureBox()
         Me.picno1 = New System.Windows.Forms.PictureBox()
@@ -56,9 +64,7 @@ Partial Class frmMRegister
         Me.picyes1 = New System.Windows.Forms.PictureBox()
         Me.MskIC = New System.Windows.Forms.MaskedTextBox()
         Me.MksBirth = New System.Windows.Forms.MaskedTextBox()
-        Me.lblb = New System.Windows.Forms.Label()
-        Me.lbla = New System.Windows.Forms.Label()
-        Me.lblc = New System.Windows.Forms.Label()
+        Me.btnCheck = New System.Windows.Forms.Button()
         Me.GpbGender.SuspendLayout()
         CType(Me.picno7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picno6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -270,6 +276,57 @@ Partial Class frmMRegister
         '
         Me.Timer1.Enabled = True
         '
+        'MskIC
+        '
+        Me.MskIC.Location = New System.Drawing.Point(131, 94)
+        Me.MskIC.Mask = "000000-00-0000"
+        Me.MskIC.Name = "MskIC"
+        Me.MskIC.Size = New System.Drawing.Size(177, 20)
+        Me.MskIC.TabIndex = 2
+        '
+        'MksBirth
+        '
+        Me.MksBirth.Location = New System.Drawing.Point(131, 59)
+        Me.MksBirth.Mask = "00/00/0000"
+        Me.MksBirth.Name = "MksBirth"
+        Me.MksBirth.Size = New System.Drawing.Size(177, 20)
+        Me.MksBirth.TabIndex = 1
+        Me.MksBirth.ValidatingType = GetType(Date)
+        '
+        'btnCheck
+        '
+        Me.btnCheck.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnCheck.Location = New System.Drawing.Point(158, 407)
+        Me.btnCheck.Name = "btnCheck"
+        Me.btnCheck.Size = New System.Drawing.Size(123, 34)
+        Me.btnCheck.TabIndex = 35
+        Me.btnCheck.Text = "Check"
+        Me.btnCheck.UseVisualStyleBackColor = True
+        '
+        'LabelA
+        '
+        Me.LabelA.AutoSize = True
+        Me.LabelA.Location = New System.Drawing.Point(196, 8)
+        Me.LabelA.Name = "LabelA"
+        Me.LabelA.Size = New System.Drawing.Size(0, 13)
+        Me.LabelA.TabIndex = 36
+        '
+        'LabelB
+        '
+        Me.LabelB.AutoSize = True
+        Me.LabelB.Location = New System.Drawing.Point(196, 244)
+        Me.LabelB.Name = "LabelB"
+        Me.LabelB.Size = New System.Drawing.Size(0, 13)
+        Me.LabelB.TabIndex = 37
+        '
+        'LabelC
+        '
+        Me.LabelC.AutoSize = True
+        Me.LabelC.Location = New System.Drawing.Point(196, 298)
+        Me.LabelC.Name = "LabelC"
+        Me.LabelC.Size = New System.Drawing.Size(0, 13)
+        Me.LabelC.TabIndex = 38
+        '
         'picno7
         '
         Me.picno7.Image = Global.G4_Assignment.My.Resources.Resources.download
@@ -404,8 +461,6 @@ Partial Class frmMRegister
         '
         'MskIC
         '
-        Me.MskIC.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.MskIC.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MskIC.Location = New System.Drawing.Point(131, 94)
         Me.MskIC.Mask = "000000-00-0000"
         Me.MskIC.Name = "MskIC"
@@ -414,8 +469,6 @@ Partial Class frmMRegister
         '
         'MksBirth
         '
-        Me.MksBirth.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.MksBirth.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MksBirth.Location = New System.Drawing.Point(131, 59)
         Me.MksBirth.Mask = "00/00/0000"
         Me.MksBirth.Name = "MksBirth"
@@ -423,35 +476,15 @@ Partial Class frmMRegister
         Me.MksBirth.TabIndex = 1
         Me.MksBirth.ValidatingType = GetType(Date)
         '
-        'lblb
+        'btnCheck
         '
-        Me.lblb.AutoSize = True
-        Me.lblb.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblb.ForeColor = System.Drawing.Color.Red
-        Me.lblb.Location = New System.Drawing.Point(142, 244)
-        Me.lblb.Name = "lblb"
-        Me.lblb.Size = New System.Drawing.Size(0, 13)
-        Me.lblb.TabIndex = 36
-        '
-        'lbla
-        '
-        Me.lbla.AutoSize = True
-        Me.lbla.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbla.ForeColor = System.Drawing.Color.Red
-        Me.lbla.Location = New System.Drawing.Point(142, 191)
-        Me.lbla.Name = "lbla"
-        Me.lbla.Size = New System.Drawing.Size(0, 13)
-        Me.lbla.TabIndex = 37
-        '
-        'lblc
-        '
-        Me.lblc.AutoSize = True
-        Me.lblc.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblc.ForeColor = System.Drawing.Color.Red
-        Me.lblc.Location = New System.Drawing.Point(155, 9)
-        Me.lblc.Name = "lblc"
-        Me.lblc.Size = New System.Drawing.Size(0, 13)
-        Me.lblc.TabIndex = 38
+        Me.btnCheck.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnCheck.Location = New System.Drawing.Point(158, 407)
+        Me.btnCheck.Name = "btnCheck"
+        Me.btnCheck.Size = New System.Drawing.Size(123, 34)
+        Me.btnCheck.TabIndex = 35
+        Me.btnCheck.Text = "Check"
+        Me.btnCheck.UseVisualStyleBackColor = True
         '
         'frmMRegister
         '
@@ -461,9 +494,7 @@ Partial Class frmMRegister
         Me.BackColor = System.Drawing.Color.White
         Me.CancelButton = Me.btnBack
         Me.ClientSize = New System.Drawing.Size(452, 453)
-        Me.Controls.Add(Me.lblc)
-        Me.Controls.Add(Me.lbla)
-        Me.Controls.Add(Me.lblb)
+        Me.Controls.Add(Me.btnCheck)
         Me.Controls.Add(Me.picno7)
         Me.Controls.Add(Me.picno6)
         Me.Controls.Add(Me.picno1)
@@ -549,7 +580,5 @@ Partial Class frmMRegister
     Friend WithEvents picno7 As PictureBox
     Friend WithEvents MskIC As MaskedTextBox
     Friend WithEvents MksBirth As MaskedTextBox
-    Friend WithEvents lblb As Label
-    Friend WithEvents lbla As Label
-    Friend WithEvents lblc As Label
+    Friend WithEvents btnCheck As Button
 End Class
