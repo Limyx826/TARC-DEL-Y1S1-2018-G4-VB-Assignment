@@ -1,9 +1,10 @@
-﻿Public Class Form1
+﻿Public Class frmLogin
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles lblName.Click
 
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        frmHome.Show()
         Me.Close()
 
     End Sub
@@ -16,27 +17,27 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
     End Sub
 
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
-        If txtId.Text = "Lyxuan" And txtPw.Text = "pnk6035" Then
+
+        If txtId.Text.ToUpper() = "ISISKO" And txtPw.Text.ToUpper() = "PNK6035" Then
+            MessageBox.Show("Welcome Back", "Hello", MessageBoxButtons.OK, MessageBoxIcon.None)
             Me.Hide()
-            Form2.Show()
-        Else
-            ElseIf txtId.Text = "Lyxuan" Then
-            MessageBox.Show("WRONG PASSWORD", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+            frmHome.Show()
+        ElseIf txtId.Text.ToUpper() = "ISISKO" Then
+            MessageBox.Show("Wrong Password", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
             txtPw.Focus()
             txtPw.SelectAll()
-            ElseIf txtPw.Text = "pnk6035" Then
-            MessageBox.Show("WRONG STAFF ID", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+        ElseIf txtPw.Text.ToUpper() = "PNK6035" Then
+            MessageBox.Show("Wrong ID", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
             txtId.Focus()
             txtId.SelectAll()
-            Else
-            MessageBox.Show("WRONG STAFF ID AND PASSWORD", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+        Else
+            MessageBox.Show("Wrong ID And Password", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
             txtId.Focus()
             txtId.SelectAll()
+            Exit Sub
         End If
-
     End Sub
 End Class

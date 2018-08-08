@@ -75,15 +75,16 @@ Partial Class frmLogin
         '
         Me.txtPw.Location = New System.Drawing.Point(315, 300)
         Me.txtPw.Name = "txtPw"
+        Me.txtPw.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtPw.Size = New System.Drawing.Size(261, 20)
-        Me.txtPw.TabIndex = 6
+        Me.txtPw.TabIndex = 1
         '
         'txtId
         '
         Me.txtId.Location = New System.Drawing.Point(310, 195)
         Me.txtId.Name = "txtId"
         Me.txtId.Size = New System.Drawing.Size(379, 20)
-        Me.txtId.TabIndex = 7
+        Me.txtId.TabIndex = 0
         '
         'btnSubmit
         '
@@ -92,7 +93,7 @@ Partial Class frmLogin
         Me.btnSubmit.Location = New System.Drawing.Point(72, 463)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(155, 68)
-        Me.btnSubmit.TabIndex = 8
+        Me.btnSubmit.TabIndex = 2
         Me.btnSubmit.Text = "&Submit"
         Me.btnSubmit.UseVisualStyleBackColor = False
         '
@@ -103,7 +104,7 @@ Partial Class frmLogin
         Me.btnReset.Location = New System.Drawing.Point(404, 458)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(155, 68)
-        Me.btnReset.TabIndex = 9
+        Me.btnReset.TabIndex = 3
         Me.btnReset.Text = "&Reset"
         Me.btnReset.UseVisualStyleBackColor = False
         '
@@ -115,7 +116,7 @@ Partial Class frmLogin
         Me.btnExit.Location = New System.Drawing.Point(736, 462)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(155, 68)
-        Me.btnExit.TabIndex = 10
+        Me.btnExit.TabIndex = 8
         Me.btnExit.Text = "&Exit"
         Me.btnExit.UseVisualStyleBackColor = False
         '

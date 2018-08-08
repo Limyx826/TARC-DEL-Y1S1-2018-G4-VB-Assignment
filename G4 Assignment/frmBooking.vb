@@ -4,12 +4,12 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        frmCalc.Show()
-        Me.Hide()
+        frmCalcTest.Show()
+        Me.Close()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         frmHome.Show()
-        Me.Hide()
+        Me.Close()
     End Sub
 End Class
