@@ -214,36 +214,36 @@ Partial Class frmCalc
         Me.lblStdKP.AutoSize = True
         Me.lblStdKP.Location = New System.Drawing.Point(291, 210)
         Me.lblStdKP.Name = "lblStdKP"
-        Me.lblStdKP.Size = New System.Drawing.Size(28, 13)
+        Me.lblStdKP.Size = New System.Drawing.Size(45, 13)
         Me.lblStdKP.TabIndex = 21
-        Me.lblStdKP.Text = "8.00"
+        Me.lblStdKP.Text = "RM8.00"
         '
         'lblStdP
         '
         Me.lblStdP.AutoSize = True
         Me.lblStdP.Location = New System.Drawing.Point(285, 174)
         Me.lblStdP.Name = "lblStdP"
-        Me.lblStdP.Size = New System.Drawing.Size(34, 13)
+        Me.lblStdP.Size = New System.Drawing.Size(51, 13)
         Me.lblStdP.TabIndex = 20
-        Me.lblStdP.Text = "14.00"
+        Me.lblStdP.Text = "RM14.00"
         '
         'lblPrdKP
         '
         Me.lblPrdKP.AutoSize = True
         Me.lblPrdKP.Location = New System.Drawing.Point(291, 138)
         Me.lblPrdKP.Name = "lblPrdKP"
-        Me.lblPrdKP.Size = New System.Drawing.Size(28, 13)
+        Me.lblPrdKP.Size = New System.Drawing.Size(45, 13)
         Me.lblPrdKP.TabIndex = 19
-        Me.lblPrdKP.Text = "8.00"
+        Me.lblPrdKP.Text = "RM8.00"
         '
         'lblPrdP
         '
         Me.lblPrdP.AutoSize = True
         Me.lblPrdP.Location = New System.Drawing.Point(285, 102)
         Me.lblPrdP.Name = "lblPrdP"
-        Me.lblPrdP.Size = New System.Drawing.Size(34, 13)
+        Me.lblPrdP.Size = New System.Drawing.Size(51, 13)
         Me.lblPrdP.TabIndex = 18
-        Me.lblPrdP.Text = "16.00"
+        Me.lblPrdP.Text = "RM16.00"
         '
         'lbl_Price
         '

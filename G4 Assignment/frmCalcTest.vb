@@ -1,11 +1,48 @@
 ﻿Public Class frmCalcTest
     Public Shared Property APrdQty As Integer
     Public Shared Property APrdKQty As Integer
+    Public Shared Property AStdQty As Integer
+    Public Shared Property AStdKQty As Integer
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
-        APrdQty = Integer.Parse(TextBox1.Text)
-        APrdKQty = Integer.Parse(Label2.Text)
+        Try
+            APrdQty = Integer.Parse(TextBox1.Text)
+            Try
+                APrdKQty = Integer.Parse(TextBox2.Text)
+                Try
+                    AStdQty = Integer.Parse(TextBox3.Text)
+                    Try
+                        AStdKQty = Integer.Parse(TextBox4.Text)
+                    Catch ex As Exception
+                        MessageBox.Show("Enter correct input", "Input Error",
+                                        MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+                        TextBox4.Focus()
+                        TextBox4.SelectAll()
+                        Exit Sub
+                    End Try
+                Catch ex As Exception
+                    MessageBox.Show("Enter correct input", "Input Error",
+                                        MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+                    TextBox3.Focus()
+                    TextBox3.SelectAll()
+                    Exit Sub
+                End Try
+            Catch ex As Exception
+                MessageBox.Show("Enter correct input", "Input Error",
+                                        MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+                TextBox2.Focus()
+                TextBox2.SelectAll()
+                Exit Sub
+            End Try
 
-        frmCalc.Show()
+        Catch ex As Exception
+            MessageBox.Show("Enter correct input", "Input Error",
+                                        MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+            TextBox1.Focus()
+            TextBox1.SelectAll()
+            Exit Sub
+        End Try
+
+        frmSeatings.Show()
         Me.Close()
     End Sub
 

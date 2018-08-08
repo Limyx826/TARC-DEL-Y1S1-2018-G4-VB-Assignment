@@ -103,6 +103,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Available() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Available", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Booked() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Booked", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Children_of_Heaven_v2_Approved() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Children-of-Heaven_v2_Approved", resourceCulture)
@@ -196,6 +216,16 @@ Namespace My.Resources
         Friend ReadOnly Property p34442_p_v8_an() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("p34442_p_v8_an", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property provisional() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("provisional", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

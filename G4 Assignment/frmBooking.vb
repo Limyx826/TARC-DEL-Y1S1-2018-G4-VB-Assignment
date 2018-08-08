@@ -12,4 +12,10 @@
         frmHome.Show()
         Me.Close()
     End Sub
+
+    Private Sub btnCalcDebug_Click(sender As Object, e As EventArgs) Handles btnCalcDebug.Click
+
+        frmCalcTest.Show()
+        Me.Close()
+    End Sub
 End Class
