@@ -28,11 +28,11 @@
             MessageBox.Show("WRONG PASSWORD", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
             txtPw.Focus()
             txtPw.SelectAll()
-            ElseIf txtPw.Text = "pnk6035" Then
+        ElseIf txtPw.Text = "pnk6035" Then
             MessageBox.Show("WRONG STAFF ID", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
             txtId.Focus()
             txtId.SelectAll()
-            Else
+        Else
             MessageBox.Show("WRONG STAFF ID AND PASSWORD", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
             txtId.Focus()
             txtId.SelectAll()

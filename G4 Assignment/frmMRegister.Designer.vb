@@ -42,6 +42,14 @@ Partial Class frmMRegister
         Me.btnRegister = New System.Windows.Forms.Button()
         Me.lblCheck = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.MskIC = New System.Windows.Forms.MaskedTextBox()
+        Me.MksBirth = New System.Windows.Forms.MaskedTextBox()
+        Me.btnCheck = New System.Windows.Forms.Button()
+        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorker2 = New System.ComponentModel.BackgroundWorker()
+        Me.LabelA = New System.Windows.Forms.Label()
+        Me.LabelB = New System.Windows.Forms.Label()
+        Me.LabelC = New System.Windows.Forms.Label()
         Me.picno7 = New System.Windows.Forms.PictureBox()
         Me.picno6 = New System.Windows.Forms.PictureBox()
         Me.picno1 = New System.Windows.Forms.PictureBox()
@@ -54,9 +62,6 @@ Partial Class frmMRegister
         Me.picyes3 = New System.Windows.Forms.PictureBox()
         Me.picyes2 = New System.Windows.Forms.PictureBox()
         Me.picyes1 = New System.Windows.Forms.PictureBox()
-        Me.MskIC = New System.Windows.Forms.MaskedTextBox()
-        Me.MksBirth = New System.Windows.Forms.MaskedTextBox()
-        Me.btnCheck = New System.Windows.Forms.Button()
         Me.GpbGender.SuspendLayout()
         CType(Me.picno7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picno6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -238,6 +243,57 @@ Partial Class frmMRegister
         '
         Me.Timer1.Enabled = True
         '
+        'MskIC
+        '
+        Me.MskIC.Location = New System.Drawing.Point(131, 94)
+        Me.MskIC.Mask = "000000-00-0000"
+        Me.MskIC.Name = "MskIC"
+        Me.MskIC.Size = New System.Drawing.Size(177, 20)
+        Me.MskIC.TabIndex = 2
+        '
+        'MksBirth
+        '
+        Me.MksBirth.Location = New System.Drawing.Point(131, 59)
+        Me.MksBirth.Mask = "00/00/0000"
+        Me.MksBirth.Name = "MksBirth"
+        Me.MksBirth.Size = New System.Drawing.Size(177, 20)
+        Me.MksBirth.TabIndex = 1
+        Me.MksBirth.ValidatingType = GetType(Date)
+        '
+        'btnCheck
+        '
+        Me.btnCheck.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnCheck.Location = New System.Drawing.Point(158, 407)
+        Me.btnCheck.Name = "btnCheck"
+        Me.btnCheck.Size = New System.Drawing.Size(123, 34)
+        Me.btnCheck.TabIndex = 35
+        Me.btnCheck.Text = "Check"
+        Me.btnCheck.UseVisualStyleBackColor = True
+        '
+        'LabelA
+        '
+        Me.LabelA.AutoSize = True
+        Me.LabelA.Location = New System.Drawing.Point(196, 8)
+        Me.LabelA.Name = "LabelA"
+        Me.LabelA.Size = New System.Drawing.Size(0, 13)
+        Me.LabelA.TabIndex = 36
+        '
+        'LabelB
+        '
+        Me.LabelB.AutoSize = True
+        Me.LabelB.Location = New System.Drawing.Point(196, 244)
+        Me.LabelB.Name = "LabelB"
+        Me.LabelB.Size = New System.Drawing.Size(0, 13)
+        Me.LabelB.TabIndex = 37
+        '
+        'LabelC
+        '
+        Me.LabelC.AutoSize = True
+        Me.LabelC.Location = New System.Drawing.Point(196, 298)
+        Me.LabelC.Name = "LabelC"
+        Me.LabelC.Size = New System.Drawing.Size(0, 13)
+        Me.LabelC.TabIndex = 38
+        '
         'picno7
         '
         Me.picno7.Image = Global.G4_Assignment.My.Resources.Resources.download
@@ -370,33 +426,6 @@ Partial Class frmMRegister
         Me.picyes1.TabStop = False
         Me.picyes1.Visible = False
         '
-        'MskIC
-        '
-        Me.MskIC.Location = New System.Drawing.Point(131, 94)
-        Me.MskIC.Mask = "000000-00-0000"
-        Me.MskIC.Name = "MskIC"
-        Me.MskIC.Size = New System.Drawing.Size(177, 20)
-        Me.MskIC.TabIndex = 2
-        '
-        'MksBirth
-        '
-        Me.MksBirth.Location = New System.Drawing.Point(131, 59)
-        Me.MksBirth.Mask = "00/00/0000"
-        Me.MksBirth.Name = "MksBirth"
-        Me.MksBirth.Size = New System.Drawing.Size(177, 20)
-        Me.MksBirth.TabIndex = 1
-        Me.MksBirth.ValidatingType = GetType(Date)
-        '
-        'btnCheck
-        '
-        Me.btnCheck.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnCheck.Location = New System.Drawing.Point(158, 407)
-        Me.btnCheck.Name = "btnCheck"
-        Me.btnCheck.Size = New System.Drawing.Size(123, 34)
-        Me.btnCheck.TabIndex = 35
-        Me.btnCheck.Text = "Check"
-        Me.btnCheck.UseVisualStyleBackColor = True
-        '
         'frmMRegister
         '
         Me.AcceptButton = Me.btnRegister
@@ -404,6 +433,9 @@ Partial Class frmMRegister
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.btnBack
         Me.ClientSize = New System.Drawing.Size(452, 453)
+        Me.Controls.Add(Me.LabelC)
+        Me.Controls.Add(Me.LabelB)
+        Me.Controls.Add(Me.LabelA)
         Me.Controls.Add(Me.btnCheck)
         Me.Controls.Add(Me.picno7)
         Me.Controls.Add(Me.picno6)
@@ -491,4 +523,9 @@ Partial Class frmMRegister
     Friend WithEvents MskIC As MaskedTextBox
     Friend WithEvents MksBirth As MaskedTextBox
     Friend WithEvents btnCheck As Button
+    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BackgroundWorker2 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents LabelA As Label
+    Friend WithEvents LabelB As Label
+    Friend WithEvents LabelC As Label
 End Class
