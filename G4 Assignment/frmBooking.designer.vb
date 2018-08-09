@@ -25,6 +25,7 @@ Partial Class frmBooking
         Me.Button1 = New System.Windows.Forms.Button()
         Me.btnBack = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnCalcDebug = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -54,11 +55,21 @@ Partial Class frmBooking
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Movie Booking"
         '
+        'btnCalcDebug
+        '
+        Me.btnCalcDebug.Location = New System.Drawing.Point(13, 13)
+        Me.btnCalcDebug.Name = "btnCalcDebug"
+        Me.btnCalcDebug.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalcDebug.TabIndex = 3
+        Me.btnCalcDebug.Text = "CalcDeBug"
+        Me.btnCalcDebug.UseVisualStyleBackColor = True
+        '
         'frmBooking
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(981, 611)
+        Me.Controls.Add(Me.btnCalcDebug)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.Button1)
@@ -72,4 +83,5 @@ Partial Class frmBooking
     Friend WithEvents Button1 As Button
     Friend WithEvents btnBack As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents btnCalcDebug As Button
 End Class

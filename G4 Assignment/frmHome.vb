@@ -9,6 +9,7 @@ Public Class frmHome
         'Exit application
 
         Application.Exit()
+        End
     End Sub
 
     Private Sub btnMembers_Click(sender As Object, e As EventArgs) Handles btnMembers.Click

@@ -24,23 +24,36 @@ Partial Class frmCalc
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.btnBack = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lbl_Item = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.lblPfd = New System.Windows.Forms.Label()
+        Me.lblPfdKids = New System.Windows.Forms.Label()
+        Me.lbl_Subtotal = New System.Windows.Forms.Label()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
+        Me.lblStd = New System.Windows.Forms.Label()
+        Me.lblPrdST = New System.Windows.Forms.Label()
+        Me.lblPrdKST = New System.Windows.Forms.Label()
+        Me.lblStdST = New System.Windows.Forms.Label()
         Me.lblEaster = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.lblStdKids = New System.Windows.Forms.Label()
+        Me.lblStdKST = New System.Windows.Forms.Label()
+        Me.lblStdKP = New System.Windows.Forms.Label()
+        Me.lblStdP = New System.Windows.Forms.Label()
+        Me.lblPrdKP = New System.Windows.Forms.Label()
+        Me.lblPrdP = New System.Windows.Forms.Label()
+        Me.lbl_Price = New System.Windows.Forms.Label()
+        Me.lblStdKQ = New System.Windows.Forms.Label()
+        Me.lblStdQ = New System.Windows.Forms.Label()
+        Me.lblPrdKQ = New System.Windows.Forms.Label()
+        Me.lblPrdQ = New System.Windows.Forms.Label()
+        Me.lbl_Qty = New System.Windows.Forms.Label()
+        Me.lblYourOrder = New System.Windows.Forms.Label()
+        Me.lblTotal = New System.Windows.Forms.Label()
+        Me.lblTotalP = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -53,14 +66,14 @@ Partial Class frmCalc
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True
         '
-        'Label1
+        'lbl_Item
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(237, 48)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Label1"
+        Me.lbl_Item.AutoSize = True
+        Me.lbl_Item.Location = New System.Drawing.Point(99, 66)
+        Me.lbl_Item.Name = "lbl_Item"
+        Me.lbl_Item.Size = New System.Drawing.Size(27, 13)
+        Me.lbl_Item.TabIndex = 1
+        Me.lbl_Item.Text = "Item"
         '
         'GroupBox1
         '
@@ -95,33 +108,33 @@ Partial Class frmCalc
         Me.RadioButton1.Text = "RadioButton1"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
-        'Label2
+        'lblPfd
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(237, 87)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
-        Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Label2"
+        Me.lblPfd.AutoSize = True
+        Me.lblPfd.Location = New System.Drawing.Point(99, 102)
+        Me.lblPfd.Name = "lblPfd"
+        Me.lblPfd.Size = New System.Drawing.Size(50, 13)
+        Me.lblPfd.TabIndex = 4
+        Me.lblPfd.Text = "Perferred"
         '
-        'Label3
+        'lblPfdKids
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(237, 124)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 13)
-        Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Label3"
+        Me.lblPfdKids.AutoSize = True
+        Me.lblPfdKids.Location = New System.Drawing.Point(99, 138)
+        Me.lblPfdKids.Name = "lblPfdKids"
+        Me.lblPfdKids.Size = New System.Drawing.Size(73, 13)
+        Me.lblPfdKids.TabIndex = 5
+        Me.lblPfdKids.Text = "Perferred Kids"
         '
-        'Label4
+        'lbl_Subtotal
         '
-        Me.Label4.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label4.Location = New System.Drawing.Point(376, 41)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(100, 20)
-        Me.Label4.TabIndex = 8
-        Me.Label4.Text = "Label4"
+        Me.lbl_Subtotal.AutoSize = True
+        Me.lbl_Subtotal.BackColor = System.Drawing.SystemColors.Control
+        Me.lbl_Subtotal.Location = New System.Drawing.Point(623, 66)
+        Me.lbl_Subtotal.Name = "lbl_Subtotal"
+        Me.lbl_Subtotal.Size = New System.Drawing.Size(46, 13)
+        Me.lbl_Subtotal.TabIndex = 8
+        Me.lbl_Subtotal.Text = "Subtotal"
         '
         'CheckBox1
         '
@@ -133,68 +146,43 @@ Partial Class frmCalc
         Me.CheckBox1.Text = "CheckBox1"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'Label5
+        'lblStd
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(237, 160)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(39, 13)
-        Me.Label5.TabIndex = 10
-        Me.Label5.Text = "Label5"
+        Me.lblStd.AutoSize = True
+        Me.lblStd.Location = New System.Drawing.Point(99, 174)
+        Me.lblStd.Name = "lblStd"
+        Me.lblStd.Size = New System.Drawing.Size(50, 13)
+        Me.lblStd.TabIndex = 10
+        Me.lblStd.Text = "Standard"
         '
-        'Label6
+        'lblPrdST
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(237, 192)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(39, 13)
-        Me.Label6.TabIndex = 11
-        Me.Label6.Text = "Label6"
+        Me.lblPrdST.BackColor = System.Drawing.SystemColors.Control
+        Me.lblPrdST.Location = New System.Drawing.Point(623, 102)
+        Me.lblPrdST.Name = "lblPrdST"
+        Me.lblPrdST.Size = New System.Drawing.Size(100, 13)
+        Me.lblPrdST.TabIndex = 12
         '
-        'Label7
+        'lblPrdKST
         '
-        Me.Label7.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label7.Location = New System.Drawing.Point(376, 87)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(100, 20)
-        Me.Label7.TabIndex = 12
-        Me.Label7.Text = "Label7"
+        Me.lblPrdKST.BackColor = System.Drawing.SystemColors.Control
+        Me.lblPrdKST.Location = New System.Drawing.Point(623, 139)
+        Me.lblPrdKST.Name = "lblPrdKST"
+        Me.lblPrdKST.Size = New System.Drawing.Size(100, 13)
+        Me.lblPrdKST.TabIndex = 13
         '
-        'Label8
+        'lblStdST
         '
-        Me.Label8.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label8.Location = New System.Drawing.Point(376, 124)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(100, 20)
-        Me.Label8.TabIndex = 13
-        Me.Label8.Text = "Label8"
-        '
-        'Label9
-        '
-        Me.Label9.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label9.Location = New System.Drawing.Point(376, 159)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(100, 20)
-        Me.Label9.TabIndex = 14
-        Me.Label9.Text = "Label9"
-        '
-        'Label10
-        '
-        Me.Label10.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label10.Location = New System.Drawing.Point(376, 192)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(100, 20)
-        Me.Label10.TabIndex = 15
-        Me.Label10.Text = "Label10"
+        Me.lblStdST.BackColor = System.Drawing.SystemColors.Control
+        Me.lblStdST.Location = New System.Drawing.Point(623, 176)
+        Me.lblStdST.Name = "lblStdST"
+        Me.lblStdST.Size = New System.Drawing.Size(100, 13)
+        Me.lblStdST.TabIndex = 14
         '
         'lblEaster
         '
         Me.lblEaster.AutoSize = True
-        Me.lblEaster.Location = New System.Drawing.Point(53, 29)
+        Me.lblEaster.Location = New System.Drawing.Point(12, 9)
         Me.lblEaster.Name = "lblEaster"
         Me.lblEaster.Size = New System.Drawing.Size(75, 13)
         Me.lblEaster.TabIndex = 16
@@ -204,24 +192,161 @@ Partial Class frmCalc
         'Timer1
         '
         '
+        'lblStdKids
+        '
+        Me.lblStdKids.AutoSize = True
+        Me.lblStdKids.Location = New System.Drawing.Point(99, 210)
+        Me.lblStdKids.Name = "lblStdKids"
+        Me.lblStdKids.Size = New System.Drawing.Size(73, 13)
+        Me.lblStdKids.TabIndex = 11
+        Me.lblStdKids.Text = "Standard Kids"
+        '
+        'lblStdKST
+        '
+        Me.lblStdKST.BackColor = System.Drawing.SystemColors.Control
+        Me.lblStdKST.Location = New System.Drawing.Point(623, 213)
+        Me.lblStdKST.Name = "lblStdKST"
+        Me.lblStdKST.Size = New System.Drawing.Size(100, 13)
+        Me.lblStdKST.TabIndex = 15
+        '
+        'lblStdKP
+        '
+        Me.lblStdKP.AutoSize = True
+        Me.lblStdKP.Location = New System.Drawing.Point(291, 210)
+        Me.lblStdKP.Name = "lblStdKP"
+        Me.lblStdKP.Size = New System.Drawing.Size(45, 13)
+        Me.lblStdKP.TabIndex = 21
+        Me.lblStdKP.Text = "RM8.00"
+        '
+        'lblStdP
+        '
+        Me.lblStdP.AutoSize = True
+        Me.lblStdP.Location = New System.Drawing.Point(285, 174)
+        Me.lblStdP.Name = "lblStdP"
+        Me.lblStdP.Size = New System.Drawing.Size(51, 13)
+        Me.lblStdP.TabIndex = 20
+        Me.lblStdP.Text = "RM14.00"
+        '
+        'lblPrdKP
+        '
+        Me.lblPrdKP.AutoSize = True
+        Me.lblPrdKP.Location = New System.Drawing.Point(291, 138)
+        Me.lblPrdKP.Name = "lblPrdKP"
+        Me.lblPrdKP.Size = New System.Drawing.Size(45, 13)
+        Me.lblPrdKP.TabIndex = 19
+        Me.lblPrdKP.Text = "RM8.00"
+        '
+        'lblPrdP
+        '
+        Me.lblPrdP.AutoSize = True
+        Me.lblPrdP.Location = New System.Drawing.Point(285, 102)
+        Me.lblPrdP.Name = "lblPrdP"
+        Me.lblPrdP.Size = New System.Drawing.Size(51, 13)
+        Me.lblPrdP.TabIndex = 18
+        Me.lblPrdP.Text = "RM16.00"
+        '
+        'lbl_Price
+        '
+        Me.lbl_Price.AutoSize = True
+        Me.lbl_Price.Location = New System.Drawing.Point(285, 66)
+        Me.lbl_Price.Name = "lbl_Price"
+        Me.lbl_Price.Size = New System.Drawing.Size(31, 13)
+        Me.lbl_Price.TabIndex = 17
+        Me.lbl_Price.Text = "Price"
+        '
+        'lblStdKQ
+        '
+        Me.lblStdKQ.Location = New System.Drawing.Point(464, 210)
+        Me.lblStdKQ.Name = "lblStdKQ"
+        Me.lblStdKQ.Size = New System.Drawing.Size(60, 13)
+        Me.lblStdKQ.TabIndex = 26
+        '
+        'lblStdQ
+        '
+        Me.lblStdQ.Location = New System.Drawing.Point(464, 174)
+        Me.lblStdQ.Name = "lblStdQ"
+        Me.lblStdQ.Size = New System.Drawing.Size(60, 13)
+        Me.lblStdQ.TabIndex = 25
+        '
+        'lblPrdKQ
+        '
+        Me.lblPrdKQ.Location = New System.Drawing.Point(464, 138)
+        Me.lblPrdKQ.Name = "lblPrdKQ"
+        Me.lblPrdKQ.Size = New System.Drawing.Size(60, 13)
+        Me.lblPrdKQ.TabIndex = 24
+        '
+        'lblPrdQ
+        '
+        Me.lblPrdQ.Location = New System.Drawing.Point(464, 102)
+        Me.lblPrdQ.Name = "lblPrdQ"
+        Me.lblPrdQ.Size = New System.Drawing.Size(60, 13)
+        Me.lblPrdQ.TabIndex = 23
+        '
+        'lbl_Qty
+        '
+        Me.lbl_Qty.AutoSize = True
+        Me.lbl_Qty.Location = New System.Drawing.Point(464, 66)
+        Me.lbl_Qty.Name = "lbl_Qty"
+        Me.lbl_Qty.Size = New System.Drawing.Size(23, 13)
+        Me.lbl_Qty.TabIndex = 22
+        Me.lbl_Qty.Text = "Qty"
+        '
+        'lblYourOrder
+        '
+        Me.lblYourOrder.AutoSize = True
+        Me.lblYourOrder.Location = New System.Drawing.Point(370, 26)
+        Me.lblYourOrder.Name = "lblYourOrder"
+        Me.lblYourOrder.Size = New System.Drawing.Size(58, 13)
+        Me.lblYourOrder.TabIndex = 27
+        Me.lblYourOrder.Text = "Your Order"
+        '
+        'lblTotal
+        '
+        Me.lblTotal.AutoSize = True
+        Me.lblTotal.Location = New System.Drawing.Point(99, 253)
+        Me.lblTotal.Name = "lblTotal"
+        Me.lblTotal.Size = New System.Drawing.Size(31, 13)
+        Me.lblTotal.TabIndex = 28
+        Me.lblTotal.Text = "Total"
+        '
+        'lblTotalP
+        '
+        Me.lblTotalP.Location = New System.Drawing.Point(623, 253)
+        Me.lblTotalP.Name = "lblTotalP"
+        Me.lblTotalP.Size = New System.Drawing.Size(100, 23)
+        Me.lblTotalP.TabIndex = 29
+        '
         'frmCalc
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblTotalP)
+        Me.Controls.Add(Me.lblTotal)
+        Me.Controls.Add(Me.lblYourOrder)
+        Me.Controls.Add(Me.lblStdKQ)
+        Me.Controls.Add(Me.lblStdQ)
+        Me.Controls.Add(Me.lblPrdKQ)
+        Me.Controls.Add(Me.lblPrdQ)
+        Me.Controls.Add(Me.lbl_Qty)
+        Me.Controls.Add(Me.lblStdKP)
+        Me.Controls.Add(Me.lblStdP)
+        Me.Controls.Add(Me.lblPrdKP)
+        Me.Controls.Add(Me.lblPrdP)
+        Me.Controls.Add(Me.lbl_Price)
         Me.Controls.Add(Me.lblEaster)
-        Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.lblStdKST)
+        Me.Controls.Add(Me.lblStdST)
+        Me.Controls.Add(Me.lblPrdKST)
+        Me.Controls.Add(Me.lblPrdST)
+        Me.Controls.Add(Me.lblStdKids)
+        Me.Controls.Add(Me.lblStd)
         Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.lbl_Subtotal)
+        Me.Controls.Add(Me.lblPfdKids)
+        Me.Controls.Add(Me.lblPfd)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lbl_Item)
         Me.Controls.Add(Me.btnBack)
         Me.Name = "frmCalc"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -234,21 +359,34 @@ Partial Class frmCalc
     End Sub
 
     Friend WithEvents btnBack As Button
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lbl_Item As Label
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
+    Friend WithEvents lblPfd As Label
+    Friend WithEvents lblPfdKids As Label
+    Friend WithEvents lbl_Subtotal As Label
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents ToolTip1 As ToolTip
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label10 As Label
+    Friend WithEvents lblStd As Label
+    Friend WithEvents lblPrdST As Label
+    Friend WithEvents lblPrdKST As Label
+    Friend WithEvents lblStdST As Label
     Friend WithEvents lblEaster As Label
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents lblStdKids As Label
+    Friend WithEvents lblStdKST As Label
+    Friend WithEvents lblStdKP As Label
+    Friend WithEvents lblStdP As Label
+    Friend WithEvents lblPrdKP As Label
+    Friend WithEvents lblPrdP As Label
+    Friend WithEvents lbl_Price As Label
+    Friend WithEvents lblStdKQ As Label
+    Friend WithEvents lblStdQ As Label
+    Friend WithEvents lblPrdKQ As Label
+    Friend WithEvents lblPrdQ As Label
+    Friend WithEvents lbl_Qty As Label
+    Friend WithEvents lblYourOrder As Label
+    Friend WithEvents lblTotal As Label
+    Friend WithEvents lblTotalP As Label
 End Class
