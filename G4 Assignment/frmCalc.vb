@@ -7,6 +7,11 @@
     Private Total As Decimal
 
     Private Sub frmCalc_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lbl1.Text = frmCalcTest.APrdTT
+        lbl2.Text = frmCalcTest.AStdTT
+
+        lbl1.Visible = True
+        lbl2.Visible = True
         lblEaster.Visible = True
         Timer1.Interval = 1500
         Timer1.Start()
@@ -48,6 +53,8 @@
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        lbl1.Visible = False
+        lbl2.Visible = False
         lblEaster.Visible = False
         Timer1.Stop()
     End Sub

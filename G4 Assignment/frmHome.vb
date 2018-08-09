@@ -18,7 +18,7 @@ Public Class frmHome
         Label1.Text = "Lim Yang Xuan, Seow Zhi Hung, Tan Lin Ee, Tan Wei Hang"
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnFilm.Click
+    Private Sub btnFilm_Click(sender As Object, e As EventArgs) Handles btnFilm.Click
         'Show frmMovie
 
         frmMovie.Show()

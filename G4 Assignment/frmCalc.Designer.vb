@@ -54,6 +54,8 @@ Partial Class frmCalc
         Me.lblYourOrder = New System.Windows.Forms.Label()
         Me.lblTotal = New System.Windows.Forms.Label()
         Me.lblTotalP = New System.Windows.Forms.Label()
+        Me.lbl1 = New System.Windows.Forms.Label()
+        Me.lbl2 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -316,11 +318,31 @@ Partial Class frmCalc
         Me.lblTotalP.Size = New System.Drawing.Size(100, 23)
         Me.lblTotalP.TabIndex = 29
         '
+        'lbl1
+        '
+        Me.lbl1.AutoSize = True
+        Me.lbl1.Location = New System.Drawing.Point(21, 139)
+        Me.lbl1.Name = "lbl1"
+        Me.lbl1.Size = New System.Drawing.Size(39, 13)
+        Me.lbl1.TabIndex = 30
+        Me.lbl1.Text = "Label1"
+        '
+        'lbl2
+        '
+        Me.lbl2.AutoSize = True
+        Me.lbl2.Location = New System.Drawing.Point(21, 210)
+        Me.lbl2.Name = "lbl2"
+        Me.lbl2.Size = New System.Drawing.Size(39, 13)
+        Me.lbl2.TabIndex = 31
+        Me.lbl2.Text = "Label2"
+        '
         'frmCalc
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lbl2)
+        Me.Controls.Add(Me.lbl1)
         Me.Controls.Add(Me.lblTotalP)
         Me.Controls.Add(Me.lblTotal)
         Me.Controls.Add(Me.lblYourOrder)
@@ -389,4 +411,6 @@ Partial Class frmCalc
     Friend WithEvents lblYourOrder As Label
     Friend WithEvents lblTotal As Label
     Friend WithEvents lblTotalP As Label
+    Friend WithEvents lbl1 As Label
+    Friend WithEvents lbl2 As Label
 End Class

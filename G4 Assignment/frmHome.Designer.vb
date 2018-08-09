@@ -52,7 +52,7 @@ Partial Class frmHome
         '
         'btnMembers
         '
-        Me.btnMembers.Location = New System.Drawing.Point(84, 336)
+        Me.btnMembers.Location = New System.Drawing.Point(713, 415)
         Me.btnMembers.Name = "btnMembers"
         Me.btnMembers.Size = New System.Drawing.Size(75, 23)
         Me.btnMembers.TabIndex = 2
@@ -61,18 +61,18 @@ Partial Class frmHome
         '
         'btnFilm
         '
-        Me.btnFilm.Location = New System.Drawing.Point(84, 265)
+        Me.btnFilm.Location = New System.Drawing.Point(100, 336)
         Me.btnFilm.Name = "btnFilm"
-        Me.btnFilm.Size = New System.Drawing.Size(151, 31)
+        Me.btnFilm.Size = New System.Drawing.Size(128, 23)
         Me.btnFilm.TabIndex = 3
         Me.btnFilm.Text = "Choose your film"
         Me.btnFilm.UseVisualStyleBackColor = True
         '
         'btnMemReg
         '
-        Me.btnMemReg.Location = New System.Drawing.Point(612, 29)
+        Me.btnMemReg.Location = New System.Drawing.Point(12, 64)
         Me.btnMemReg.Name = "btnMemReg"
-        Me.btnMemReg.Size = New System.Drawing.Size(148, 28)
+        Me.btnMemReg.Size = New System.Drawing.Size(121, 24)
         Me.btnMemReg.TabIndex = 4
         Me.btnMemReg.Text = "Member Registration"
         Me.btnMemReg.UseVisualStyleBackColor = True
