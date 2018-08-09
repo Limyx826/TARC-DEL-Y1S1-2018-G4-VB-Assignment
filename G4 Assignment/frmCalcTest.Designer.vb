@@ -32,6 +32,7 @@ Partial Class frmCalcTest
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.btTT = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnCalc
@@ -116,11 +117,21 @@ Partial Class frmCalcTest
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "Standard Kids Qty"
         '
+        'btTT
+        '
+        Me.btTT.Location = New System.Drawing.Point(12, 12)
+        Me.btTT.Name = "btTT"
+        Me.btTT.Size = New System.Drawing.Size(75, 23)
+        Me.btTT.TabIndex = 10
+        Me.btTT.Text = "TT"
+        Me.btTT.UseVisualStyleBackColor = True
+        '
         'frmCalcTest
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btTT)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextBox4)
@@ -149,4 +160,5 @@ Partial Class frmCalcTest
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents btTT As Button
 End Class
