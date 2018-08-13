@@ -25,13 +25,9 @@ Partial Class frmCalc
         Me.components = New System.ComponentModel.Container()
         Me.btnBack = New System.Windows.Forms.Button()
         Me.lbl_Item = New System.Windows.Forms.Label()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.lblPfd = New System.Windows.Forms.Label()
         Me.lblPfdKids = New System.Windows.Forms.Label()
         Me.lbl_Subtotal = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.lblStd = New System.Windows.Forms.Label()
         Me.lblPrdST = New System.Windows.Forms.Label()
@@ -56,7 +52,7 @@ Partial Class frmCalc
         Me.lblTotalP = New System.Windows.Forms.Label()
         Me.lbl1 = New System.Windows.Forms.Label()
         Me.lbl2 = New System.Windows.Forms.Label()
-        Me.GroupBox1.SuspendLayout()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnBack
@@ -76,39 +72,6 @@ Partial Class frmCalc
         Me.lbl_Item.Size = New System.Drawing.Size(27, 13)
         Me.lbl_Item.TabIndex = 1
         Me.lbl_Item.Text = "Item"
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(298, 287)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(218, 71)
-        Me.GroupBox1.TabIndex = 3
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(122, 32)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(90, 17)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "RadioButton2"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(6, 32)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(90, 17)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "RadioButton1"
-        Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'lblPfd
         '
@@ -137,16 +100,6 @@ Partial Class frmCalc
         Me.lbl_Subtotal.Size = New System.Drawing.Size(46, 13)
         Me.lbl_Subtotal.TabIndex = 8
         Me.lbl_Subtotal.Text = "Subtotal"
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(643, 319)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(81, 17)
-        Me.CheckBox1.TabIndex = 9
-        Me.CheckBox1.Text = "CheckBox1"
-        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'lblStd
         '
@@ -336,11 +289,21 @@ Partial Class frmCalc
         Me.lbl2.TabIndex = 31
         Me.lbl2.Text = "Label2"
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(373, 325)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 32
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'frmCalc
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lbl2)
         Me.Controls.Add(Me.lbl1)
         Me.Controls.Add(Me.lblTotalP)
@@ -363,18 +326,14 @@ Partial Class frmCalc
         Me.Controls.Add(Me.lblPrdST)
         Me.Controls.Add(Me.lblStdKids)
         Me.Controls.Add(Me.lblStd)
-        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.lbl_Subtotal)
         Me.Controls.Add(Me.lblPfdKids)
         Me.Controls.Add(Me.lblPfd)
-        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.lbl_Item)
         Me.Controls.Add(Me.btnBack)
         Me.Name = "frmCalc"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Calc"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -382,13 +341,9 @@ Partial Class frmCalc
 
     Friend WithEvents btnBack As Button
     Friend WithEvents lbl_Item As Label
-    Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents lblPfd As Label
     Friend WithEvents lblPfdKids As Label
     Friend WithEvents lbl_Subtotal As Label
-    Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents ToolTip1 As ToolTip
     Friend WithEvents lblStd As Label
     Friend WithEvents lblPrdST As Label
@@ -413,4 +368,5 @@ Partial Class frmCalc
     Friend WithEvents lblTotalP As Label
     Friend WithEvents lbl1 As Label
     Friend WithEvents lbl2 As Label
+    Friend WithEvents Button1 As Button
 End Class

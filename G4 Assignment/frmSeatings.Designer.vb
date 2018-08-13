@@ -148,6 +148,7 @@ Partial Class frmSeatings
         Me.pic11 = New System.Windows.Forms.PictureBox()
         Me.pic12 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnBack = New System.Windows.Forms.Button()
         CType(Me.pic85, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic86, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic87, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -538,7 +539,7 @@ Partial Class frmSeatings
         'pic85
         '
         Me.pic85.Location = New System.Drawing.Point(44, 448)
-        Me.pic85.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic85.Margin = New System.Windows.Forms.Padding(2)
         Me.pic85.Name = "pic85"
         Me.pic85.Size = New System.Drawing.Size(32, 34)
         Me.pic85.TabIndex = 0
@@ -547,7 +548,7 @@ Partial Class frmSeatings
         'pic86
         '
         Me.pic86.Location = New System.Drawing.Point(91, 448)
-        Me.pic86.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic86.Margin = New System.Windows.Forms.Padding(2)
         Me.pic86.Name = "pic86"
         Me.pic86.Size = New System.Drawing.Size(32, 34)
         Me.pic86.TabIndex = 125
@@ -556,7 +557,7 @@ Partial Class frmSeatings
         'pic87
         '
         Me.pic87.Location = New System.Drawing.Point(137, 448)
-        Me.pic87.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic87.Margin = New System.Windows.Forms.Padding(2)
         Me.pic87.Name = "pic87"
         Me.pic87.Size = New System.Drawing.Size(32, 34)
         Me.pic87.TabIndex = 126
@@ -565,7 +566,7 @@ Partial Class frmSeatings
         'pic88
         '
         Me.pic88.Location = New System.Drawing.Point(184, 448)
-        Me.pic88.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic88.Margin = New System.Windows.Forms.Padding(2)
         Me.pic88.Name = "pic88"
         Me.pic88.Size = New System.Drawing.Size(32, 34)
         Me.pic88.TabIndex = 127
@@ -574,7 +575,7 @@ Partial Class frmSeatings
         'pic89
         '
         Me.pic89.Location = New System.Drawing.Point(230, 448)
-        Me.pic89.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic89.Margin = New System.Windows.Forms.Padding(2)
         Me.pic89.Name = "pic89"
         Me.pic89.Size = New System.Drawing.Size(32, 34)
         Me.pic89.TabIndex = 128
@@ -583,7 +584,7 @@ Partial Class frmSeatings
         'pic90
         '
         Me.pic90.Location = New System.Drawing.Point(277, 448)
-        Me.pic90.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic90.Margin = New System.Windows.Forms.Padding(2)
         Me.pic90.Name = "pic90"
         Me.pic90.Size = New System.Drawing.Size(32, 34)
         Me.pic90.TabIndex = 129
@@ -592,7 +593,7 @@ Partial Class frmSeatings
         'pic91
         '
         Me.pic91.Location = New System.Drawing.Point(376, 448)
-        Me.pic91.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic91.Margin = New System.Windows.Forms.Padding(2)
         Me.pic91.Name = "pic91"
         Me.pic91.Size = New System.Drawing.Size(32, 34)
         Me.pic91.TabIndex = 135
@@ -601,7 +602,7 @@ Partial Class frmSeatings
         'pic92
         '
         Me.pic92.Location = New System.Drawing.Point(422, 448)
-        Me.pic92.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic92.Margin = New System.Windows.Forms.Padding(2)
         Me.pic92.Name = "pic92"
         Me.pic92.Size = New System.Drawing.Size(32, 34)
         Me.pic92.TabIndex = 134
@@ -610,7 +611,7 @@ Partial Class frmSeatings
         'pic93
         '
         Me.pic93.Location = New System.Drawing.Point(469, 448)
-        Me.pic93.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic93.Margin = New System.Windows.Forms.Padding(2)
         Me.pic93.Name = "pic93"
         Me.pic93.Size = New System.Drawing.Size(32, 34)
         Me.pic93.TabIndex = 133
@@ -619,7 +620,7 @@ Partial Class frmSeatings
         'pic94
         '
         Me.pic94.Location = New System.Drawing.Point(516, 448)
-        Me.pic94.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic94.Margin = New System.Windows.Forms.Padding(2)
         Me.pic94.Name = "pic94"
         Me.pic94.Size = New System.Drawing.Size(32, 34)
         Me.pic94.TabIndex = 132
@@ -628,7 +629,7 @@ Partial Class frmSeatings
         'pic95
         '
         Me.pic95.Location = New System.Drawing.Point(562, 448)
-        Me.pic95.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic95.Margin = New System.Windows.Forms.Padding(2)
         Me.pic95.Name = "pic95"
         Me.pic95.Size = New System.Drawing.Size(32, 34)
         Me.pic95.TabIndex = 131
@@ -637,7 +638,7 @@ Partial Class frmSeatings
         'pic96
         '
         Me.pic96.Location = New System.Drawing.Point(608, 448)
-        Me.pic96.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic96.Margin = New System.Windows.Forms.Padding(2)
         Me.pic96.Name = "pic96"
         Me.pic96.Size = New System.Drawing.Size(32, 34)
         Me.pic96.TabIndex = 130
@@ -646,7 +647,7 @@ Partial Class frmSeatings
         'pic73
         '
         Me.pic73.Location = New System.Drawing.Point(44, 396)
-        Me.pic73.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic73.Margin = New System.Windows.Forms.Padding(2)
         Me.pic73.Name = "pic73"
         Me.pic73.Size = New System.Drawing.Size(32, 34)
         Me.pic73.TabIndex = 141
@@ -655,7 +656,7 @@ Partial Class frmSeatings
         'pic74
         '
         Me.pic74.Location = New System.Drawing.Point(91, 396)
-        Me.pic74.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic74.Margin = New System.Windows.Forms.Padding(2)
         Me.pic74.Name = "pic74"
         Me.pic74.Size = New System.Drawing.Size(32, 34)
         Me.pic74.TabIndex = 140
@@ -664,7 +665,7 @@ Partial Class frmSeatings
         'pic75
         '
         Me.pic75.Location = New System.Drawing.Point(137, 396)
-        Me.pic75.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic75.Margin = New System.Windows.Forms.Padding(2)
         Me.pic75.Name = "pic75"
         Me.pic75.Size = New System.Drawing.Size(32, 34)
         Me.pic75.TabIndex = 139
@@ -673,7 +674,7 @@ Partial Class frmSeatings
         'pic76
         '
         Me.pic76.Location = New System.Drawing.Point(184, 396)
-        Me.pic76.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic76.Margin = New System.Windows.Forms.Padding(2)
         Me.pic76.Name = "pic76"
         Me.pic76.Size = New System.Drawing.Size(32, 34)
         Me.pic76.TabIndex = 138
@@ -682,7 +683,7 @@ Partial Class frmSeatings
         'pic77
         '
         Me.pic77.Location = New System.Drawing.Point(230, 396)
-        Me.pic77.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic77.Margin = New System.Windows.Forms.Padding(2)
         Me.pic77.Name = "pic77"
         Me.pic77.Size = New System.Drawing.Size(32, 34)
         Me.pic77.TabIndex = 137
@@ -691,7 +692,7 @@ Partial Class frmSeatings
         'pic78
         '
         Me.pic78.Location = New System.Drawing.Point(277, 396)
-        Me.pic78.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic78.Margin = New System.Windows.Forms.Padding(2)
         Me.pic78.Name = "pic78"
         Me.pic78.Size = New System.Drawing.Size(32, 34)
         Me.pic78.TabIndex = 136
@@ -700,7 +701,7 @@ Partial Class frmSeatings
         'pic84
         '
         Me.pic84.Location = New System.Drawing.Point(608, 396)
-        Me.pic84.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic84.Margin = New System.Windows.Forms.Padding(2)
         Me.pic84.Name = "pic84"
         Me.pic84.Size = New System.Drawing.Size(32, 34)
         Me.pic84.TabIndex = 147
@@ -709,7 +710,7 @@ Partial Class frmSeatings
         'pic83
         '
         Me.pic83.Location = New System.Drawing.Point(562, 396)
-        Me.pic83.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic83.Margin = New System.Windows.Forms.Padding(2)
         Me.pic83.Name = "pic83"
         Me.pic83.Size = New System.Drawing.Size(32, 34)
         Me.pic83.TabIndex = 146
@@ -718,7 +719,7 @@ Partial Class frmSeatings
         'pic82
         '
         Me.pic82.Location = New System.Drawing.Point(515, 396)
-        Me.pic82.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic82.Margin = New System.Windows.Forms.Padding(2)
         Me.pic82.Name = "pic82"
         Me.pic82.Size = New System.Drawing.Size(32, 34)
         Me.pic82.TabIndex = 145
@@ -727,7 +728,7 @@ Partial Class frmSeatings
         'pic81
         '
         Me.pic81.Location = New System.Drawing.Point(469, 396)
-        Me.pic81.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic81.Margin = New System.Windows.Forms.Padding(2)
         Me.pic81.Name = "pic81"
         Me.pic81.Size = New System.Drawing.Size(32, 34)
         Me.pic81.TabIndex = 144
@@ -736,7 +737,7 @@ Partial Class frmSeatings
         'pic80
         '
         Me.pic80.Location = New System.Drawing.Point(422, 396)
-        Me.pic80.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic80.Margin = New System.Windows.Forms.Padding(2)
         Me.pic80.Name = "pic80"
         Me.pic80.Size = New System.Drawing.Size(32, 34)
         Me.pic80.TabIndex = 143
@@ -745,7 +746,7 @@ Partial Class frmSeatings
         'pic79
         '
         Me.pic79.Location = New System.Drawing.Point(376, 396)
-        Me.pic79.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic79.Margin = New System.Windows.Forms.Padding(2)
         Me.pic79.Name = "pic79"
         Me.pic79.Size = New System.Drawing.Size(32, 34)
         Me.pic79.TabIndex = 142
@@ -754,7 +755,7 @@ Partial Class frmSeatings
         'pic61
         '
         Me.pic61.Location = New System.Drawing.Point(44, 345)
-        Me.pic61.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic61.Margin = New System.Windows.Forms.Padding(2)
         Me.pic61.Name = "pic61"
         Me.pic61.Size = New System.Drawing.Size(32, 34)
         Me.pic61.TabIndex = 153
@@ -763,7 +764,7 @@ Partial Class frmSeatings
         'pic62
         '
         Me.pic62.Location = New System.Drawing.Point(91, 345)
-        Me.pic62.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic62.Margin = New System.Windows.Forms.Padding(2)
         Me.pic62.Name = "pic62"
         Me.pic62.Size = New System.Drawing.Size(32, 34)
         Me.pic62.TabIndex = 152
@@ -772,7 +773,7 @@ Partial Class frmSeatings
         'pic63
         '
         Me.pic63.Location = New System.Drawing.Point(137, 345)
-        Me.pic63.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic63.Margin = New System.Windows.Forms.Padding(2)
         Me.pic63.Name = "pic63"
         Me.pic63.Size = New System.Drawing.Size(32, 34)
         Me.pic63.TabIndex = 151
@@ -781,7 +782,7 @@ Partial Class frmSeatings
         'pic64
         '
         Me.pic64.Location = New System.Drawing.Point(184, 345)
-        Me.pic64.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic64.Margin = New System.Windows.Forms.Padding(2)
         Me.pic64.Name = "pic64"
         Me.pic64.Size = New System.Drawing.Size(32, 34)
         Me.pic64.TabIndex = 150
@@ -790,7 +791,7 @@ Partial Class frmSeatings
         'pic65
         '
         Me.pic65.Location = New System.Drawing.Point(230, 345)
-        Me.pic65.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic65.Margin = New System.Windows.Forms.Padding(2)
         Me.pic65.Name = "pic65"
         Me.pic65.Size = New System.Drawing.Size(32, 34)
         Me.pic65.TabIndex = 149
@@ -799,7 +800,7 @@ Partial Class frmSeatings
         'pic66
         '
         Me.pic66.Location = New System.Drawing.Point(277, 345)
-        Me.pic66.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic66.Margin = New System.Windows.Forms.Padding(2)
         Me.pic66.Name = "pic66"
         Me.pic66.Size = New System.Drawing.Size(32, 34)
         Me.pic66.TabIndex = 148
@@ -808,7 +809,7 @@ Partial Class frmSeatings
         'pic67
         '
         Me.pic67.Location = New System.Drawing.Point(376, 345)
-        Me.pic67.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic67.Margin = New System.Windows.Forms.Padding(2)
         Me.pic67.Name = "pic67"
         Me.pic67.Size = New System.Drawing.Size(32, 34)
         Me.pic67.TabIndex = 159
@@ -817,7 +818,7 @@ Partial Class frmSeatings
         'pic68
         '
         Me.pic68.Location = New System.Drawing.Point(422, 345)
-        Me.pic68.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic68.Margin = New System.Windows.Forms.Padding(2)
         Me.pic68.Name = "pic68"
         Me.pic68.Size = New System.Drawing.Size(32, 34)
         Me.pic68.TabIndex = 158
@@ -826,7 +827,7 @@ Partial Class frmSeatings
         'pic69
         '
         Me.pic69.Location = New System.Drawing.Point(469, 345)
-        Me.pic69.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic69.Margin = New System.Windows.Forms.Padding(2)
         Me.pic69.Name = "pic69"
         Me.pic69.Size = New System.Drawing.Size(32, 34)
         Me.pic69.TabIndex = 157
@@ -835,7 +836,7 @@ Partial Class frmSeatings
         'pic70
         '
         Me.pic70.Location = New System.Drawing.Point(515, 345)
-        Me.pic70.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic70.Margin = New System.Windows.Forms.Padding(2)
         Me.pic70.Name = "pic70"
         Me.pic70.Size = New System.Drawing.Size(32, 34)
         Me.pic70.TabIndex = 156
@@ -844,7 +845,7 @@ Partial Class frmSeatings
         'pic71
         '
         Me.pic71.Location = New System.Drawing.Point(562, 345)
-        Me.pic71.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic71.Margin = New System.Windows.Forms.Padding(2)
         Me.pic71.Name = "pic71"
         Me.pic71.Size = New System.Drawing.Size(32, 34)
         Me.pic71.TabIndex = 155
@@ -853,7 +854,7 @@ Partial Class frmSeatings
         'pic72
         '
         Me.pic72.Location = New System.Drawing.Point(608, 345)
-        Me.pic72.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic72.Margin = New System.Windows.Forms.Padding(2)
         Me.pic72.Name = "pic72"
         Me.pic72.Size = New System.Drawing.Size(32, 34)
         Me.pic72.TabIndex = 154
@@ -862,7 +863,7 @@ Partial Class frmSeatings
         'pic49
         '
         Me.pic49.Location = New System.Drawing.Point(44, 299)
-        Me.pic49.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic49.Margin = New System.Windows.Forms.Padding(2)
         Me.pic49.Name = "pic49"
         Me.pic49.Size = New System.Drawing.Size(32, 34)
         Me.pic49.TabIndex = 165
@@ -871,7 +872,7 @@ Partial Class frmSeatings
         'pic50
         '
         Me.pic50.Location = New System.Drawing.Point(91, 299)
-        Me.pic50.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic50.Margin = New System.Windows.Forms.Padding(2)
         Me.pic50.Name = "pic50"
         Me.pic50.Size = New System.Drawing.Size(32, 34)
         Me.pic50.TabIndex = 164
@@ -880,7 +881,7 @@ Partial Class frmSeatings
         'pic51
         '
         Me.pic51.Location = New System.Drawing.Point(137, 299)
-        Me.pic51.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic51.Margin = New System.Windows.Forms.Padding(2)
         Me.pic51.Name = "pic51"
         Me.pic51.Size = New System.Drawing.Size(32, 34)
         Me.pic51.TabIndex = 163
@@ -889,7 +890,7 @@ Partial Class frmSeatings
         'pic52
         '
         Me.pic52.Location = New System.Drawing.Point(184, 299)
-        Me.pic52.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic52.Margin = New System.Windows.Forms.Padding(2)
         Me.pic52.Name = "pic52"
         Me.pic52.Size = New System.Drawing.Size(32, 34)
         Me.pic52.TabIndex = 162
@@ -898,7 +899,7 @@ Partial Class frmSeatings
         'pic53
         '
         Me.pic53.Location = New System.Drawing.Point(230, 299)
-        Me.pic53.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic53.Margin = New System.Windows.Forms.Padding(2)
         Me.pic53.Name = "pic53"
         Me.pic53.Size = New System.Drawing.Size(32, 34)
         Me.pic53.TabIndex = 161
@@ -907,7 +908,7 @@ Partial Class frmSeatings
         'pic54
         '
         Me.pic54.Location = New System.Drawing.Point(277, 299)
-        Me.pic54.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic54.Margin = New System.Windows.Forms.Padding(2)
         Me.pic54.Name = "pic54"
         Me.pic54.Size = New System.Drawing.Size(32, 34)
         Me.pic54.TabIndex = 160
@@ -916,7 +917,7 @@ Partial Class frmSeatings
         'pic55
         '
         Me.pic55.Location = New System.Drawing.Point(376, 299)
-        Me.pic55.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic55.Margin = New System.Windows.Forms.Padding(2)
         Me.pic55.Name = "pic55"
         Me.pic55.Size = New System.Drawing.Size(32, 34)
         Me.pic55.TabIndex = 171
@@ -925,7 +926,7 @@ Partial Class frmSeatings
         'pic56
         '
         Me.pic56.Location = New System.Drawing.Point(422, 299)
-        Me.pic56.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic56.Margin = New System.Windows.Forms.Padding(2)
         Me.pic56.Name = "pic56"
         Me.pic56.Size = New System.Drawing.Size(32, 34)
         Me.pic56.TabIndex = 170
@@ -934,7 +935,7 @@ Partial Class frmSeatings
         'pic57
         '
         Me.pic57.Location = New System.Drawing.Point(469, 299)
-        Me.pic57.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic57.Margin = New System.Windows.Forms.Padding(2)
         Me.pic57.Name = "pic57"
         Me.pic57.Size = New System.Drawing.Size(32, 34)
         Me.pic57.TabIndex = 169
@@ -943,7 +944,7 @@ Partial Class frmSeatings
         'pic58
         '
         Me.pic58.Location = New System.Drawing.Point(515, 299)
-        Me.pic58.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic58.Margin = New System.Windows.Forms.Padding(2)
         Me.pic58.Name = "pic58"
         Me.pic58.Size = New System.Drawing.Size(32, 34)
         Me.pic58.TabIndex = 168
@@ -952,7 +953,7 @@ Partial Class frmSeatings
         'pic59
         '
         Me.pic59.Location = New System.Drawing.Point(562, 299)
-        Me.pic59.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic59.Margin = New System.Windows.Forms.Padding(2)
         Me.pic59.Name = "pic59"
         Me.pic59.Size = New System.Drawing.Size(32, 34)
         Me.pic59.TabIndex = 167
@@ -961,7 +962,7 @@ Partial Class frmSeatings
         'pic60
         '
         Me.pic60.Location = New System.Drawing.Point(608, 299)
-        Me.pic60.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic60.Margin = New System.Windows.Forms.Padding(2)
         Me.pic60.Name = "pic60"
         Me.pic60.Size = New System.Drawing.Size(32, 34)
         Me.pic60.TabIndex = 166
@@ -970,7 +971,7 @@ Partial Class frmSeatings
         'pic37
         '
         Me.pic37.Location = New System.Drawing.Point(44, 249)
-        Me.pic37.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic37.Margin = New System.Windows.Forms.Padding(2)
         Me.pic37.Name = "pic37"
         Me.pic37.Size = New System.Drawing.Size(32, 34)
         Me.pic37.TabIndex = 177
@@ -979,7 +980,7 @@ Partial Class frmSeatings
         'pic38
         '
         Me.pic38.Location = New System.Drawing.Point(91, 249)
-        Me.pic38.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic38.Margin = New System.Windows.Forms.Padding(2)
         Me.pic38.Name = "pic38"
         Me.pic38.Size = New System.Drawing.Size(32, 34)
         Me.pic38.TabIndex = 176
@@ -988,7 +989,7 @@ Partial Class frmSeatings
         'pic39
         '
         Me.pic39.Location = New System.Drawing.Point(137, 249)
-        Me.pic39.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic39.Margin = New System.Windows.Forms.Padding(2)
         Me.pic39.Name = "pic39"
         Me.pic39.Size = New System.Drawing.Size(32, 34)
         Me.pic39.TabIndex = 175
@@ -997,7 +998,7 @@ Partial Class frmSeatings
         'pic40
         '
         Me.pic40.Location = New System.Drawing.Point(184, 249)
-        Me.pic40.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic40.Margin = New System.Windows.Forms.Padding(2)
         Me.pic40.Name = "pic40"
         Me.pic40.Size = New System.Drawing.Size(32, 34)
         Me.pic40.TabIndex = 174
@@ -1006,7 +1007,7 @@ Partial Class frmSeatings
         'pic41
         '
         Me.pic41.Location = New System.Drawing.Point(230, 249)
-        Me.pic41.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic41.Margin = New System.Windows.Forms.Padding(2)
         Me.pic41.Name = "pic41"
         Me.pic41.Size = New System.Drawing.Size(32, 34)
         Me.pic41.TabIndex = 173
@@ -1015,7 +1016,7 @@ Partial Class frmSeatings
         'pic42
         '
         Me.pic42.Location = New System.Drawing.Point(277, 249)
-        Me.pic42.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic42.Margin = New System.Windows.Forms.Padding(2)
         Me.pic42.Name = "pic42"
         Me.pic42.Size = New System.Drawing.Size(32, 34)
         Me.pic42.TabIndex = 172
@@ -1024,7 +1025,7 @@ Partial Class frmSeatings
         'pic43
         '
         Me.pic43.Location = New System.Drawing.Point(376, 249)
-        Me.pic43.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic43.Margin = New System.Windows.Forms.Padding(2)
         Me.pic43.Name = "pic43"
         Me.pic43.Size = New System.Drawing.Size(32, 34)
         Me.pic43.TabIndex = 183
@@ -1033,7 +1034,7 @@ Partial Class frmSeatings
         'pic44
         '
         Me.pic44.Location = New System.Drawing.Point(422, 249)
-        Me.pic44.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic44.Margin = New System.Windows.Forms.Padding(2)
         Me.pic44.Name = "pic44"
         Me.pic44.Size = New System.Drawing.Size(32, 34)
         Me.pic44.TabIndex = 182
@@ -1042,7 +1043,7 @@ Partial Class frmSeatings
         'pic45
         '
         Me.pic45.Location = New System.Drawing.Point(469, 249)
-        Me.pic45.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic45.Margin = New System.Windows.Forms.Padding(2)
         Me.pic45.Name = "pic45"
         Me.pic45.Size = New System.Drawing.Size(32, 34)
         Me.pic45.TabIndex = 181
@@ -1051,7 +1052,7 @@ Partial Class frmSeatings
         'pic46
         '
         Me.pic46.Location = New System.Drawing.Point(515, 249)
-        Me.pic46.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic46.Margin = New System.Windows.Forms.Padding(2)
         Me.pic46.Name = "pic46"
         Me.pic46.Size = New System.Drawing.Size(32, 34)
         Me.pic46.TabIndex = 180
@@ -1060,7 +1061,7 @@ Partial Class frmSeatings
         'pic47
         '
         Me.pic47.Location = New System.Drawing.Point(562, 249)
-        Me.pic47.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic47.Margin = New System.Windows.Forms.Padding(2)
         Me.pic47.Name = "pic47"
         Me.pic47.Size = New System.Drawing.Size(32, 34)
         Me.pic47.TabIndex = 179
@@ -1069,7 +1070,7 @@ Partial Class frmSeatings
         'pic48
         '
         Me.pic48.Location = New System.Drawing.Point(608, 249)
-        Me.pic48.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic48.Margin = New System.Windows.Forms.Padding(2)
         Me.pic48.Name = "pic48"
         Me.pic48.Size = New System.Drawing.Size(32, 34)
         Me.pic48.TabIndex = 178
@@ -1078,7 +1079,7 @@ Partial Class frmSeatings
         'pic25
         '
         Me.pic25.Location = New System.Drawing.Point(44, 198)
-        Me.pic25.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic25.Margin = New System.Windows.Forms.Padding(2)
         Me.pic25.Name = "pic25"
         Me.pic25.Size = New System.Drawing.Size(32, 34)
         Me.pic25.TabIndex = 189
@@ -1087,7 +1088,7 @@ Partial Class frmSeatings
         'pic26
         '
         Me.pic26.Location = New System.Drawing.Point(91, 198)
-        Me.pic26.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic26.Margin = New System.Windows.Forms.Padding(2)
         Me.pic26.Name = "pic26"
         Me.pic26.Size = New System.Drawing.Size(32, 34)
         Me.pic26.TabIndex = 188
@@ -1096,7 +1097,7 @@ Partial Class frmSeatings
         'pic27
         '
         Me.pic27.Location = New System.Drawing.Point(137, 198)
-        Me.pic27.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic27.Margin = New System.Windows.Forms.Padding(2)
         Me.pic27.Name = "pic27"
         Me.pic27.Size = New System.Drawing.Size(32, 34)
         Me.pic27.TabIndex = 187
@@ -1105,7 +1106,7 @@ Partial Class frmSeatings
         'pic28
         '
         Me.pic28.Location = New System.Drawing.Point(184, 198)
-        Me.pic28.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic28.Margin = New System.Windows.Forms.Padding(2)
         Me.pic28.Name = "pic28"
         Me.pic28.Size = New System.Drawing.Size(32, 34)
         Me.pic28.TabIndex = 186
@@ -1114,7 +1115,7 @@ Partial Class frmSeatings
         'pic29
         '
         Me.pic29.Location = New System.Drawing.Point(230, 198)
-        Me.pic29.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic29.Margin = New System.Windows.Forms.Padding(2)
         Me.pic29.Name = "pic29"
         Me.pic29.Size = New System.Drawing.Size(32, 34)
         Me.pic29.TabIndex = 185
@@ -1123,7 +1124,7 @@ Partial Class frmSeatings
         'pic30
         '
         Me.pic30.Location = New System.Drawing.Point(277, 198)
-        Me.pic30.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic30.Margin = New System.Windows.Forms.Padding(2)
         Me.pic30.Name = "pic30"
         Me.pic30.Size = New System.Drawing.Size(32, 34)
         Me.pic30.TabIndex = 184
@@ -1132,7 +1133,7 @@ Partial Class frmSeatings
         'pic31
         '
         Me.pic31.Location = New System.Drawing.Point(376, 198)
-        Me.pic31.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic31.Margin = New System.Windows.Forms.Padding(2)
         Me.pic31.Name = "pic31"
         Me.pic31.Size = New System.Drawing.Size(32, 34)
         Me.pic31.TabIndex = 195
@@ -1141,7 +1142,7 @@ Partial Class frmSeatings
         'pic32
         '
         Me.pic32.Location = New System.Drawing.Point(422, 198)
-        Me.pic32.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic32.Margin = New System.Windows.Forms.Padding(2)
         Me.pic32.Name = "pic32"
         Me.pic32.Size = New System.Drawing.Size(32, 34)
         Me.pic32.TabIndex = 194
@@ -1150,7 +1151,7 @@ Partial Class frmSeatings
         'pic33
         '
         Me.pic33.Location = New System.Drawing.Point(469, 198)
-        Me.pic33.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic33.Margin = New System.Windows.Forms.Padding(2)
         Me.pic33.Name = "pic33"
         Me.pic33.Size = New System.Drawing.Size(32, 34)
         Me.pic33.TabIndex = 193
@@ -1159,7 +1160,7 @@ Partial Class frmSeatings
         'pic34
         '
         Me.pic34.Location = New System.Drawing.Point(515, 198)
-        Me.pic34.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic34.Margin = New System.Windows.Forms.Padding(2)
         Me.pic34.Name = "pic34"
         Me.pic34.Size = New System.Drawing.Size(32, 34)
         Me.pic34.TabIndex = 192
@@ -1168,7 +1169,7 @@ Partial Class frmSeatings
         'pic35
         '
         Me.pic35.Location = New System.Drawing.Point(562, 198)
-        Me.pic35.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic35.Margin = New System.Windows.Forms.Padding(2)
         Me.pic35.Name = "pic35"
         Me.pic35.Size = New System.Drawing.Size(32, 34)
         Me.pic35.TabIndex = 191
@@ -1177,7 +1178,7 @@ Partial Class frmSeatings
         'pic36
         '
         Me.pic36.Location = New System.Drawing.Point(608, 198)
-        Me.pic36.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic36.Margin = New System.Windows.Forms.Padding(2)
         Me.pic36.Name = "pic36"
         Me.pic36.Size = New System.Drawing.Size(32, 34)
         Me.pic36.TabIndex = 190
@@ -1186,7 +1187,7 @@ Partial Class frmSeatings
         'pic13
         '
         Me.pic13.Location = New System.Drawing.Point(44, 147)
-        Me.pic13.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic13.Margin = New System.Windows.Forms.Padding(2)
         Me.pic13.Name = "pic13"
         Me.pic13.Size = New System.Drawing.Size(32, 34)
         Me.pic13.TabIndex = 201
@@ -1195,7 +1196,7 @@ Partial Class frmSeatings
         'pic14
         '
         Me.pic14.Location = New System.Drawing.Point(91, 147)
-        Me.pic14.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic14.Margin = New System.Windows.Forms.Padding(2)
         Me.pic14.Name = "pic14"
         Me.pic14.Size = New System.Drawing.Size(32, 34)
         Me.pic14.TabIndex = 200
@@ -1204,7 +1205,7 @@ Partial Class frmSeatings
         'pic15
         '
         Me.pic15.Location = New System.Drawing.Point(137, 147)
-        Me.pic15.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic15.Margin = New System.Windows.Forms.Padding(2)
         Me.pic15.Name = "pic15"
         Me.pic15.Size = New System.Drawing.Size(32, 34)
         Me.pic15.TabIndex = 199
@@ -1213,7 +1214,7 @@ Partial Class frmSeatings
         'pic16
         '
         Me.pic16.Location = New System.Drawing.Point(184, 147)
-        Me.pic16.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic16.Margin = New System.Windows.Forms.Padding(2)
         Me.pic16.Name = "pic16"
         Me.pic16.Size = New System.Drawing.Size(32, 34)
         Me.pic16.TabIndex = 198
@@ -1222,7 +1223,7 @@ Partial Class frmSeatings
         'pic17
         '
         Me.pic17.Location = New System.Drawing.Point(230, 147)
-        Me.pic17.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic17.Margin = New System.Windows.Forms.Padding(2)
         Me.pic17.Name = "pic17"
         Me.pic17.Size = New System.Drawing.Size(32, 34)
         Me.pic17.TabIndex = 197
@@ -1231,7 +1232,7 @@ Partial Class frmSeatings
         'pic18
         '
         Me.pic18.Location = New System.Drawing.Point(277, 147)
-        Me.pic18.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic18.Margin = New System.Windows.Forms.Padding(2)
         Me.pic18.Name = "pic18"
         Me.pic18.Size = New System.Drawing.Size(32, 34)
         Me.pic18.TabIndex = 196
@@ -1240,7 +1241,7 @@ Partial Class frmSeatings
         'pic19
         '
         Me.pic19.Location = New System.Drawing.Point(376, 147)
-        Me.pic19.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic19.Margin = New System.Windows.Forms.Padding(2)
         Me.pic19.Name = "pic19"
         Me.pic19.Size = New System.Drawing.Size(32, 34)
         Me.pic19.TabIndex = 207
@@ -1249,7 +1250,7 @@ Partial Class frmSeatings
         'pic20
         '
         Me.pic20.Location = New System.Drawing.Point(422, 147)
-        Me.pic20.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic20.Margin = New System.Windows.Forms.Padding(2)
         Me.pic20.Name = "pic20"
         Me.pic20.Size = New System.Drawing.Size(32, 34)
         Me.pic20.TabIndex = 206
@@ -1258,7 +1259,7 @@ Partial Class frmSeatings
         'pic21
         '
         Me.pic21.Location = New System.Drawing.Point(469, 147)
-        Me.pic21.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic21.Margin = New System.Windows.Forms.Padding(2)
         Me.pic21.Name = "pic21"
         Me.pic21.Size = New System.Drawing.Size(32, 34)
         Me.pic21.TabIndex = 205
@@ -1267,7 +1268,7 @@ Partial Class frmSeatings
         'pic22
         '
         Me.pic22.Location = New System.Drawing.Point(515, 147)
-        Me.pic22.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic22.Margin = New System.Windows.Forms.Padding(2)
         Me.pic22.Name = "pic22"
         Me.pic22.Size = New System.Drawing.Size(32, 34)
         Me.pic22.TabIndex = 204
@@ -1276,7 +1277,7 @@ Partial Class frmSeatings
         'pic23
         '
         Me.pic23.Location = New System.Drawing.Point(562, 147)
-        Me.pic23.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic23.Margin = New System.Windows.Forms.Padding(2)
         Me.pic23.Name = "pic23"
         Me.pic23.Size = New System.Drawing.Size(32, 34)
         Me.pic23.TabIndex = 203
@@ -1285,7 +1286,7 @@ Partial Class frmSeatings
         'pic24
         '
         Me.pic24.Location = New System.Drawing.Point(608, 147)
-        Me.pic24.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic24.Margin = New System.Windows.Forms.Padding(2)
         Me.pic24.Name = "pic24"
         Me.pic24.Size = New System.Drawing.Size(32, 34)
         Me.pic24.TabIndex = 202
@@ -1294,7 +1295,7 @@ Partial Class frmSeatings
         'pic1
         '
         Me.pic1.Location = New System.Drawing.Point(44, 97)
-        Me.pic1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic1.Margin = New System.Windows.Forms.Padding(2)
         Me.pic1.Name = "pic1"
         Me.pic1.Size = New System.Drawing.Size(32, 34)
         Me.pic1.TabIndex = 213
@@ -1303,7 +1304,7 @@ Partial Class frmSeatings
         'pic2
         '
         Me.pic2.Location = New System.Drawing.Point(91, 97)
-        Me.pic2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic2.Margin = New System.Windows.Forms.Padding(2)
         Me.pic2.Name = "pic2"
         Me.pic2.Size = New System.Drawing.Size(32, 34)
         Me.pic2.TabIndex = 212
@@ -1312,7 +1313,7 @@ Partial Class frmSeatings
         'pic3
         '
         Me.pic3.Location = New System.Drawing.Point(137, 97)
-        Me.pic3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic3.Margin = New System.Windows.Forms.Padding(2)
         Me.pic3.Name = "pic3"
         Me.pic3.Size = New System.Drawing.Size(32, 34)
         Me.pic3.TabIndex = 211
@@ -1321,7 +1322,7 @@ Partial Class frmSeatings
         'pic4
         '
         Me.pic4.Location = New System.Drawing.Point(184, 97)
-        Me.pic4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic4.Margin = New System.Windows.Forms.Padding(2)
         Me.pic4.Name = "pic4"
         Me.pic4.Size = New System.Drawing.Size(32, 34)
         Me.pic4.TabIndex = 210
@@ -1330,7 +1331,7 @@ Partial Class frmSeatings
         'pic5
         '
         Me.pic5.Location = New System.Drawing.Point(230, 97)
-        Me.pic5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic5.Margin = New System.Windows.Forms.Padding(2)
         Me.pic5.Name = "pic5"
         Me.pic5.Size = New System.Drawing.Size(32, 34)
         Me.pic5.TabIndex = 209
@@ -1339,7 +1340,7 @@ Partial Class frmSeatings
         'pic6
         '
         Me.pic6.Location = New System.Drawing.Point(277, 97)
-        Me.pic6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic6.Margin = New System.Windows.Forms.Padding(2)
         Me.pic6.Name = "pic6"
         Me.pic6.Size = New System.Drawing.Size(32, 34)
         Me.pic6.TabIndex = 208
@@ -1348,7 +1349,7 @@ Partial Class frmSeatings
         'pic7
         '
         Me.pic7.Location = New System.Drawing.Point(376, 97)
-        Me.pic7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic7.Margin = New System.Windows.Forms.Padding(2)
         Me.pic7.Name = "pic7"
         Me.pic7.Size = New System.Drawing.Size(32, 34)
         Me.pic7.TabIndex = 219
@@ -1357,7 +1358,7 @@ Partial Class frmSeatings
         'pic8
         '
         Me.pic8.Location = New System.Drawing.Point(422, 97)
-        Me.pic8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic8.Margin = New System.Windows.Forms.Padding(2)
         Me.pic8.Name = "pic8"
         Me.pic8.Size = New System.Drawing.Size(32, 34)
         Me.pic8.TabIndex = 218
@@ -1366,7 +1367,7 @@ Partial Class frmSeatings
         'pic9
         '
         Me.pic9.Location = New System.Drawing.Point(469, 97)
-        Me.pic9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic9.Margin = New System.Windows.Forms.Padding(2)
         Me.pic9.Name = "pic9"
         Me.pic9.Size = New System.Drawing.Size(32, 34)
         Me.pic9.TabIndex = 217
@@ -1375,7 +1376,7 @@ Partial Class frmSeatings
         'pic10
         '
         Me.pic10.Location = New System.Drawing.Point(515, 97)
-        Me.pic10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic10.Margin = New System.Windows.Forms.Padding(2)
         Me.pic10.Name = "pic10"
         Me.pic10.Size = New System.Drawing.Size(32, 34)
         Me.pic10.TabIndex = 216
@@ -1384,7 +1385,7 @@ Partial Class frmSeatings
         'pic11
         '
         Me.pic11.Location = New System.Drawing.Point(562, 97)
-        Me.pic11.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic11.Margin = New System.Windows.Forms.Padding(2)
         Me.pic11.Name = "pic11"
         Me.pic11.Size = New System.Drawing.Size(32, 34)
         Me.pic11.TabIndex = 215
@@ -1393,7 +1394,7 @@ Partial Class frmSeatings
         'pic12
         '
         Me.pic12.Location = New System.Drawing.Point(608, 97)
-        Me.pic12.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pic12.Margin = New System.Windows.Forms.Padding(2)
         Me.pic12.Name = "pic12"
         Me.pic12.Size = New System.Drawing.Size(32, 34)
         Me.pic12.TabIndex = 214
@@ -1401,19 +1402,29 @@ Partial Class frmSeatings
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(56, 28)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Location = New System.Drawing.Point(540, 29)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 27)
         Me.Button1.TabIndex = 220
         Me.Button1.Text = "Book"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'btnBack
+        '
+        Me.btnBack.Location = New System.Drawing.Point(34, 32)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(75, 23)
+        Me.btnBack.TabIndex = 221
+        Me.btnBack.Text = "Back"
+        Me.btnBack.UseVisualStyleBackColor = True
+        '
         'frmSeatings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(678, 601)
+        Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.pic7)
         Me.Controls.Add(Me.pic8)
@@ -1540,7 +1551,7 @@ Partial Class frmSeatings
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmSeatings"
         Me.Text = "Form1"
         CType(Me.pic85, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1769,4 +1780,5 @@ Partial Class frmSeatings
     Friend WithEvents pic11 As PictureBox
     Friend WithEvents pic12 As PictureBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents btnBack As Button
 End Class
