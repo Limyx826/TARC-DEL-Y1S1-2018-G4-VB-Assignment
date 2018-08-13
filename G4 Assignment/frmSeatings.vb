@@ -1,7 +1,7 @@
 ﻿Imports System.Data.OleDb
 
 Public Class frmSeatings
-    Dim strConString As String = "Provider= Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\User\Documents\G4VBMOVIE.accdb"
+    Dim strConString As String = "Provider= Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\limyx\source\repos\01\TARC-DEL-Y1S1-2018-G4-VB-Assignment\G4 Assignment\G4VBMOVIE.accdb"
     Dim availableicon As New System.Drawing.Bitmap(My.Resources.Available)
     Dim provisionalicon As New System.Drawing.Bitmap(My.Resources.provisional)
     Dim bookedIcon As New System.Drawing.Bitmap(My.Resources.Booked)
@@ -25,7 +25,7 @@ Public Class frmSeatings
 
 
 
-        strConString = "Provider= Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\User\Documents\G4VBMOVIE.accdb"
+        strConString = "Provider= Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\limyx\source\repos\01\TARC-DEL-Y1S1-2018-G4-VB-Assignment\G4 Assignment\G4VBMOVIE.accdb"
         Dim conBooking As OleDbConnection
 
         conBooking = New OleDbConnection
@@ -114,17 +114,17 @@ Public Class frmSeatings
 
             End If
 
-        Next
 
 
-        txt1 = frmCalcTest.TextBox1.Text
+
+            txt1 = frmCalcTest.TextBox1.Text
             txt2 = frmCalcTest.TextBox2.Text
             txt3 = frmCalcTest.TextBox3.Text
             txt4 = frmCalcTest.TextBox4.Text
             total = txt1 + txt2 + txt3 + txt4
 
 
-            If CType(Controls("pic" & i), PictureBox).Image Is provisionalicon Then
+        If CType(Controls("pic" & i), PictureBox).Image Is provisionalicon Then
             bookcount = bookcount + 1
             If bookcount <> total Then
                 MessageBox.Show("Please choose exactly '" & total & "' seats")
@@ -134,6 +134,7 @@ Public Class frmSeatings
             End If
         End If
 
+        Next
 
 
     End Sub
