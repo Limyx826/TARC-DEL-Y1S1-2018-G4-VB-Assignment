@@ -41,6 +41,7 @@ Partial Class frmCalcTest
         Me.btn6 = New System.Windows.Forms.Button()
         Me.btn7 = New System.Windows.Forms.Button()
         Me.btn8 = New System.Windows.Forms.Button()
+        Me.lblFilmTitle = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnCalc
@@ -214,11 +215,21 @@ Partial Class frmCalcTest
         Me.btn8.Text = "+"
         Me.btn8.UseVisualStyleBackColor = True
         '
+        'lblFilmTitle
+        '
+        Me.lblFilmTitle.Location = New System.Drawing.Point(289, 55)
+        Me.lblFilmTitle.Name = "lblFilmTitle"
+        Me.lblFilmTitle.Size = New System.Drawing.Size(209, 23)
+        Me.lblFilmTitle.TabIndex = 23
+        Me.lblFilmTitle.Text = "FilmTitle"
+        Me.lblFilmTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'frmCalcTest
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblFilmTitle)
         Me.Controls.Add(Me.btn8)
         Me.Controls.Add(Me.btn7)
         Me.Controls.Add(Me.btn6)
@@ -265,4 +276,5 @@ Partial Class frmCalcTest
     Friend WithEvents btn6 As Button
     Friend WithEvents btn7 As Button
     Friend WithEvents btn8 As Button
+    Friend WithEvents lblFilmTitle As Label
 End Class

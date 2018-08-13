@@ -15,7 +15,7 @@ Public Class frmSeatings
         Next
 
         Dim strSQL As String
-        strSQL = " SELECT ID, Seat FROM Booking"
+        strSQL = " SELECT BookingID, Seat FROM Booking"
         Dim strConString As String
         strConString = "Provider= Microsoft.JET.OLEDB.4.0;Data Source=C:\Users\limyx\source\repos\TARC-DEL-Y1S1-2018-G4-VB-Assignment\G4 Assignment\G4VBMovie1.mdb"
         Dim conBooking As OleDbConnection
@@ -31,20 +31,20 @@ Public Class frmSeatings
 
         'Dim cmdselectbooking As New OleDbCommand(strSQL, conBooking)
 
-        Dim dsBooking As New DataSet
-        Dim daBooking As New OleDbDataAdapter(cmdSelectBooking)
-        daBooking.Fill(dsBooking, "Booking")
-        conBooking.Close()
+        'Dim dsBooking As New DataSet
+        'Dim daBooking As New OleDbDataAdapter(cmdSelectBooking)
+        'daBooking.Fill(dsBooking, "Booking")
+        'conBooking.Close()
 
-        Dim strOut As String
-        Dim t1 As DataTable = dsBooking.Tables("Booking")
-        Dim row As DataRow
+        'Dim strOut As String
+        'Dim t1 As DataTable = dsBooking.Tables("Booking")
+        'Dim row As DataRow
 
-        For Each row In t1.Rows
+        'For Each row In t1.Rows
 
-            CType(Controls("pic" & row(1)), PictureBox).Image = bookedIcon
+        '    CType(Controls("pic" & row(1)), PictureBox).Image = bookedIcon
 
-        Next
+        'Next
     End Sub
 
 

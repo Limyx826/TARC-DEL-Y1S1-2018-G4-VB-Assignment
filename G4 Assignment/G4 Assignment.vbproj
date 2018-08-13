@@ -265,5 +265,13 @@
   <ItemGroup>
     <None Include="Resources\fsfs - Copy %282%29.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="G4VBMovie1.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="G4VBMovie1.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

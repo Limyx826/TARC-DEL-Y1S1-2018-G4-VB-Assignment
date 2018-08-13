@@ -13,38 +13,47 @@
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        Book()
+        frmHome.Show()
+        Me.Close()
     End Sub
 
     Private Sub btnCine1_Click(sender As Object, e As EventArgs) Handles btnCine1.Click
+        frmCalcTest.lblFilmTitle.Text = Label8.Text
         Book()
     End Sub
 
     Private Sub btnCine2_Click(sender As Object, e As EventArgs) Handles btnCine2.Click
+        frmCalcTest.lblFilmTitle.Text = Label9.Text
         Book()
     End Sub
 
     Private Sub btnCine3_Click(sender As Object, e As EventArgs) Handles btnCine3.Click
+        frmCalcTest.lblFilmTitle.Text = Label6.Text
         Book()
     End Sub
 
     Private Sub btnCine4_Click(sender As Object, e As EventArgs) Handles btnCine4.Click
+        frmCalcTest.lblFilmTitle.Text = Label7.Text
         Book()
     End Sub
 
     Private Sub btnCine5_Click(sender As Object, e As EventArgs) Handles btnCine5.Click
+        frmCalcTest.lblFilmTitle.Text = Label10.Text
         Book()
     End Sub
 
     Private Sub btnCine6_Click(sender As Object, e As EventArgs) Handles btnCine6.Click
+        frmCalcTest.lblFilmTitle.Text = Label13.Text
         Book()
     End Sub
 
     Private Sub btnCine7_Click(sender As Object, e As EventArgs) Handles btnCine7.Click
+        frmCalcTest.lblFilmTitle.Text = Label2.Text
         Book()
     End Sub
 
     Private Sub btnCine8_Click(sender As Object, e As EventArgs) Handles btnCine8.Click
+        frmCalcTest.lblFilmTitle.Text = Label3.Text
         Book()
     End Sub
 End Class
