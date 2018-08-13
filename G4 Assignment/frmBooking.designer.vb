@@ -22,26 +22,28 @@ Partial Class frmBooking
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.BtnProceed = New System.Windows.Forms.Button()
         Me.btnBack = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnCalcDebug = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'BtnProceed
         '
-        Me.Button1.Location = New System.Drawing.Point(78, 375)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(242, 111)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnProceed.Location = New System.Drawing.Point(104, 462)
+        Me.BtnProceed.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BtnProceed.Name = "BtnProceed"
+        Me.BtnProceed.Size = New System.Drawing.Size(323, 137)
+        Me.BtnProceed.TabIndex = 0
+        Me.BtnProceed.Text = "Proceed"
+        Me.BtnProceed.UseVisualStyleBackColor = True
         '
         'btnBack
         '
-        Me.btnBack.Location = New System.Drawing.Point(654, 375)
+        Me.btnBack.Location = New System.Drawing.Point(872, 462)
+        Me.btnBack.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(242, 111)
+        Me.btnBack.Size = New System.Drawing.Size(323, 137)
         Me.btnBack.TabIndex = 1
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True
@@ -49,30 +51,33 @@ Partial Class frmBooking
         'Label1
         '
         Me.Label1.Font = New System.Drawing.Font("Impact", 48.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(248, 141)
+        Me.Label1.Location = New System.Drawing.Point(331, 174)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(583, 199)
+        Me.Label1.Size = New System.Drawing.Size(777, 245)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "Movie Booking"
         '
         'btnCalcDebug
         '
-        Me.btnCalcDebug.Location = New System.Drawing.Point(13, 13)
+        Me.btnCalcDebug.Location = New System.Drawing.Point(17, 16)
+        Me.btnCalcDebug.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnCalcDebug.Name = "btnCalcDebug"
-        Me.btnCalcDebug.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalcDebug.Size = New System.Drawing.Size(100, 28)
         Me.btnCalcDebug.TabIndex = 3
         Me.btnCalcDebug.Text = "CalcDeBug"
         Me.btnCalcDebug.UseVisualStyleBackColor = True
         '
         'frmBooking
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(981, 611)
+        Me.ClientSize = New System.Drawing.Size(1308, 752)
         Me.Controls.Add(Me.btnCalcDebug)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnBack)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.BtnProceed)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "frmBooking"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
@@ -80,7 +85,7 @@ Partial Class frmBooking
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents BtnProceed As Button
     Friend WithEvents btnBack As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents btnCalcDebug As Button

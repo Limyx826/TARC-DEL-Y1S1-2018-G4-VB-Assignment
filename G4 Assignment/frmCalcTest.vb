@@ -3,6 +3,8 @@
     Public Shared Property APrdKQty As Integer
     Public Shared Property AStdQty As Integer
     Public Shared Property AStdKQty As Integer
+    Dim total As Integer
+
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
         Try
             APrdQty = Integer.Parse(TextBox1.Text)
@@ -43,11 +45,20 @@
         End Try
 
         frmSeatings.Show()
-        Me.Close()
+        Me.Hide()
     End Sub
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         frmHome.Show()
         Me.Close()
     End Sub
+
+
+
+
+
+
+
+
+
 End Class

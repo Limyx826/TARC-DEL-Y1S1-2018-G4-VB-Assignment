@@ -15,7 +15,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <DefineDebug>true</DefineDebug>
@@ -101,12 +101,6 @@
     <Compile Include="frmCalcTest.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmConfirm.Designer.vb">
-      <DependentUpon>frmConfirm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmConfirm.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmLogin.designer.vb">
       <DependentUpon>frmLogin.vb</DependentUpon>
     </Compile>
@@ -144,6 +138,11 @@
     <Compile Include="frmMovie.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="G4VBMOVIEDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G4VBMOVIEDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -173,9 +172,6 @@
     <EmbeddedResource Include="frmCalc.resx">
       <DependentUpon>frmCalc.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmConfirm.resx">
-      <DependentUpon>frmConfirm.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
     </EmbeddedResource>
@@ -203,6 +199,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="G4VBMOVIEDataSet.xsc">
+      <DependentUpon>G4VBMOVIEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="G4VBMOVIEDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G4VBMOVIEDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G4VBMOVIEDataSet.xss">
+      <DependentUpon>G4VBMOVIEDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -264,6 +271,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fsfs - Copy %282%29.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="G4VBMOVIE.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
