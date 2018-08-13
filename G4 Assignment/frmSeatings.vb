@@ -1,7 +1,7 @@
 ﻿Imports System.Data.OleDb
 
 Public Class frmSeatings
-    Dim strConString As String = "Provider= Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\limyx\source\repos\01\TARC-DEL-Y1S1-2018-G4-VB-Assignment\G4 Assignment\G4VBMOVIE.accdb"
+    Dim strConString As String = "Provider= Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\limyx\source\repos\TARC-DEL-Y1S1-2018-G4-VB-Assignment\G4 Assignment\G4VBMOVIE.accdb"
     Dim availableicon As New System.Drawing.Bitmap(My.Resources.Available)
     Dim provisionalicon As New System.Drawing.Bitmap(My.Resources.provisional)
     Dim bookedIcon As New System.Drawing.Bitmap(My.Resources.Booked)
@@ -25,7 +25,7 @@ Public Class frmSeatings
 
 
 
-        strConString = "Provider= Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\limyx\source\repos\01\TARC-DEL-Y1S1-2018-G4-VB-Assignment\G4 Assignment\G4VBMOVIE.accdb"
+        strConString = "Provider= Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\limyx\source\repos\TARC-DEL-Y1S1-2018-G4-VB-Assignment\G4 Assignment\G4VBMOVIE.accdb"
         Dim conBooking As OleDbConnection
 
         conBooking = New OleDbConnection
@@ -36,7 +36,7 @@ Public Class frmSeatings
 
         Dim cmdSelectBooking As OleDbCommand
         Dim dr As OleDbDataReader
-        cmdSelectBooking = New OleDbCommand("SELECT * From Booking", conBooking)
+        cmdSelectBooking = New OleDbCommand("SELECT Num, ID, Customers From Booking", conBooking)
 
 
         cmdSelectBooking.ExecuteNonQuery()
@@ -58,13 +58,13 @@ Public Class frmSeatings
         Dim t1 As DataTable = dsBooking.Tables("Booking")
         Dim row As DataRow
 
-        For Each row In t1.Rows
-            If row(3) = MovieType Then
+        'For Each row In t1.Rows
+        '    If row(3) = MovieType Then
 
-                CType(Controls("pic" & row(1)), PictureBox).Image = bookedIcon
-            End If
+        '        CType(Controls("pic" & row(1)), PictureBox).Image = bookedIcon
+        '    End If
 
-        Next
+        'Next
 
     End Sub
 
