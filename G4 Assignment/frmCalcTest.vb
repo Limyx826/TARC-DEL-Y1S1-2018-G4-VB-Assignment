@@ -57,23 +57,34 @@
         Label8.Text = lbl8
     End Sub
 
+    Private Function Negative(ByVal NG As Integer)
+        If NG < 0 Then
+            NG = 0
+        End If
+        Return NG
+    End Function
+
     Private Sub btn1_Click(sender As Object, e As EventArgs) Handles btn1.Click
         lbl5 -= 1
+        Negative(lbl5)
         Label5.Text = lbl5
     End Sub
 
     Private Sub btn5_Click(sender As Object, e As EventArgs) Handles btn5.Click
         lbl7 -= 1
+        Negative(lbl7)
         Label7.Text = lbl7
     End Sub
 
     Private Sub btn3_Click(sender As Object, e As EventArgs) Handles btn3.Click
         lbl6 -= 1
+        Negative(lbl6)
         Label6.Text = lbl6
     End Sub
 
     Private Sub btn7_Click(sender As Object, e As EventArgs) Handles btn7.Click
         lbl8 -= 1
+        Negative(lbl8)
         Label8.Text = lbl8
     End Sub
 End Class

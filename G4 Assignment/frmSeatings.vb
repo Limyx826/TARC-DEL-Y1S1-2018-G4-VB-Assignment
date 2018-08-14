@@ -119,7 +119,7 @@ Public Class frmSeatings
 
         Dim cmdSelectBooking As OleDbCommand
         Dim dr As OleDbDataReader
-        cmdSelectBooking = New OleDbCommand("SELECT Num, ID, Customers From Booking", conBooking)
+        cmdSelectBooking = New OleDbCommand("SELECT * From Booking", conBooking)
 
 
         cmdSelectBooking.ExecuteNonQuery()
@@ -141,13 +141,13 @@ Public Class frmSeatings
         Dim t1 As DataTable = dsBooking.Tables("Booking")
         Dim row As DataRow
 
-        'For Each row In t1.Rows
-        '    If row(3) = MovieType Then
+        For Each row In t1.Rows
+            If row(3) = MovieType Then
 
-        '        CType(Controls("pic" & row(1)), PictureBox).Image = bookedIcon
-        '    End If
+                CType(Controls("pic" & row(1)), PictureBox).Image = bookedIcon
+            End If
 
-        'Next
+        Next
 
     End Sub
 
@@ -170,57 +170,58 @@ Public Class frmSeatings
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim c As Control
 
-        'Dim count As Integer = 0
+        Dim count As Integer = 0
 
-        'Dim bSelected As Boolean
-        'If bSelected = False Then
-        'MsgBox(" Please Select at least 1 seat")
-        'Else
-
-
-        'For i As Integer = 1 To 96
-        '    If CType(Controls("pic" & i), PictureBox).Image Is provisionalicon Then
-
-        '        Dim cmdMakeBooking As OleDbCommand
-        '        Dim conBooking As OleDbConnection
-        '        conBooking = New OleDbConnection
-        '        cmdMakeBooking = New OleDbCommand
+        Dim bSelected As Boolean
+        If bSelected = False Then
+            MsgBox(" Please Select at least 1 seat")
+        Else
 
 
-        '        conBooking.ConnectionString = strConString
-        '        conBooking.Open()
-        '        cmdMakeBooking = New OleDbCommand("INSERT INTO Booking (Customers, Seats, Movies) VALUES( 'AB001', '" & i & "','" & MovieType & "' )", conBooking)
+            For i As Integer = 1 To 96
+                If CType(Controls("pic" & i), PictureBox).Image Is provisionalicon Then
+
+                    Dim cmdMakeBooking As OleDbCommand
+                    Dim conBooking As OleDbConnection
+                    conBooking = New OleDbConnection
+                    cmdMakeBooking = New OleDbCommand
 
 
-        '        cmdMakeBooking.ExecuteNonQuery()
-        '        ' count = count + 1
-
-        '    End If
-
+                    conBooking.ConnectionString = strConString
+                    conBooking.Open()
+                    cmdMakeBooking = New OleDbCommand("INSERT INTO Booking (Customers, Seats, Movies) VALUES( 'AB001', '" & i & "','" & MovieType & "' )", conBooking)
 
 
+                    cmdMakeBooking.ExecuteNonQuery()
+                    ' count = count + 1
 
-        '    txt1 = frmCalcTest.Label5.Text
-        '    txt2 = frmCalcTest.Label6.Text
-        '    txt3 = frmCalcTest.Label7.Text
-        '    txt4 = frmCalcTest.Label8.Text
-        '    total = txt1 + txt2 + txt3 + txt4
+                End If
 
 
-        '    If CType(Controls("pic" & i), PictureBox).Image Is provisionalicon Then
-        '        bookcount = bookcount + 1
-        '        If bookcount <> total Then
-        '            MessageBox.Show("Please choose exactly '" & total & "' seats")
-        '        Else
-        '            frmCalc.Show()
-        '            Me.Close()
-        '        End If
-        '    End If
 
-        'Next
 
-        frmCalc.Show()
-        Me.Close()
+                txt1 = frmCalcTest.Label5.Text
+                txt2 = frmCalcTest.Label6.Text
+                txt3 = frmCalcTest.Label7.Text
+                txt4 = frmCalcTest.Label8.Text
+                total = txt1 + txt2 + txt3 + txt4
+
+
+                If CType(Controls("pic" & i), PictureBox).Image Is provisionalicon Then
+                    bookcount = bookcount + 1
+                    If bookcount <> total Then
+                        MessageBox.Show("Please choose exactly '" & total & "' seats")
+                    Else
+                        frmCalc.Show()
+                        Me.Close()
+                    End If
+                End If
+
+            Next
+
+        End If
+        'frmCalc.Show()
+        'Me.Close()
 
     End Sub
 
