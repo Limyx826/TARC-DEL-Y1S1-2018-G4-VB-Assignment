@@ -281,6 +281,12 @@
     <Content Include="G4VBMovie1_Backup.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\images %282%29.jpg" />
+    <None Include="Resources\images %281%29.jpg" />
+    <None Include="Resources\images.jpg" />
+    <None Include="Resources\download.jpg" />
+    <None Include="Resources\cinema-background-footage-008949846_prevstill.jpeg" />
+    <None Include="Resources\cinema-background-theme-white-blank-screen-33747814.jpg" />
     <None Include="Resources\depositphotos_110481342-stock-illustration-cinema-icons-set-cinema-pattern.jpg" />
     <None Include="Resources\depositphotos_110481800-stock-illustration-cinema-icons-set-cinema-pattern.jpg" />
     <None Include="Resources\Cinema a background590.jpg" />

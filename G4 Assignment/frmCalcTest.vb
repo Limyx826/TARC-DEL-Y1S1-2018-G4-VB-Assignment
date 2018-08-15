@@ -76,6 +76,10 @@
         Label5.Text = lbl5
     End Sub
 
+    Private Sub frmCalcTest_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
     Private Sub btn5_Click(sender As Object, e As EventArgs) Handles btn5.Click
         lbl7 -= 1
         If lbl7 < 0 Then

@@ -23,14 +23,6 @@ Partial Class frmMovie
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -57,9 +49,16 @@ Partial Class frmMovie
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.btnExit = New System.Windows.Forms.Button()
-        Me.Label18 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -70,104 +69,15 @@ Partial Class frmMovie
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'PictureBox11
-        '
-        Me.PictureBox11.ErrorImage = Nothing
-        Me.PictureBox11.Image = Global.G4_Assignment.My.Resources.Resources.Children_of_Heaven_v2_Approved
-        Me.PictureBox11.Location = New System.Drawing.Point(101, 47)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(99, 113)
-        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox11.TabIndex = 10
-        Me.PictureBox11.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox11, "CHILDREN OF HEAVEN")
-        '
-        'PictureBox10
-        '
-        Me.PictureBox10.Image = Global.G4_Assignment.My.Resources.Resources.p34442_p_v8_an
-        Me.PictureBox10.Location = New System.Drawing.Point(665, 272)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(99, 113)
-        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox10.TabIndex = 9
-        Me.PictureBox10.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox10, "SPIDER - MAN 2")
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.Image = Global.G4_Assignment.My.Resources.Resources._227x227bb
-        Me.PictureBox9.Location = New System.Drawing.Point(477, 272)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(99, 113)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox9.TabIndex = 8
-        Me.PictureBox9.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox9, "THE DARK KNIGHT")
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.Image = Global.G4_Assignment.My.Resources.Resources.p174374_p_v8_ab
-        Me.PictureBox8.Location = New System.Drawing.Point(668, 47)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(99, 113)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 7
-        Me.PictureBox8.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox8, "WALL . E")
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.Image = Global.G4_Assignment.My.Resources.Resources.MPW_41271
-        Me.PictureBox7.Location = New System.Drawing.Point(479, 47)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(99, 113)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 6
-        Me.PictureBox7.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox7, "SEVEN POUND")
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = Global.G4_Assignment.My.Resources.Resources.p162523_p_v8_ad
-        Me.PictureBox6.Location = New System.Drawing.Point(290, 272)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(99, 113)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 5
-        Me.PictureBox6.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox6, "THE PURSUIT OF HAPPYNESS")
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Image = Global.G4_Assignment.My.Resources.Resources._220px_John_Q_film_poster
-        Me.PictureBox4.Location = New System.Drawing.Point(290, 47)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(99, 113)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 3
-        Me.PictureBox4.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox4, "JOHN Q .")
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.G4_Assignment.My.Resources.Resources.p23762_p_v8_aa
-        Me.PictureBox1.Location = New System.Drawing.Point(101, 272)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(99, 113)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox1, "PERFECT BLUE")
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.HighlightText
         Me.Label1.Location = New System.Drawing.Point(100, 12)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(191, 22)
+        Me.Label1.Size = New System.Drawing.Size(184, 24)
         Me.Label1.TabIndex = 11
         Me.Label1.Text = "Now Showing Movie"
         '
@@ -262,7 +172,7 @@ Partial Class frmMovie
         'btnCine1
         '
         Me.btnCine1.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.btnCine1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine1.Font = New System.Drawing.Font("Times New Roman", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine1.ForeColor = System.Drawing.SystemColors.InactiveBorder
         Me.btnCine1.Location = New System.Drawing.Point(125, 210)
         Me.btnCine1.Name = "btnCine1"
@@ -275,7 +185,7 @@ Partial Class frmMovie
         'btnCine7
         '
         Me.btnCine7.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.btnCine7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine7.Font = New System.Drawing.Font("Times New Roman", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine7.ForeColor = System.Drawing.SystemColors.Menu
         Me.btnCine7.Location = New System.Drawing.Point(511, 442)
         Me.btnCine7.Name = "btnCine7"
@@ -288,7 +198,7 @@ Partial Class frmMovie
         'btnCine6
         '
         Me.btnCine6.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.btnCine6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine6.Font = New System.Drawing.Font("Times New Roman", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine6.ForeColor = System.Drawing.SystemColors.Menu
         Me.btnCine6.Location = New System.Drawing.Point(322, 442)
         Me.btnCine6.Name = "btnCine6"
@@ -301,7 +211,7 @@ Partial Class frmMovie
         'btnCine5
         '
         Me.btnCine5.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.btnCine5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine5.Font = New System.Drawing.Font("Times New Roman", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine5.ForeColor = System.Drawing.SystemColors.Menu
         Me.btnCine5.Location = New System.Drawing.Point(125, 442)
         Me.btnCine5.Name = "btnCine5"
@@ -314,7 +224,7 @@ Partial Class frmMovie
         'btnCine4
         '
         Me.btnCine4.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.btnCine4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine4.Font = New System.Drawing.Font("Times New Roman", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine4.ForeColor = System.Drawing.SystemColors.InactiveBorder
         Me.btnCine4.Location = New System.Drawing.Point(696, 210)
         Me.btnCine4.Name = "btnCine4"
@@ -327,7 +237,7 @@ Partial Class frmMovie
         'btnCine3
         '
         Me.btnCine3.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.btnCine3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine3.Font = New System.Drawing.Font("Times New Roman", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine3.ForeColor = System.Drawing.SystemColors.InactiveBorder
         Me.btnCine3.Location = New System.Drawing.Point(511, 210)
         Me.btnCine3.Name = "btnCine3"
@@ -340,7 +250,7 @@ Partial Class frmMovie
         'btnCine2
         '
         Me.btnCine2.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.btnCine2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine2.Font = New System.Drawing.Font("Times New Roman", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine2.ForeColor = System.Drawing.SystemColors.InactiveBorder
         Me.btnCine2.Location = New System.Drawing.Point(322, 210)
         Me.btnCine2.Name = "btnCine2"
@@ -353,7 +263,7 @@ Partial Class frmMovie
         'btnCine8
         '
         Me.btnCine8.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.btnCine8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCine8.Font = New System.Drawing.Font("Times New Roman", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine8.ForeColor = System.Drawing.SystemColors.Menu
         Me.btnCine8.Location = New System.Drawing.Point(696, 442)
         Me.btnCine8.Name = "btnCine8"
@@ -455,38 +365,117 @@ Partial Class frmMovie
         '
         Me.btnExit.BackColor = System.Drawing.SystemColors.ControlDark
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExit.Font = New System.Drawing.Font("Times New Roman", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnExit.ForeColor = System.Drawing.SystemColors.Menu
         Me.btnExit.Location = New System.Drawing.Point(23, 12)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(52, 19)
+        Me.btnExit.Size = New System.Drawing.Size(53, 24)
         Me.btnExit.TabIndex = 48
         Me.btnExit.Text = "Back"
         Me.ToolTip1.SetToolTip(Me.btnExit, "Back to menu")
         Me.btnExit.UseVisualStyleBackColor = False
         '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.ForeColor = System.Drawing.Color.Ivory
-        Me.Label18.Location = New System.Drawing.Point(662, 19)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(52, 13)
-        Me.Label18.TabIndex = 49
-        Me.Label18.Text = "Label18"
-        '
         'Timer1
         '
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.ErrorImage = Nothing
+        Me.PictureBox11.Image = Global.G4_Assignment.My.Resources.Resources.Children_of_Heaven_v2_Approved
+        Me.PictureBox11.Location = New System.Drawing.Point(101, 47)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox11.TabIndex = 10
+        Me.PictureBox11.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox11, "CHILDREN OF HEAVEN")
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Image = Global.G4_Assignment.My.Resources.Resources.p34442_p_v8_an
+        Me.PictureBox10.Location = New System.Drawing.Point(665, 272)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox10.TabIndex = 9
+        Me.PictureBox10.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox10, "SPIDER - MAN 2")
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.Image = Global.G4_Assignment.My.Resources.Resources._227x227bb
+        Me.PictureBox9.Location = New System.Drawing.Point(477, 272)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox9.TabIndex = 8
+        Me.PictureBox9.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox9, "THE DARK KNIGHT")
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.Image = Global.G4_Assignment.My.Resources.Resources.p174374_p_v8_ab
+        Me.PictureBox8.Location = New System.Drawing.Point(668, 47)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 7
+        Me.PictureBox8.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox8, "WALL . E")
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Image = Global.G4_Assignment.My.Resources.Resources.MPW_41271
+        Me.PictureBox7.Location = New System.Drawing.Point(479, 47)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox7.TabIndex = 6
+        Me.PictureBox7.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox7, "SEVEN POUND")
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = Global.G4_Assignment.My.Resources.Resources.p162523_p_v8_ad
+        Me.PictureBox6.Location = New System.Drawing.Point(290, 272)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 5
+        Me.PictureBox6.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox6, "THE PURSUIT OF HAPPYNESS")
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.G4_Assignment.My.Resources.Resources._220px_John_Q_film_poster
+        Me.PictureBox4.Location = New System.Drawing.Point(290, 47)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 3
+        Me.PictureBox4.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox4, "JOHN Q .")
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.G4_Assignment.My.Resources.Resources.p23762_p_v8_aa
+        Me.PictureBox1.Location = New System.Drawing.Point(101, 272)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox1, "PERFECT BLUE")
         '
         'frmMovie
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.BackgroundImage = Global.G4_Assignment.My.Resources.Resources.images
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CancelButton = Me.btnExit
         Me.ClientSize = New System.Drawing.Size(818, 550)
-        Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label16)
@@ -523,8 +512,7 @@ Partial Class frmMovie
         Me.Controls.Add(Me.PictureBox1)
         Me.ForeColor = System.Drawing.SystemColors.MenuHighlight
         Me.Name = "frmMovie"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Movie"
+        Me.Text = "Movie Booking"
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
@@ -572,7 +560,6 @@ Partial Class frmMovie
     Friend WithEvents Label16 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents btnExit As Button
-    Friend WithEvents Label18 As Label
     Friend WithEvents Timer1 As Timer
     Friend WithEvents ToolTip1 As ToolTip
 End Class

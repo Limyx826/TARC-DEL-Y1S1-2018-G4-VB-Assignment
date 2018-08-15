@@ -46,55 +46,72 @@ Partial Class frmCalcTest
         '
         'btnCalc
         '
-        Me.btnCalc.Location = New System.Drawing.Point(367, 389)
+        Me.btnCalc.BackColor = System.Drawing.Color.White
+        Me.btnCalc.Font = New System.Drawing.Font("Times New Roman", 20.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCalc.Location = New System.Drawing.Point(64, 368)
         Me.btnCalc.Name = "btnCalc"
-        Me.btnCalc.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalc.Size = New System.Drawing.Size(160, 70)
         Me.btnCalc.TabIndex = 0
-        Me.btnCalc.Text = "Proceed"
-        Me.btnCalc.UseVisualStyleBackColor = True
+        Me.btnCalc.Text = "&Proceed"
+        Me.btnCalc.UseVisualStyleBackColor = False
         '
         'btnBack
         '
-        Me.btnBack.Location = New System.Drawing.Point(713, 415)
+        Me.btnBack.BackColor = System.Drawing.Color.White
+        Me.btnBack.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnBack.Font = New System.Drawing.Font("Times New Roman", 20.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBack.Location = New System.Drawing.Point(577, 368)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(75, 23)
+        Me.btnBack.Size = New System.Drawing.Size(160, 70)
         Me.btnBack.TabIndex = 1
-        Me.btnBack.Text = "Back"
-        Me.btnBack.UseVisualStyleBackColor = True
+        Me.btnBack.Text = "&Back"
+        Me.btnBack.UseVisualStyleBackColor = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(209, 111)
+        Me.Label1.BackColor = System.Drawing.Color.White
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 15.75!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(246, 176)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(69, 13)
+        Me.Label1.Size = New System.Drawing.Size(127, 24)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Perferred Qty"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(209, 152)
+        Me.Label2.BackColor = System.Drawing.Color.White
+        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 15.75!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(246, 241)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(92, 13)
+        Me.Label2.Size = New System.Drawing.Size(171, 24)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Perferred Kids Qty"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(209, 193)
+        Me.Label3.BackColor = System.Drawing.Color.White
+        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 15.75!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(246, 315)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(69, 13)
+        Me.Label3.Size = New System.Drawing.Size(127, 24)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Standard Qty"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(209, 234)
+        Me.Label4.BackColor = System.Drawing.Color.White
+        Me.Label4.Font = New System.Drawing.Font("Times New Roman", 15.75!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
+                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(246, 378)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(92, 13)
+        Me.Label4.Size = New System.Drawing.Size(171, 24)
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "Standard Kids Qty"
         '
@@ -109,125 +126,155 @@ Partial Class frmCalcTest
         '
         'Label5
         '
-        Me.Label5.Location = New System.Drawing.Point(458, 111)
+        Me.Label5.BackColor = System.Drawing.Color.White
+        Me.Label5.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(496, 169)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(40, 13)
+        Me.Label5.Size = New System.Drawing.Size(23, 39)
         Me.Label5.TabIndex = 11
         Me.Label5.Text = "0"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label6
         '
-        Me.Label6.Location = New System.Drawing.Point(458, 152)
+        Me.Label6.BackColor = System.Drawing.Color.White
+        Me.Label6.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(496, 236)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(40, 13)
+        Me.Label6.Size = New System.Drawing.Size(23, 39)
         Me.Label6.TabIndex = 12
         Me.Label6.Text = "0"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label7
         '
-        Me.Label7.Location = New System.Drawing.Point(458, 193)
+        Me.Label7.BackColor = System.Drawing.Color.White
+        Me.Label7.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(496, 310)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(40, 13)
+        Me.Label7.Size = New System.Drawing.Size(23, 39)
         Me.Label7.TabIndex = 13
         Me.Label7.Text = "0"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label8
         '
-        Me.Label8.Location = New System.Drawing.Point(458, 234)
+        Me.Label8.BackColor = System.Drawing.Color.White
+        Me.Label8.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(496, 370)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(40, 13)
+        Me.Label8.Size = New System.Drawing.Size(23, 39)
         Me.Label8.TabIndex = 14
         Me.Label8.Text = "0"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btn1
         '
-        Me.btn1.Location = New System.Drawing.Point(428, 106)
+        Me.btn1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.btn1.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn1.Location = New System.Drawing.Point(467, 169)
         Me.btn1.Name = "btn1"
-        Me.btn1.Size = New System.Drawing.Size(24, 23)
+        Me.btn1.Size = New System.Drawing.Size(23, 39)
         Me.btn1.TabIndex = 15
         Me.btn1.Text = "-"
-        Me.btn1.UseVisualStyleBackColor = True
+        Me.btn1.UseVisualStyleBackColor = False
         '
         'btn2
         '
-        Me.btn2.Location = New System.Drawing.Point(504, 106)
+        Me.btn2.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.btn2.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn2.Location = New System.Drawing.Point(525, 169)
         Me.btn2.Name = "btn2"
-        Me.btn2.Size = New System.Drawing.Size(23, 23)
+        Me.btn2.Size = New System.Drawing.Size(23, 39)
         Me.btn2.TabIndex = 16
         Me.btn2.Text = "+"
-        Me.btn2.UseVisualStyleBackColor = True
+        Me.btn2.UseVisualStyleBackColor = False
         '
         'btn3
         '
-        Me.btn3.Location = New System.Drawing.Point(428, 147)
+        Me.btn3.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.btn3.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn3.Location = New System.Drawing.Point(466, 236)
         Me.btn3.Name = "btn3"
-        Me.btn3.Size = New System.Drawing.Size(24, 23)
+        Me.btn3.Size = New System.Drawing.Size(23, 39)
         Me.btn3.TabIndex = 17
         Me.btn3.Text = "-"
-        Me.btn3.UseVisualStyleBackColor = True
+        Me.btn3.UseVisualStyleBackColor = False
         '
         'btn4
         '
-        Me.btn4.Location = New System.Drawing.Point(504, 147)
+        Me.btn4.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.btn4.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn4.Location = New System.Drawing.Point(525, 236)
         Me.btn4.Name = "btn4"
-        Me.btn4.Size = New System.Drawing.Size(23, 23)
+        Me.btn4.Size = New System.Drawing.Size(23, 39)
         Me.btn4.TabIndex = 18
         Me.btn4.Text = "+"
-        Me.btn4.UseVisualStyleBackColor = True
+        Me.btn4.UseVisualStyleBackColor = False
         '
         'btn5
         '
-        Me.btn5.Location = New System.Drawing.Point(428, 188)
+        Me.btn5.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.btn5.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn5.Location = New System.Drawing.Point(466, 305)
         Me.btn5.Name = "btn5"
-        Me.btn5.Size = New System.Drawing.Size(24, 23)
+        Me.btn5.Size = New System.Drawing.Size(23, 39)
         Me.btn5.TabIndex = 19
         Me.btn5.Text = "-"
-        Me.btn5.UseVisualStyleBackColor = True
+        Me.btn5.UseVisualStyleBackColor = False
         '
         'btn6
         '
-        Me.btn6.Location = New System.Drawing.Point(504, 188)
+        Me.btn6.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.btn6.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn6.Location = New System.Drawing.Point(525, 305)
         Me.btn6.Name = "btn6"
-        Me.btn6.Size = New System.Drawing.Size(23, 23)
+        Me.btn6.Size = New System.Drawing.Size(23, 39)
         Me.btn6.TabIndex = 20
         Me.btn6.Text = "+"
-        Me.btn6.UseVisualStyleBackColor = True
+        Me.btn6.UseVisualStyleBackColor = False
         '
         'btn7
         '
-        Me.btn7.Location = New System.Drawing.Point(428, 229)
+        Me.btn7.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.btn7.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn7.Location = New System.Drawing.Point(466, 365)
         Me.btn7.Name = "btn7"
-        Me.btn7.Size = New System.Drawing.Size(24, 23)
+        Me.btn7.Size = New System.Drawing.Size(23, 39)
         Me.btn7.TabIndex = 21
         Me.btn7.Text = "-"
-        Me.btn7.UseVisualStyleBackColor = True
+        Me.btn7.UseVisualStyleBackColor = False
         '
         'btn8
         '
-        Me.btn8.Location = New System.Drawing.Point(504, 229)
+        Me.btn8.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.btn8.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn8.Location = New System.Drawing.Point(525, 365)
         Me.btn8.Name = "btn8"
-        Me.btn8.Size = New System.Drawing.Size(23, 23)
+        Me.btn8.Size = New System.Drawing.Size(23, 39)
         Me.btn8.TabIndex = 22
         Me.btn8.Text = "+"
-        Me.btn8.UseVisualStyleBackColor = True
+        Me.btn8.UseVisualStyleBackColor = False
         '
         'lblFilmTitle
         '
-        Me.lblFilmTitle.Location = New System.Drawing.Point(289, 55)
+        Me.lblFilmTitle.BackColor = System.Drawing.Color.White
+        Me.lblFilmTitle.Font = New System.Drawing.Font("Times New Roman", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFilmTitle.Location = New System.Drawing.Point(281, 84)
         Me.lblFilmTitle.Name = "lblFilmTitle"
-        Me.lblFilmTitle.Size = New System.Drawing.Size(209, 23)
+        Me.lblFilmTitle.Size = New System.Drawing.Size(238, 56)
         Me.lblFilmTitle.TabIndex = 23
         Me.lblFilmTitle.Text = "FilmTitle"
         Me.lblFilmTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frmCalcTest
         '
+        Me.AcceptButton = Me.btnCalc
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.G4_Assignment.My.Resources.Resources.images__2_
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.CancelButton = Me.btnBack
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.lblFilmTitle)
         Me.Controls.Add(Me.btn8)
