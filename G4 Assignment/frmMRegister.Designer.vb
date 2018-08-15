@@ -42,6 +42,11 @@ Partial Class frmMRegister
         Me.btnRegister = New System.Windows.Forms.Button()
         Me.lblCheck = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.MskIC = New System.Windows.Forms.MaskedTextBox()
+        Me.MksBirth = New System.Windows.Forms.MaskedTextBox()
+        Me.lblb = New System.Windows.Forms.Label()
+        Me.lbla = New System.Windows.Forms.Label()
+        Me.lblc = New System.Windows.Forms.Label()
         Me.picno7 = New System.Windows.Forms.PictureBox()
         Me.picno6 = New System.Windows.Forms.PictureBox()
         Me.picno1 = New System.Windows.Forms.PictureBox()
@@ -54,11 +59,6 @@ Partial Class frmMRegister
         Me.picyes3 = New System.Windows.Forms.PictureBox()
         Me.picyes2 = New System.Windows.Forms.PictureBox()
         Me.picyes1 = New System.Windows.Forms.PictureBox()
-        Me.MskIC = New System.Windows.Forms.MaskedTextBox()
-        Me.MksBirth = New System.Windows.Forms.MaskedTextBox()
-        Me.lblb = New System.Windows.Forms.Label()
-        Me.lbla = New System.Windows.Forms.Label()
-        Me.lblc = New System.Windows.Forms.Label()
         Me.GpbGender.SuspendLayout()
         CType(Me.picno7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picno6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -77,8 +77,9 @@ Partial Class frmMRegister
         'lblName
         '
         Me.lblName.AutoSize = True
+        Me.lblName.BackColor = System.Drawing.Color.Transparent
         Me.lblName.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.lblName.ForeColor = System.Drawing.Color.DarkGoldenrod
         Me.lblName.Location = New System.Drawing.Point(38, 24)
         Me.lblName.Name = "lblName"
         Me.lblName.Size = New System.Drawing.Size(45, 15)
@@ -88,8 +89,9 @@ Partial Class frmMRegister
         'lblBirth
         '
         Me.lblBirth.AutoSize = True
+        Me.lblBirth.BackColor = System.Drawing.Color.Transparent
         Me.lblBirth.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblBirth.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.lblBirth.ForeColor = System.Drawing.Color.DarkGoldenrod
         Me.lblBirth.Location = New System.Drawing.Point(38, 66)
         Me.lblBirth.Name = "lblBirth"
         Me.lblBirth.Size = New System.Drawing.Size(42, 15)
@@ -99,8 +101,9 @@ Partial Class frmMRegister
         'lblUsername
         '
         Me.lblUsername.AutoSize = True
+        Me.lblUsername.BackColor = System.Drawing.Color.Transparent
         Me.lblUsername.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblUsername.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.lblUsername.ForeColor = System.Drawing.Color.DarkGoldenrod
         Me.lblUsername.Location = New System.Drawing.Point(34, 207)
         Me.lblUsername.Name = "lblUsername"
         Me.lblUsername.Size = New System.Drawing.Size(83, 15)
@@ -110,8 +113,9 @@ Partial Class frmMRegister
         'lblPassword
         '
         Me.lblPassword.AutoSize = True
+        Me.lblPassword.BackColor = System.Drawing.Color.Transparent
         Me.lblPassword.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPassword.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.lblPassword.ForeColor = System.Drawing.Color.DarkGoldenrod
         Me.lblPassword.Location = New System.Drawing.Point(38, 260)
         Me.lblPassword.Name = "lblPassword"
         Me.lblPassword.Size = New System.Drawing.Size(62, 15)
@@ -121,8 +125,9 @@ Partial Class frmMRegister
         'lblIC
         '
         Me.lblIC.AutoSize = True
+        Me.lblIC.BackColor = System.Drawing.Color.Transparent
         Me.lblIC.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblIC.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.lblIC.ForeColor = System.Drawing.Color.DarkGoldenrod
         Me.lblIC.Location = New System.Drawing.Point(34, 97)
         Me.lblIC.Name = "lblIC"
         Me.lblIC.Size = New System.Drawing.Size(73, 15)
@@ -162,8 +167,9 @@ Partial Class frmMRegister
         'lblGender
         '
         Me.lblGender.AutoSize = True
+        Me.lblGender.BackColor = System.Drawing.Color.Transparent
         Me.lblGender.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblGender.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.lblGender.ForeColor = System.Drawing.Color.DarkGoldenrod
         Me.lblGender.Location = New System.Drawing.Point(38, 145)
         Me.lblGender.Name = "lblGender"
         Me.lblGender.Size = New System.Drawing.Size(53, 15)
@@ -209,8 +215,9 @@ Partial Class frmMRegister
         'lblConfirm
         '
         Me.lblConfirm.AutoSize = True
+        Me.lblConfirm.BackColor = System.Drawing.Color.Transparent
         Me.lblConfirm.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblConfirm.ForeColor = System.Drawing.SystemColors.ControlDark
+        Me.lblConfirm.ForeColor = System.Drawing.Color.DarkGoldenrod
         Me.lblConfirm.Location = New System.Drawing.Point(33, 317)
         Me.lblConfirm.Name = "lblConfirm"
         Me.lblConfirm.Size = New System.Drawing.Size(85, 15)
@@ -229,8 +236,9 @@ Partial Class frmMRegister
         '
         'Label1
         '
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label1.ForeColor = System.Drawing.Color.DarkGoldenrod
         Me.Label1.Location = New System.Drawing.Point(33, 371)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(192, 16)
@@ -269,6 +277,60 @@ Partial Class frmMRegister
         'Timer1
         '
         Me.Timer1.Enabled = True
+        '
+        'MskIC
+        '
+        Me.MskIC.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.MskIC.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MskIC.Location = New System.Drawing.Point(131, 94)
+        Me.MskIC.Mask = "000000-00-0000"
+        Me.MskIC.Name = "MskIC"
+        Me.MskIC.Size = New System.Drawing.Size(177, 20)
+        Me.MskIC.TabIndex = 2
+        '
+        'MksBirth
+        '
+        Me.MksBirth.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.MksBirth.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MksBirth.Location = New System.Drawing.Point(131, 59)
+        Me.MksBirth.Mask = "00/00/0000"
+        Me.MksBirth.Name = "MksBirth"
+        Me.MksBirth.Size = New System.Drawing.Size(177, 20)
+        Me.MksBirth.TabIndex = 1
+        Me.MksBirth.ValidatingType = GetType(Date)
+        '
+        'lblb
+        '
+        Me.lblb.AutoSize = True
+        Me.lblb.BackColor = System.Drawing.Color.Transparent
+        Me.lblb.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblb.ForeColor = System.Drawing.Color.Red
+        Me.lblb.Location = New System.Drawing.Point(142, 244)
+        Me.lblb.Name = "lblb"
+        Me.lblb.Size = New System.Drawing.Size(0, 13)
+        Me.lblb.TabIndex = 36
+        '
+        'lbla
+        '
+        Me.lbla.AutoSize = True
+        Me.lbla.BackColor = System.Drawing.Color.Transparent
+        Me.lbla.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbla.ForeColor = System.Drawing.Color.Red
+        Me.lbla.Location = New System.Drawing.Point(142, 191)
+        Me.lbla.Name = "lbla"
+        Me.lbla.Size = New System.Drawing.Size(0, 13)
+        Me.lbla.TabIndex = 37
+        '
+        'lblc
+        '
+        Me.lblc.AutoSize = True
+        Me.lblc.BackColor = System.Drawing.Color.Transparent
+        Me.lblc.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblc.ForeColor = System.Drawing.Color.Red
+        Me.lblc.Location = New System.Drawing.Point(155, 9)
+        Me.lblc.Name = "lblc"
+        Me.lblc.Size = New System.Drawing.Size(0, 13)
+        Me.lblc.TabIndex = 38
         '
         'picno7
         '
@@ -402,63 +464,14 @@ Partial Class frmMRegister
         Me.picyes1.TabStop = False
         Me.picyes1.Visible = False
         '
-        'MskIC
-        '
-        Me.MskIC.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.MskIC.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MskIC.Location = New System.Drawing.Point(131, 94)
-        Me.MskIC.Mask = "000000-00-0000"
-        Me.MskIC.Name = "MskIC"
-        Me.MskIC.Size = New System.Drawing.Size(177, 20)
-        Me.MskIC.TabIndex = 2
-        '
-        'MksBirth
-        '
-        Me.MksBirth.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.MksBirth.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MksBirth.Location = New System.Drawing.Point(131, 59)
-        Me.MksBirth.Mask = "00/00/0000"
-        Me.MksBirth.Name = "MksBirth"
-        Me.MksBirth.Size = New System.Drawing.Size(177, 20)
-        Me.MksBirth.TabIndex = 1
-        Me.MksBirth.ValidatingType = GetType(Date)
-        '
-        'lblb
-        '
-        Me.lblb.AutoSize = True
-        Me.lblb.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblb.ForeColor = System.Drawing.Color.Red
-        Me.lblb.Location = New System.Drawing.Point(142, 244)
-        Me.lblb.Name = "lblb"
-        Me.lblb.Size = New System.Drawing.Size(0, 13)
-        Me.lblb.TabIndex = 36
-        '
-        'lbla
-        '
-        Me.lbla.AutoSize = True
-        Me.lbla.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbla.ForeColor = System.Drawing.Color.Red
-        Me.lbla.Location = New System.Drawing.Point(142, 191)
-        Me.lbla.Name = "lbla"
-        Me.lbla.Size = New System.Drawing.Size(0, 13)
-        Me.lbla.TabIndex = 37
-        '
-        'lblc
-        '
-        Me.lblc.AutoSize = True
-        Me.lblc.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblc.ForeColor = System.Drawing.Color.Red
-        Me.lblc.Location = New System.Drawing.Point(155, 9)
-        Me.lblc.Name = "lblc"
-        Me.lblc.Size = New System.Drawing.Size(0, 13)
-        Me.lblc.TabIndex = 38
-        '
         'frmMRegister
         '
         Me.AcceptButton = Me.btnRegister
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
+        Me.BackgroundImage = Global.G4_Assignment.My.Resources.Resources.depositphotos_110481342_stock_illustration_cinema_icons_set_cinema_pattern
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CancelButton = Me.btnBack
         Me.ClientSize = New System.Drawing.Size(452, 453)
         Me.Controls.Add(Me.lblc)

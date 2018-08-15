@@ -281,6 +281,16 @@
     <Content Include="G4VBMovie1_Backup.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\depositphotos_110481342-stock-illustration-cinema-icons-set-cinema-pattern.jpg" />
+    <None Include="Resources\depositphotos_110481800-stock-illustration-cinema-icons-set-cinema-pattern.jpg" />
+    <None Include="Resources\Cinema a background590.jpg" />
+    <None Include="Resources\movie-vector-seamless-background-camera-filmstrip-pattern-cinema-line-icons-70028546.jpg" />
+    <None Include="Resources\800px_COLOURBOX15439058.jpg" />
+    <None Include="Resources\500_F_111299400_xUDMfUUnWtGWQr0t8CEnL6lmBzsekpFY.jpg" />
+    <None Include="Resources\500_F_111299691_PO2a8FnJvpHhm6X4HWvFGMiSzLo20WfF.jpg" />
+    <None Include="Resources\cinema-background-pattern-vector-colorful-outline-icon-illustration-68624320.jpg" />
+    <None Include="Resources\wefwe.jpg" />
+    <None Include="Resources\123.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

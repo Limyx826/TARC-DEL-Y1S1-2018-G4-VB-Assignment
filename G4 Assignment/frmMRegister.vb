@@ -19,9 +19,7 @@ Public Class frmMRegister
         End If
     End Sub
 
-    Private Sub btnCheck_Click_1(sender As Object, e As EventArgs)
 
-    End Sub
     Private Sub btnRegister_Click(sender As Object, e As EventArgs) Handles btnRegister.Click
         If txtCon.Text.ToUpper() = TxtPass.Text.ToUpper() Then
             picyes7.Visible = True
@@ -111,4 +109,9 @@ Public Class frmMRegister
             Me.Close()
         End If
     End Sub
+    Private Sub frmMRegister_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+
 End Class
