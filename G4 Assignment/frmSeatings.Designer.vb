@@ -22,6 +22,7 @@ Partial Class frmSeatings
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -149,6 +150,7 @@ Partial Class frmSeatings
         Me.pic12 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.btnBack = New System.Windows.Forms.Button()
+        Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         CType(Me.pic85, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic86, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic87, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -245,6 +247,7 @@ Partial Class frmSeatings
         CType(Me.pic10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pic12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -1650,6 +1653,7 @@ Partial Class frmSeatings
         CType(Me.pic10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pic12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1781,4 +1785,5 @@ Partial Class frmSeatings
     Friend WithEvents pic12 As PictureBox
     Friend WithEvents Button1 As Button
     Friend WithEvents btnBack As Button
+    Friend WithEvents BindingSource1 As BindingSource
 End Class

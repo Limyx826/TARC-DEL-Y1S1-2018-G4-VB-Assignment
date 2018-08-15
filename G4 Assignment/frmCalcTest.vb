@@ -5,6 +5,7 @@
     Public Shared Property AStdKQty As Integer
     Public Shared Property APrdTT As Integer
     Public Shared Property AStdTT As Integer
+    Dim TT As Integer
 
     Dim lbl5, lbl6, lbl7, lbl8 As Integer
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
@@ -16,8 +17,8 @@
         APrdTT = APrdQty + APrdKQty
         AStdTT = AStdQty + AStdKQty
 
-        frmSeatings.Show()
-        Me.Close()
+        TT = APrdQty + APrdKQty + AStdQty + AStdKQty
+        NoNum(TT)
     End Sub
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
@@ -32,7 +33,7 @@
         AStdKQty = Integer.Parse(Label8.Text)
 
         'To calculate total
-        Dim TT As Integer
+
         TT = APrdQty + APrdKQty + AStdQty + AStdKQty
         btTT.Text = TT
     End Sub
@@ -57,34 +58,48 @@
         Label8.Text = lbl8
     End Sub
 
-    Private Function Negative(ByVal NG As Integer)
-        If NG < 0 Then
-            NG = 0
+    Private Sub NoNum(ByRef NN As Integer)
+        If NN = 0 Then
+            MessageBox.Show("please enter a number", "No selection", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+        Else
+            frmSeatings.Show()
+            Me.Close()
         End If
-        Return NG
-    End Function
+    End Sub
 
     Private Sub btn1_Click(sender As Object, e As EventArgs) Handles btn1.Click
         lbl5 -= 1
-        Negative(lbl5)
+        If lbl5 < 0 Then
+            lbl5 = 0
+        End If
+        'Negative(lbl5)
         Label5.Text = lbl5
     End Sub
 
     Private Sub btn5_Click(sender As Object, e As EventArgs) Handles btn5.Click
         lbl7 -= 1
-        Negative(lbl7)
+        If lbl7 < 0 Then
+            lbl7 = 0
+        End If
+        'Negative(lbl7)
         Label7.Text = lbl7
     End Sub
 
     Private Sub btn3_Click(sender As Object, e As EventArgs) Handles btn3.Click
         lbl6 -= 1
-        Negative(lbl6)
+        If lbl6 < 0 Then
+            lbl6 = 0
+        End If
+        'Negative(lbl6)
         Label6.Text = lbl6
     End Sub
 
     Private Sub btn7_Click(sender As Object, e As EventArgs) Handles btn7.Click
         lbl8 -= 1
-        Negative(lbl8)
+        If lbl8 < 0 Then
+            lbl8 = 0
+        End If
+        'Negative(lbl8)
         Label8.Text = lbl8
     End Sub
 End Class
