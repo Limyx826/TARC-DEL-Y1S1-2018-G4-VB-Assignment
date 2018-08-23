@@ -23,7 +23,6 @@ Partial Class frmLogin
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lblName = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtPw = New System.Windows.Forms.TextBox()
@@ -35,87 +34,98 @@ Partial Class frmLogin
         '
         'lblName
         '
-        Me.lblName.Font = New System.Drawing.Font("Times New Roman", 48.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.Location = New System.Drawing.Point(277, 9)
+        Me.lblName.BackColor = System.Drawing.Color.Transparent
+        Me.lblName.Font = New System.Drawing.Font("Times New Roman", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.lblName.Location = New System.Drawing.Point(273, 23)
+        Me.lblName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(578, 114)
+        Me.lblName.Size = New System.Drawing.Size(300, 50)
         Me.lblName.TabIndex = 0
         Me.lblName.Text = "TARC CINEMA "
-        '
-        'Label2
-        '
-        Me.Label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label2.Location = New System.Drawing.Point(114, 77)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(741, 5)
-        Me.Label2.TabIndex = 2
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 20.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(171, 187)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Label1.Location = New System.Drawing.Point(125, 102)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(123, 31)
+        Me.Label1.Size = New System.Drawing.Size(90, 23)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Staff ID :"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 20.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(158, 290)
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Label3.Location = New System.Drawing.Point(119, 186)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(136, 31)
+        Me.Label3.Size = New System.Drawing.Size(97, 23)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Password:"
         '
         'txtPw
         '
-        Me.txtPw.Location = New System.Drawing.Point(315, 300)
+        Me.txtPw.Location = New System.Drawing.Point(263, 185)
+        Me.txtPw.Margin = New System.Windows.Forms.Padding(4)
         Me.txtPw.Name = "txtPw"
         Me.txtPw.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtPw.Size = New System.Drawing.Size(261, 20)
+        Me.txtPw.Size = New System.Drawing.Size(347, 22)
         Me.txtPw.TabIndex = 1
         '
         'txtId
         '
-        Me.txtId.Location = New System.Drawing.Point(310, 195)
+        Me.txtId.Location = New System.Drawing.Point(263, 101)
+        Me.txtId.Margin = New System.Windows.Forms.Padding(4)
         Me.txtId.Name = "txtId"
-        Me.txtId.Size = New System.Drawing.Size(379, 20)
+        Me.txtId.Size = New System.Drawing.Size(347, 22)
         Me.txtId.TabIndex = 0
         '
         'btnSubmit
         '
-        Me.btnSubmit.BackColor = System.Drawing.Color.White
-        Me.btnSubmit.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSubmit.Location = New System.Drawing.Point(72, 463)
+        Me.btnSubmit.BackColor = System.Drawing.Color.Gainsboro
+        Me.btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnSubmit.Font = New System.Drawing.Font("Times New Roman", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSubmit.ForeColor = System.Drawing.Color.Black
+        Me.btnSubmit.Location = New System.Drawing.Point(65, 271)
+        Me.btnSubmit.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSubmit.Name = "btnSubmit"
-        Me.btnSubmit.Size = New System.Drawing.Size(155, 68)
+        Me.btnSubmit.Size = New System.Drawing.Size(141, 65)
         Me.btnSubmit.TabIndex = 2
         Me.btnSubmit.Text = "&Submit"
         Me.btnSubmit.UseVisualStyleBackColor = False
         '
         'btnReset
         '
-        Me.btnReset.BackColor = System.Drawing.Color.White
-        Me.btnReset.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReset.Location = New System.Drawing.Point(404, 458)
+        Me.btnReset.BackColor = System.Drawing.Color.Gainsboro
+        Me.btnReset.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnReset.Font = New System.Drawing.Font("Times New Roman", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReset.ForeColor = System.Drawing.Color.Black
+        Me.btnReset.Location = New System.Drawing.Point(359, 271)
+        Me.btnReset.Margin = New System.Windows.Forms.Padding(4)
         Me.btnReset.Name = "btnReset"
-        Me.btnReset.Size = New System.Drawing.Size(155, 68)
+        Me.btnReset.Size = New System.Drawing.Size(141, 65)
         Me.btnReset.TabIndex = 3
         Me.btnReset.Text = "&Reset"
         Me.btnReset.UseVisualStyleBackColor = False
         '
         'btnExit
         '
-        Me.btnExit.BackColor = System.Drawing.Color.White
+        Me.btnExit.BackColor = System.Drawing.Color.Gainsboro
+        Me.btnExit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnExit.Font = New System.Drawing.Font("Times New Roman", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(736, 462)
+        Me.btnExit.Font = New System.Drawing.Font("Times New Roman", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExit.ForeColor = System.Drawing.Color.Black
+        Me.btnExit.Location = New System.Drawing.Point(652, 271)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(4)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(155, 68)
+        Me.btnExit.Size = New System.Drawing.Size(143, 65)
         Me.btnExit.TabIndex = 8
         Me.btnExit.Text = "&Exit"
         Me.btnExit.UseVisualStyleBackColor = False
@@ -123,10 +133,11 @@ Partial Class frmLogin
         'frmLogin
         '
         Me.AcceptButton = Me.btnSubmit
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
+        Me.BackgroundImage = Global.G4_Assignment.My.Resources.Resources._1317646_cinema_wallpaper
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CancelButton = Me.btnExit
-        Me.ClientSize = New System.Drawing.Size(988, 602)
+        Me.ClientSize = New System.Drawing.Size(840, 405)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnSubmit)
@@ -134,18 +145,17 @@ Partial Class frmLogin
         Me.Controls.Add(Me.txtPw)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblName)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmLogin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "Staff Login"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents lblName As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents txtPw As TextBox

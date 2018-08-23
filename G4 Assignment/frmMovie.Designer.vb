@@ -74,9 +74,10 @@ Partial Class frmMovie
         '
         Me.PictureBox11.ErrorImage = Nothing
         Me.PictureBox11.Image = Global.G4_Assignment.My.Resources.Resources.Children_of_Heaven_v2_Approved
-        Me.PictureBox11.Location = New System.Drawing.Point(101, 47)
+        Me.PictureBox11.Location = New System.Drawing.Point(135, 58)
+        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox11.Size = New System.Drawing.Size(132, 139)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 10
         Me.PictureBox11.TabStop = False
@@ -85,9 +86,10 @@ Partial Class frmMovie
         'PictureBox10
         '
         Me.PictureBox10.Image = Global.G4_Assignment.My.Resources.Resources.p34442_p_v8_an
-        Me.PictureBox10.Location = New System.Drawing.Point(665, 272)
+        Me.PictureBox10.Location = New System.Drawing.Point(887, 335)
+        Me.PictureBox10.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox10.Size = New System.Drawing.Size(132, 139)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox10.TabIndex = 9
         Me.PictureBox10.TabStop = False
@@ -96,9 +98,10 @@ Partial Class frmMovie
         'PictureBox9
         '
         Me.PictureBox9.Image = Global.G4_Assignment.My.Resources.Resources._227x227bb
-        Me.PictureBox9.Location = New System.Drawing.Point(477, 272)
+        Me.PictureBox9.Location = New System.Drawing.Point(636, 335)
+        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox9.Size = New System.Drawing.Size(132, 139)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 8
         Me.PictureBox9.TabStop = False
@@ -107,9 +110,10 @@ Partial Class frmMovie
         'PictureBox8
         '
         Me.PictureBox8.Image = Global.G4_Assignment.My.Resources.Resources.p174374_p_v8_ab
-        Me.PictureBox8.Location = New System.Drawing.Point(668, 47)
+        Me.PictureBox8.Location = New System.Drawing.Point(891, 58)
+        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox8.Size = New System.Drawing.Size(132, 139)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox8.TabIndex = 7
         Me.PictureBox8.TabStop = False
@@ -118,9 +122,10 @@ Partial Class frmMovie
         'PictureBox7
         '
         Me.PictureBox7.Image = Global.G4_Assignment.My.Resources.Resources.MPW_41271
-        Me.PictureBox7.Location = New System.Drawing.Point(479, 47)
+        Me.PictureBox7.Location = New System.Drawing.Point(639, 58)
+        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox7.Size = New System.Drawing.Size(132, 139)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 6
         Me.PictureBox7.TabStop = False
@@ -129,9 +134,10 @@ Partial Class frmMovie
         'PictureBox6
         '
         Me.PictureBox6.Image = Global.G4_Assignment.My.Resources.Resources.p162523_p_v8_ad
-        Me.PictureBox6.Location = New System.Drawing.Point(290, 272)
+        Me.PictureBox6.Location = New System.Drawing.Point(387, 335)
+        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox6.Size = New System.Drawing.Size(132, 139)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 5
         Me.PictureBox6.TabStop = False
@@ -140,9 +146,10 @@ Partial Class frmMovie
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.G4_Assignment.My.Resources.Resources._220px_John_Q_film_poster
-        Me.PictureBox4.Location = New System.Drawing.Point(290, 47)
+        Me.PictureBox4.Location = New System.Drawing.Point(387, 58)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox4.Size = New System.Drawing.Size(132, 139)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 3
         Me.PictureBox4.TabStop = False
@@ -151,9 +158,10 @@ Partial Class frmMovie
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.G4_Assignment.My.Resources.Resources.p23762_p_v8_aa
-        Me.PictureBox1.Location = New System.Drawing.Point(101, 272)
+        Me.PictureBox1.Location = New System.Drawing.Point(135, 335)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(99, 113)
+        Me.PictureBox1.Size = New System.Drawing.Size(132, 139)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -162,10 +170,11 @@ Partial Class frmMovie
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label1.Location = New System.Drawing.Point(100, 12)
+        Me.Label1.Location = New System.Drawing.Point(133, 15)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(191, 22)
         Me.Label1.TabIndex = 11
@@ -174,9 +183,11 @@ Partial Class frmMovie
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.Menu
-        Me.Label2.Location = New System.Drawing.Point(472, 414)
+        Me.Label2.Location = New System.Drawing.Point(629, 510)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(121, 13)
         Me.Label2.TabIndex = 12
@@ -185,9 +196,11 @@ Partial Class frmMovie
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.SystemColors.Menu
-        Me.Label3.Location = New System.Drawing.Point(665, 414)
+        Me.Label3.Location = New System.Drawing.Point(887, 510)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(103, 13)
         Me.Label3.TabIndex = 13
@@ -196,9 +209,11 @@ Partial Class frmMovie
         'Label6
         '
         Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.Label6.Location = New System.Drawing.Point(478, 187)
+        Me.Label6.Location = New System.Drawing.Point(637, 230)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(100, 13)
         Me.Label6.TabIndex = 16
@@ -207,9 +222,11 @@ Partial Class frmMovie
         'Label7
         '
         Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.Label7.Location = New System.Drawing.Point(689, 187)
+        Me.Label7.Location = New System.Drawing.Point(919, 230)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(61, 13)
         Me.Label7.TabIndex = 17
@@ -218,9 +235,11 @@ Partial Class frmMovie
         'Label8
         '
         Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.Label8.Location = New System.Drawing.Point(77, 187)
+        Me.Label8.Location = New System.Drawing.Point(103, 230)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(144, 13)
         Me.Label8.TabIndex = 18
@@ -229,9 +248,11 @@ Partial Class frmMovie
         'Label9
         '
         Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.Label9.Location = New System.Drawing.Point(311, 187)
+        Me.Label9.Location = New System.Drawing.Point(415, 230)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(57, 13)
         Me.Label9.TabIndex = 19
@@ -240,9 +261,11 @@ Partial Class frmMovie
         'Label10
         '
         Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.SystemColors.Menu
-        Me.Label10.Location = New System.Drawing.Point(101, 414)
+        Me.Label10.Location = New System.Drawing.Point(135, 510)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(99, 13)
         Me.Label10.TabIndex = 20
@@ -251,9 +274,11 @@ Partial Class frmMovie
         'Label13
         '
         Me.Label13.AutoSize = True
+        Me.Label13.BackColor = System.Drawing.Color.Transparent
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.SystemColors.Menu
-        Me.Label13.Location = New System.Drawing.Point(247, 414)
+        Me.Label13.Location = New System.Drawing.Point(329, 510)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(189, 13)
         Me.Label13.TabIndex = 23
@@ -261,12 +286,15 @@ Partial Class frmMovie
         '
         'btnCine1
         '
-        Me.btnCine1.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnCine1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnCine1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCine1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCine1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine1.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.btnCine1.Location = New System.Drawing.Point(125, 210)
+        Me.btnCine1.Location = New System.Drawing.Point(167, 258)
+        Me.btnCine1.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCine1.Name = "btnCine1"
-        Me.btnCine1.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine1.Size = New System.Drawing.Size(61, 38)
         Me.btnCine1.TabIndex = 25
         Me.btnCine1.Text = "Book"
         Me.ToolTip1.SetToolTip(Me.btnCine1, "Book Now !")
@@ -274,12 +302,15 @@ Partial Class frmMovie
         '
         'btnCine7
         '
-        Me.btnCine7.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.btnCine7.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnCine7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCine7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCine7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine7.ForeColor = System.Drawing.SystemColors.Menu
-        Me.btnCine7.Location = New System.Drawing.Point(511, 442)
+        Me.btnCine7.Location = New System.Drawing.Point(681, 544)
+        Me.btnCine7.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCine7.Name = "btnCine7"
-        Me.btnCine7.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine7.Size = New System.Drawing.Size(61, 38)
         Me.btnCine7.TabIndex = 33
         Me.btnCine7.Text = "Book"
         Me.ToolTip1.SetToolTip(Me.btnCine7, "Book Now !")
@@ -287,12 +318,15 @@ Partial Class frmMovie
         '
         'btnCine6
         '
-        Me.btnCine6.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.btnCine6.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnCine6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCine6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCine6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine6.ForeColor = System.Drawing.SystemColors.Menu
-        Me.btnCine6.Location = New System.Drawing.Point(322, 442)
+        Me.btnCine6.Location = New System.Drawing.Point(429, 544)
+        Me.btnCine6.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCine6.Name = "btnCine6"
-        Me.btnCine6.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine6.Size = New System.Drawing.Size(61, 38)
         Me.btnCine6.TabIndex = 34
         Me.btnCine6.Text = "Book"
         Me.ToolTip1.SetToolTip(Me.btnCine6, "Book Now !")
@@ -300,12 +334,15 @@ Partial Class frmMovie
         '
         'btnCine5
         '
-        Me.btnCine5.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.btnCine5.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnCine5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCine5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCine5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine5.ForeColor = System.Drawing.SystemColors.Menu
-        Me.btnCine5.Location = New System.Drawing.Point(125, 442)
+        Me.btnCine5.Location = New System.Drawing.Point(167, 544)
+        Me.btnCine5.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCine5.Name = "btnCine5"
-        Me.btnCine5.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine5.Size = New System.Drawing.Size(61, 38)
         Me.btnCine5.TabIndex = 35
         Me.btnCine5.Text = "Book"
         Me.ToolTip1.SetToolTip(Me.btnCine5, "Book Now !")
@@ -313,12 +350,15 @@ Partial Class frmMovie
         '
         'btnCine4
         '
-        Me.btnCine4.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnCine4.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnCine4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCine4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCine4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine4.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.btnCine4.Location = New System.Drawing.Point(696, 210)
+        Me.btnCine4.Location = New System.Drawing.Point(928, 258)
+        Me.btnCine4.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCine4.Name = "btnCine4"
-        Me.btnCine4.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine4.Size = New System.Drawing.Size(61, 38)
         Me.btnCine4.TabIndex = 36
         Me.btnCine4.Text = "Book"
         Me.ToolTip1.SetToolTip(Me.btnCine4, "Book Now !")
@@ -326,12 +366,15 @@ Partial Class frmMovie
         '
         'btnCine3
         '
-        Me.btnCine3.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnCine3.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnCine3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCine3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCine3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine3.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.btnCine3.Location = New System.Drawing.Point(511, 210)
+        Me.btnCine3.Location = New System.Drawing.Point(681, 258)
+        Me.btnCine3.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCine3.Name = "btnCine3"
-        Me.btnCine3.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine3.Size = New System.Drawing.Size(61, 38)
         Me.btnCine3.TabIndex = 37
         Me.btnCine3.Text = "Book"
         Me.ToolTip1.SetToolTip(Me.btnCine3, "Book Now !")
@@ -339,12 +382,15 @@ Partial Class frmMovie
         '
         'btnCine2
         '
-        Me.btnCine2.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.btnCine2.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnCine2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCine2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCine2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine2.ForeColor = System.Drawing.SystemColors.InactiveBorder
-        Me.btnCine2.Location = New System.Drawing.Point(322, 210)
+        Me.btnCine2.Location = New System.Drawing.Point(429, 258)
+        Me.btnCine2.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCine2.Name = "btnCine2"
-        Me.btnCine2.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine2.Size = New System.Drawing.Size(61, 38)
         Me.btnCine2.TabIndex = 38
         Me.btnCine2.Text = "Book"
         Me.ToolTip1.SetToolTip(Me.btnCine2, "Book Now !")
@@ -352,12 +398,15 @@ Partial Class frmMovie
         '
         'btnCine8
         '
-        Me.btnCine8.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.btnCine8.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnCine8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCine8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCine8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCine8.ForeColor = System.Drawing.SystemColors.Menu
-        Me.btnCine8.Location = New System.Drawing.Point(696, 442)
+        Me.btnCine8.Location = New System.Drawing.Point(928, 544)
+        Me.btnCine8.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCine8.Name = "btnCine8"
-        Me.btnCine8.Size = New System.Drawing.Size(46, 31)
+        Me.btnCine8.Size = New System.Drawing.Size(61, 38)
         Me.btnCine8.TabIndex = 39
         Me.btnCine8.Text = "Book"
         Me.ToolTip1.SetToolTip(Me.btnCine8, "Book Now !")
@@ -366,9 +415,11 @@ Partial Class frmMovie
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.Info
-        Me.Label4.Location = New System.Drawing.Point(122, 163)
+        Me.Label4.Location = New System.Drawing.Point(163, 201)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(59, 13)
         Me.Label4.TabIndex = 40
@@ -377,9 +428,11 @@ Partial Class frmMovie
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.Info
-        Me.Label5.Location = New System.Drawing.Point(498, 163)
+        Me.Label5.Location = New System.Drawing.Point(664, 201)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(59, 13)
         Me.Label5.TabIndex = 41
@@ -388,9 +441,11 @@ Partial Class frmMovie
         'Label11
         '
         Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.SystemColors.Info
-        Me.Label11.Location = New System.Drawing.Point(311, 163)
+        Me.Label11.Location = New System.Drawing.Point(415, 201)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(59, 13)
         Me.Label11.TabIndex = 42
@@ -399,9 +454,11 @@ Partial Class frmMovie
         'Label12
         '
         Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.SystemColors.Info
-        Me.Label12.Location = New System.Drawing.Point(689, 163)
+        Me.Label12.Location = New System.Drawing.Point(919, 201)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(59, 13)
         Me.Label12.TabIndex = 43
@@ -410,9 +467,11 @@ Partial Class frmMovie
         'Label14
         '
         Me.Label14.AutoSize = True
+        Me.Label14.BackColor = System.Drawing.Color.Transparent
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.SystemColors.Info
-        Me.Label14.Location = New System.Drawing.Point(689, 388)
+        Me.Label14.Location = New System.Drawing.Point(919, 478)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(59, 13)
         Me.Label14.TabIndex = 44
@@ -421,9 +480,11 @@ Partial Class frmMovie
         'Label15
         '
         Me.Label15.AutoSize = True
+        Me.Label15.BackColor = System.Drawing.Color.Transparent
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.SystemColors.Info
-        Me.Label15.Location = New System.Drawing.Point(498, 388)
+        Me.Label15.Location = New System.Drawing.Point(664, 478)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(59, 13)
         Me.Label15.TabIndex = 45
@@ -432,9 +493,11 @@ Partial Class frmMovie
         'Label16
         '
         Me.Label16.AutoSize = True
+        Me.Label16.BackColor = System.Drawing.Color.Transparent
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.SystemColors.Info
-        Me.Label16.Location = New System.Drawing.Point(311, 388)
+        Me.Label16.Location = New System.Drawing.Point(415, 478)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(59, 13)
         Me.Label16.TabIndex = 46
@@ -443,9 +506,11 @@ Partial Class frmMovie
         'Label17
         '
         Me.Label17.AutoSize = True
+        Me.Label17.BackColor = System.Drawing.Color.Transparent
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.SystemColors.Info
-        Me.Label17.Location = New System.Drawing.Point(122, 388)
+        Me.Label17.Location = New System.Drawing.Point(163, 478)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(59, 13)
         Me.Label17.TabIndex = 47
@@ -453,13 +518,16 @@ Partial Class frmMovie
         '
         'btnExit
         '
-        Me.btnExit.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.btnExit.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnExit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnExit.ForeColor = System.Drawing.SystemColors.Menu
-        Me.btnExit.Location = New System.Drawing.Point(23, 12)
+        Me.btnExit.Location = New System.Drawing.Point(31, 15)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(4)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(52, 19)
+        Me.btnExit.Size = New System.Drawing.Size(69, 27)
         Me.btnExit.TabIndex = 48
         Me.btnExit.Text = "Back"
         Me.ToolTip1.SetToolTip(Me.btnExit, "Back to menu")
@@ -468,9 +536,11 @@ Partial Class frmMovie
         'Label18
         '
         Me.Label18.AutoSize = True
+        Me.Label18.BackColor = System.Drawing.Color.Transparent
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Ivory
-        Me.Label18.Location = New System.Drawing.Point(662, 19)
+        Me.Label18.Location = New System.Drawing.Point(883, 23)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(52, 13)
         Me.Label18.TabIndex = 49
@@ -481,11 +551,12 @@ Partial Class frmMovie
         '
         'frmMovie
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.BackgroundImage = Global.G4_Assignment.My.Resources.Resources._587293596_stage_lighting_wallpaper
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CancelButton = Me.btnExit
-        Me.ClientSize = New System.Drawing.Size(818, 550)
+        Me.ClientSize = New System.Drawing.Size(1091, 677)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.Label17)
@@ -522,9 +593,10 @@ Partial Class frmMovie
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox1)
         Me.ForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmMovie"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Movie"
+        Me.Text = "Movies"
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()

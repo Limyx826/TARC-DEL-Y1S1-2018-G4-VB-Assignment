@@ -1,9 +1,9 @@
 ﻿Public Class frmCalc
     'Declare the price of tickets
-    Const PrdP As Decimal = 16.0
+    Const PrdP As Decimal = 12.0
     Const PrdKP As Decimal = 8.0
     Const StdP As Decimal = 14.0
-    Const StdKP As Decimal = 8.0
+    Const StdKP As Decimal = 10.0
     Private Total As Decimal
 
     Private Sub frmCalc_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -12,7 +12,7 @@
 
         lbl1.Visible = True
         lbl2.Visible = True
-        lblEaster.Visible = True
+
         Timer1.Interval = 1500
         Timer1.Start()
 
@@ -48,14 +48,27 @@
     End Sub
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
-        frmHome.Show()
+
+        members.Show()
         Me.Close()
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         lbl1.Visible = False
         lbl2.Visible = False
-        lblEaster.Visible = False
+
         Timer1.Stop()
+    End Sub
+
+
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        MessageBox.Show("Thank you for using our service", "Thanks!!")
+        members.TextBox1.Text = ""
+        members.TextBox2.Text = ""
+        frmHome.Show()
+
+        Me.Close()
+
     End Sub
 End Class

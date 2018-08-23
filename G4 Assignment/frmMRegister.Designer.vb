@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmMRegister
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmMRegister
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.lblName = New System.Windows.Forms.Label()
@@ -77,55 +77,65 @@ Partial Class frmMRegister
         'lblName
         '
         Me.lblName.AutoSize = True
+        Me.lblName.BackColor = System.Drawing.Color.Transparent
         Me.lblName.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblName.Location = New System.Drawing.Point(38, 24)
+        Me.lblName.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.lblName.Location = New System.Drawing.Point(51, 30)
+        Me.lblName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(45, 15)
+        Me.lblName.Size = New System.Drawing.Size(55, 17)
         Me.lblName.TabIndex = 0
         Me.lblName.Text = "Name :"
         '
         'lblBirth
         '
         Me.lblBirth.AutoSize = True
+        Me.lblBirth.BackColor = System.Drawing.Color.Transparent
         Me.lblBirth.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblBirth.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblBirth.Location = New System.Drawing.Point(38, 66)
+        Me.lblBirth.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.lblBirth.Location = New System.Drawing.Point(51, 81)
+        Me.lblBirth.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblBirth.Name = "lblBirth"
-        Me.lblBirth.Size = New System.Drawing.Size(42, 15)
+        Me.lblBirth.Size = New System.Drawing.Size(51, 17)
         Me.lblBirth.TabIndex = 1
         Me.lblBirth.Text = "Birth :"
         '
         'lblUsername
         '
         Me.lblUsername.AutoSize = True
+        Me.lblUsername.BackColor = System.Drawing.Color.Transparent
         Me.lblUsername.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblUsername.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblUsername.Location = New System.Drawing.Point(34, 207)
+        Me.lblUsername.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.lblUsername.Location = New System.Drawing.Point(45, 255)
+        Me.lblUsername.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblUsername.Name = "lblUsername"
-        Me.lblUsername.Size = New System.Drawing.Size(83, 15)
+        Me.lblUsername.Size = New System.Drawing.Size(105, 17)
         Me.lblUsername.TabIndex = 2
         Me.lblUsername.Text = "Username ID :"
         '
         'lblPassword
         '
         Me.lblPassword.AutoSize = True
+        Me.lblPassword.BackColor = System.Drawing.Color.Transparent
         Me.lblPassword.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPassword.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblPassword.Location = New System.Drawing.Point(38, 260)
+        Me.lblPassword.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.lblPassword.Location = New System.Drawing.Point(51, 320)
+        Me.lblPassword.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblPassword.Name = "lblPassword"
-        Me.lblPassword.Size = New System.Drawing.Size(62, 15)
+        Me.lblPassword.Size = New System.Drawing.Size(79, 17)
         Me.lblPassword.TabIndex = 3
         Me.lblPassword.Text = "Password :"
         '
         'lblIC
         '
         Me.lblIC.AutoSize = True
+        Me.lblIC.BackColor = System.Drawing.Color.Transparent
         Me.lblIC.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblIC.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblIC.Location = New System.Drawing.Point(34, 97)
+        Me.lblIC.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.lblIC.Location = New System.Drawing.Point(45, 119)
+        Me.lblIC.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblIC.Name = "lblIC"
-        Me.lblIC.Size = New System.Drawing.Size(73, 15)
+        Me.lblIC.Size = New System.Drawing.Size(91, 17)
         Me.lblIC.TabIndex = 5
         Me.lblIC.Text = "IC Number :"
         '
@@ -133,18 +143,20 @@ Partial Class frmMRegister
         '
         Me.txtName.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.txtName.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtName.Location = New System.Drawing.Point(131, 24)
+        Me.txtName.Location = New System.Drawing.Point(175, 30)
+        Me.txtName.Margin = New System.Windows.Forms.Padding(4)
         Me.txtName.Name = "txtName"
-        Me.txtName.Size = New System.Drawing.Size(179, 20)
+        Me.txtName.Size = New System.Drawing.Size(237, 23)
         Me.txtName.TabIndex = 0
         '
         'txtID
         '
         Me.txtID.BackColor = System.Drawing.SystemColors.MenuBar
         Me.txtID.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtID.Location = New System.Drawing.Point(127, 207)
+        Me.txtID.Location = New System.Drawing.Point(169, 255)
+        Me.txtID.Margin = New System.Windows.Forms.Padding(4)
         Me.txtID.Name = "txtID"
-        Me.txtID.Size = New System.Drawing.Size(179, 20)
+        Me.txtID.Size = New System.Drawing.Size(237, 23)
         Me.txtID.TabIndex = 5
         '
         'TxtPass
@@ -152,21 +164,24 @@ Partial Class frmMRegister
         Me.TxtPass.BackColor = System.Drawing.SystemColors.MenuBar
         Me.TxtPass.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtPass.HideSelection = False
-        Me.TxtPass.Location = New System.Drawing.Point(127, 260)
+        Me.TxtPass.Location = New System.Drawing.Point(169, 320)
+        Me.TxtPass.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtPass.Name = "TxtPass"
         Me.TxtPass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TxtPass.ShortcutsEnabled = False
-        Me.TxtPass.Size = New System.Drawing.Size(179, 20)
+        Me.TxtPass.Size = New System.Drawing.Size(237, 23)
         Me.TxtPass.TabIndex = 6
         '
         'lblGender
         '
         Me.lblGender.AutoSize = True
+        Me.lblGender.BackColor = System.Drawing.Color.Transparent
         Me.lblGender.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblGender.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblGender.Location = New System.Drawing.Point(38, 145)
+        Me.lblGender.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.lblGender.Location = New System.Drawing.Point(51, 178)
+        Me.lblGender.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblGender.Name = "lblGender"
-        Me.lblGender.Size = New System.Drawing.Size(53, 15)
+        Me.lblGender.Size = New System.Drawing.Size(66, 17)
         Me.lblGender.TabIndex = 12
         Me.lblGender.Text = "Gender :"
         '
@@ -174,9 +189,11 @@ Partial Class frmMRegister
         '
         Me.GpbGender.Controls.Add(Me.radFemale)
         Me.GpbGender.Controls.Add(Me.radMale)
-        Me.GpbGender.Location = New System.Drawing.Point(127, 125)
+        Me.GpbGender.Location = New System.Drawing.Point(169, 154)
+        Me.GpbGender.Margin = New System.Windows.Forms.Padding(4)
         Me.GpbGender.Name = "GpbGender"
-        Me.GpbGender.Size = New System.Drawing.Size(184, 56)
+        Me.GpbGender.Padding = New System.Windows.Forms.Padding(4)
+        Me.GpbGender.Size = New System.Drawing.Size(245, 69)
         Me.GpbGender.TabIndex = 3
         Me.GpbGender.TabStop = False
         '
@@ -185,9 +202,10 @@ Partial Class frmMRegister
         Me.radFemale.AutoSize = True
         Me.radFemale.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.radFemale.ForeColor = System.Drawing.Color.Fuchsia
-        Me.radFemale.Location = New System.Drawing.Point(109, 22)
+        Me.radFemale.Location = New System.Drawing.Point(145, 27)
+        Me.radFemale.Margin = New System.Windows.Forms.Padding(4)
         Me.radFemale.Name = "radFemale"
-        Me.radFemale.Size = New System.Drawing.Size(64, 19)
+        Me.radFemale.Size = New System.Drawing.Size(77, 21)
         Me.radFemale.TabIndex = 1
         Me.radFemale.Text = "Female"
         Me.radFemale.UseVisualStyleBackColor = True
@@ -198,9 +216,10 @@ Partial Class frmMRegister
         Me.radMale.Checked = True
         Me.radMale.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.radMale.ForeColor = System.Drawing.Color.DodgerBlue
-        Me.radMale.Location = New System.Drawing.Point(18, 22)
+        Me.radMale.Location = New System.Drawing.Point(24, 27)
+        Me.radMale.Margin = New System.Windows.Forms.Padding(4)
         Me.radMale.Name = "radMale"
-        Me.radMale.Size = New System.Drawing.Size(52, 19)
+        Me.radMale.Size = New System.Drawing.Size(63, 21)
         Me.radMale.TabIndex = 0
         Me.radMale.TabStop = True
         Me.radMale.Text = "Male"
@@ -209,11 +228,13 @@ Partial Class frmMRegister
         'lblConfirm
         '
         Me.lblConfirm.AutoSize = True
+        Me.lblConfirm.BackColor = System.Drawing.Color.Transparent
         Me.lblConfirm.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblConfirm.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.lblConfirm.Location = New System.Drawing.Point(33, 317)
+        Me.lblConfirm.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.lblConfirm.Location = New System.Drawing.Point(44, 390)
+        Me.lblConfirm.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblConfirm.Name = "lblConfirm"
-        Me.lblConfirm.Size = New System.Drawing.Size(85, 15)
+        Me.lblConfirm.Size = New System.Drawing.Size(104, 17)
         Me.lblConfirm.TabIndex = 15
         Me.lblConfirm.Text = "Confirm Pass :"
         '
@@ -221,39 +242,46 @@ Partial Class frmMRegister
         '
         Me.txtCon.BackColor = System.Drawing.SystemColors.MenuBar
         Me.txtCon.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCon.Location = New System.Drawing.Point(127, 314)
+        Me.txtCon.Location = New System.Drawing.Point(169, 386)
+        Me.txtCon.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCon.Name = "txtCon"
         Me.txtCon.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtCon.Size = New System.Drawing.Size(179, 20)
+        Me.txtCon.Size = New System.Drawing.Size(237, 23)
         Me.txtCon.TabIndex = 7
         '
         'Label1
         '
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label1.Location = New System.Drawing.Point(33, 371)
+        Me.Label1.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.Label1.Location = New System.Drawing.Point(44, 457)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(192, 16)
+        Me.Label1.Size = New System.Drawing.Size(256, 20)
         Me.Label1.TabIndex = 17
         Me.Label1.Text = "Pay RM20 for member registration ."
         '
         'btnBack
         '
+        Me.btnBack.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnBack.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnBack.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBack.Location = New System.Drawing.Point(12, 407)
+        Me.btnBack.Location = New System.Drawing.Point(16, 501)
+        Me.btnBack.Margin = New System.Windows.Forms.Padding(4)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(123, 34)
+        Me.btnBack.Size = New System.Drawing.Size(164, 42)
         Me.btnBack.TabIndex = 18
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True
         '
         'btnRegister
         '
+        Me.btnRegister.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnRegister.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnRegister.Location = New System.Drawing.Point(302, 407)
+        Me.btnRegister.Location = New System.Drawing.Point(403, 501)
+        Me.btnRegister.Margin = New System.Windows.Forms.Padding(4)
         Me.btnRegister.Name = "btnRegister"
-        Me.btnRegister.Size = New System.Drawing.Size(123, 34)
+        Me.btnRegister.Size = New System.Drawing.Size(164, 42)
         Me.btnRegister.TabIndex = 8
         Me.btnRegister.Text = "Register"
         Me.btnRegister.UseVisualStyleBackColor = True
@@ -261,9 +289,10 @@ Partial Class frmMRegister
         'lblCheck
         '
         Me.lblCheck.AutoSize = True
-        Me.lblCheck.Location = New System.Drawing.Point(281, 369)
+        Me.lblCheck.Location = New System.Drawing.Point(375, 454)
+        Me.lblCheck.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCheck.Name = "lblCheck"
-        Me.lblCheck.Size = New System.Drawing.Size(0, 13)
+        Me.lblCheck.Size = New System.Drawing.Size(0, 17)
         Me.lblCheck.TabIndex = 19
         '
         'Timer1
@@ -273,9 +302,10 @@ Partial Class frmMRegister
         'picno7
         '
         Me.picno7.Image = Global.G4_Assignment.My.Resources.Resources.download
-        Me.picno7.Location = New System.Drawing.Point(340, 314)
+        Me.picno7.Location = New System.Drawing.Point(453, 386)
+        Me.picno7.Margin = New System.Windows.Forms.Padding(4)
         Me.picno7.Name = "picno7"
-        Me.picno7.Size = New System.Drawing.Size(29, 18)
+        Me.picno7.Size = New System.Drawing.Size(39, 22)
         Me.picno7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picno7.TabIndex = 33
         Me.picno7.TabStop = False
@@ -284,9 +314,10 @@ Partial Class frmMRegister
         'picno6
         '
         Me.picno6.Image = Global.G4_Assignment.My.Resources.Resources.download
-        Me.picno6.Location = New System.Drawing.Point(340, 262)
+        Me.picno6.Location = New System.Drawing.Point(453, 322)
+        Me.picno6.Margin = New System.Windows.Forms.Padding(4)
         Me.picno6.Name = "picno6"
-        Me.picno6.Size = New System.Drawing.Size(29, 18)
+        Me.picno6.Size = New System.Drawing.Size(39, 22)
         Me.picno6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picno6.TabIndex = 32
         Me.picno6.TabStop = False
@@ -295,9 +326,10 @@ Partial Class frmMRegister
         'picno1
         '
         Me.picno1.Image = Global.G4_Assignment.My.Resources.Resources.download
-        Me.picno1.Location = New System.Drawing.Point(341, 25)
+        Me.picno1.Location = New System.Drawing.Point(455, 31)
+        Me.picno1.Margin = New System.Windows.Forms.Padding(4)
         Me.picno1.Name = "picno1"
-        Me.picno1.Size = New System.Drawing.Size(29, 18)
+        Me.picno1.Size = New System.Drawing.Size(39, 22)
         Me.picno1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picno1.TabIndex = 31
         Me.picno1.TabStop = False
@@ -306,9 +338,10 @@ Partial Class frmMRegister
         'picno2
         '
         Me.picno2.Image = Global.G4_Assignment.My.Resources.Resources.download
-        Me.picno2.Location = New System.Drawing.Point(340, 61)
+        Me.picno2.Location = New System.Drawing.Point(453, 75)
+        Me.picno2.Margin = New System.Windows.Forms.Padding(4)
         Me.picno2.Name = "picno2"
-        Me.picno2.Size = New System.Drawing.Size(29, 18)
+        Me.picno2.Size = New System.Drawing.Size(39, 22)
         Me.picno2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picno2.TabIndex = 30
         Me.picno2.TabStop = False
@@ -317,9 +350,10 @@ Partial Class frmMRegister
         'picno3
         '
         Me.picno3.Image = Global.G4_Assignment.My.Resources.Resources.download
-        Me.picno3.Location = New System.Drawing.Point(340, 97)
+        Me.picno3.Location = New System.Drawing.Point(453, 119)
+        Me.picno3.Margin = New System.Windows.Forms.Padding(4)
         Me.picno3.Name = "picno3"
-        Me.picno3.Size = New System.Drawing.Size(29, 18)
+        Me.picno3.Size = New System.Drawing.Size(39, 22)
         Me.picno3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picno3.TabIndex = 29
         Me.picno3.TabStop = False
@@ -328,9 +362,10 @@ Partial Class frmMRegister
         'picno5
         '
         Me.picno5.Image = Global.G4_Assignment.My.Resources.Resources.download
-        Me.picno5.Location = New System.Drawing.Point(340, 209)
+        Me.picno5.Location = New System.Drawing.Point(453, 257)
+        Me.picno5.Margin = New System.Windows.Forms.Padding(4)
         Me.picno5.Name = "picno5"
-        Me.picno5.Size = New System.Drawing.Size(29, 18)
+        Me.picno5.Size = New System.Drawing.Size(39, 22)
         Me.picno5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picno5.TabIndex = 27
         Me.picno5.TabStop = False
@@ -339,9 +374,10 @@ Partial Class frmMRegister
         'picyes7
         '
         Me.picyes7.Image = Global.G4_Assignment.My.Resources.Resources.Ok_check_yes_tick_accept_success_green_correct
-        Me.picyes7.Location = New System.Drawing.Point(340, 315)
+        Me.picyes7.Location = New System.Drawing.Point(453, 388)
+        Me.picyes7.Margin = New System.Windows.Forms.Padding(4)
         Me.picyes7.Name = "picyes7"
-        Me.picyes7.Size = New System.Drawing.Size(29, 18)
+        Me.picyes7.Size = New System.Drawing.Size(39, 22)
         Me.picyes7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picyes7.TabIndex = 26
         Me.picyes7.TabStop = False
@@ -350,9 +386,10 @@ Partial Class frmMRegister
         'picyes6
         '
         Me.picyes6.Image = Global.G4_Assignment.My.Resources.Resources.Ok_check_yes_tick_accept_success_green_correct
-        Me.picyes6.Location = New System.Drawing.Point(340, 262)
+        Me.picyes6.Location = New System.Drawing.Point(453, 322)
+        Me.picyes6.Margin = New System.Windows.Forms.Padding(4)
         Me.picyes6.Name = "picyes6"
-        Me.picyes6.Size = New System.Drawing.Size(29, 18)
+        Me.picyes6.Size = New System.Drawing.Size(39, 22)
         Me.picyes6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picyes6.TabIndex = 25
         Me.picyes6.TabStop = False
@@ -361,9 +398,10 @@ Partial Class frmMRegister
         'picyes5
         '
         Me.picyes5.Image = Global.G4_Assignment.My.Resources.Resources.Ok_check_yes_tick_accept_success_green_correct
-        Me.picyes5.Location = New System.Drawing.Point(340, 209)
+        Me.picyes5.Location = New System.Drawing.Point(453, 257)
+        Me.picyes5.Margin = New System.Windows.Forms.Padding(4)
         Me.picyes5.Name = "picyes5"
-        Me.picyes5.Size = New System.Drawing.Size(29, 18)
+        Me.picyes5.Size = New System.Drawing.Size(39, 22)
         Me.picyes5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picyes5.TabIndex = 24
         Me.picyes5.TabStop = False
@@ -372,9 +410,10 @@ Partial Class frmMRegister
         'picyes3
         '
         Me.picyes3.Image = Global.G4_Assignment.My.Resources.Resources.Ok_check_yes_tick_accept_success_green_correct
-        Me.picyes3.Location = New System.Drawing.Point(340, 97)
+        Me.picyes3.Location = New System.Drawing.Point(453, 119)
+        Me.picyes3.Margin = New System.Windows.Forms.Padding(4)
         Me.picyes3.Name = "picyes3"
-        Me.picyes3.Size = New System.Drawing.Size(29, 18)
+        Me.picyes3.Size = New System.Drawing.Size(39, 22)
         Me.picyes3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picyes3.TabIndex = 22
         Me.picyes3.TabStop = False
@@ -383,9 +422,10 @@ Partial Class frmMRegister
         'picyes2
         '
         Me.picyes2.Image = Global.G4_Assignment.My.Resources.Resources.Ok_check_yes_tick_accept_success_green_correct
-        Me.picyes2.Location = New System.Drawing.Point(340, 61)
+        Me.picyes2.Location = New System.Drawing.Point(453, 75)
+        Me.picyes2.Margin = New System.Windows.Forms.Padding(4)
         Me.picyes2.Name = "picyes2"
-        Me.picyes2.Size = New System.Drawing.Size(29, 18)
+        Me.picyes2.Size = New System.Drawing.Size(39, 22)
         Me.picyes2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picyes2.TabIndex = 21
         Me.picyes2.TabStop = False
@@ -394,9 +434,10 @@ Partial Class frmMRegister
         'picyes1
         '
         Me.picyes1.Image = Global.G4_Assignment.My.Resources.Resources.Ok_check_yes_tick_accept_success_green_correct
-        Me.picyes1.Location = New System.Drawing.Point(340, 25)
+        Me.picyes1.Location = New System.Drawing.Point(453, 31)
+        Me.picyes1.Margin = New System.Windows.Forms.Padding(4)
         Me.picyes1.Name = "picyes1"
-        Me.picyes1.Size = New System.Drawing.Size(29, 18)
+        Me.picyes1.Size = New System.Drawing.Size(39, 22)
         Me.picyes1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picyes1.TabIndex = 20
         Me.picyes1.TabStop = False
@@ -406,61 +447,71 @@ Partial Class frmMRegister
         '
         Me.MskIC.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.MskIC.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MskIC.Location = New System.Drawing.Point(131, 94)
+        Me.MskIC.Location = New System.Drawing.Point(175, 116)
+        Me.MskIC.Margin = New System.Windows.Forms.Padding(4)
         Me.MskIC.Mask = "000000-00-0000"
         Me.MskIC.Name = "MskIC"
-        Me.MskIC.Size = New System.Drawing.Size(177, 20)
+        Me.MskIC.Size = New System.Drawing.Size(235, 23)
         Me.MskIC.TabIndex = 2
         '
         'MksBirth
         '
         Me.MksBirth.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.MksBirth.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MksBirth.Location = New System.Drawing.Point(131, 59)
+        Me.MksBirth.Location = New System.Drawing.Point(175, 73)
+        Me.MksBirth.Margin = New System.Windows.Forms.Padding(4)
         Me.MksBirth.Mask = "00/00/0000"
         Me.MksBirth.Name = "MksBirth"
-        Me.MksBirth.Size = New System.Drawing.Size(177, 20)
+        Me.MksBirth.Size = New System.Drawing.Size(235, 23)
         Me.MksBirth.TabIndex = 1
         Me.MksBirth.ValidatingType = GetType(Date)
         '
         'lblb
         '
         Me.lblb.AutoSize = True
+        Me.lblb.BackColor = System.Drawing.Color.Transparent
         Me.lblb.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblb.ForeColor = System.Drawing.Color.Red
-        Me.lblb.Location = New System.Drawing.Point(142, 244)
+        Me.lblb.Location = New System.Drawing.Point(189, 300)
+        Me.lblb.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblb.Name = "lblb"
-        Me.lblb.Size = New System.Drawing.Size(0, 13)
+        Me.lblb.Size = New System.Drawing.Size(0, 17)
         Me.lblb.TabIndex = 36
         '
         'lbla
         '
         Me.lbla.AutoSize = True
+        Me.lbla.BackColor = System.Drawing.Color.Transparent
         Me.lbla.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbla.ForeColor = System.Drawing.Color.Red
-        Me.lbla.Location = New System.Drawing.Point(142, 191)
+        Me.lbla.Location = New System.Drawing.Point(189, 235)
+        Me.lbla.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbla.Name = "lbla"
-        Me.lbla.Size = New System.Drawing.Size(0, 13)
+        Me.lbla.Size = New System.Drawing.Size(0, 17)
         Me.lbla.TabIndex = 37
         '
         'lblc
         '
         Me.lblc.AutoSize = True
+        Me.lblc.BackColor = System.Drawing.Color.Transparent
         Me.lblc.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblc.ForeColor = System.Drawing.Color.Red
-        Me.lblc.Location = New System.Drawing.Point(155, 9)
+        Me.lblc.Location = New System.Drawing.Point(207, 11)
+        Me.lblc.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblc.Name = "lblc"
-        Me.lblc.Size = New System.Drawing.Size(0, 13)
+        Me.lblc.Size = New System.Drawing.Size(0, 17)
         Me.lblc.TabIndex = 38
         '
         'frmMRegister
         '
         Me.AcceptButton = Me.btnRegister
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
+        Me.BackgroundImage = Global.G4_Assignment.My.Resources.Resources.depositphotos_110481342_stock_illustration_cinema_icons_set_cinema_pattern
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CancelButton = Me.btnBack
-        Me.ClientSize = New System.Drawing.Size(452, 453)
+        Me.ClientSize = New System.Drawing.Size(603, 558)
         Me.Controls.Add(Me.lblc)
         Me.Controls.Add(Me.lbla)
         Me.Controls.Add(Me.lblb)
@@ -494,6 +545,7 @@ Partial Class frmMRegister
         Me.Controls.Add(Me.lblUsername)
         Me.Controls.Add(Me.lblBirth)
         Me.Controls.Add(Me.lblName)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmMRegister"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Member Registration"

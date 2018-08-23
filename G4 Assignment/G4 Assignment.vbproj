@@ -95,16 +95,16 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delete.Designer.vb">
+      <DependentUpon>Delete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delete.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmCalcTest.Designer.vb">
       <DependentUpon>frmCalcTest.vb</DependentUpon>
     </Compile>
     <Compile Include="frmCalcTest.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmConfirm.Designer.vb">
-      <DependentUpon>frmConfirm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmConfirm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmLogin.designer.vb">
@@ -144,6 +144,18 @@
     <Compile Include="frmMovie.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Booked.Designer.vb">
+      <DependentUpon>Booked.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Booked.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="members.Designer.vb">
+      <DependentUpon>members.vb</DependentUpon>
+    </Compile>
+    <Compile Include="members.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -167,14 +179,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Delete.resx">
+      <DependentUpon>Delete.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCalcTest.resx">
       <DependentUpon>frmCalcTest.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCalc.resx">
       <DependentUpon>frmCalc.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmConfirm.resx">
-      <DependentUpon>frmConfirm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
@@ -190,6 +202,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMovie.resx">
       <DependentUpon>frmMovie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booked.resx">
+      <DependentUpon>Booked.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="members.resx">
+      <DependentUpon>members.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -281,6 +299,23 @@
     <Content Include="G4VBMovie1_Backup.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\7657dbd30e97e5d1.jpg" />
+    <None Include="Resources\Wholesale-Good-Quality-200-300-400-Inch.jpg" />
+    <None Include="Resources\2--1896227-Vintage looping film strip background.jpg" />
+    <None Include="Resources\download %281%29.jpg" />
+    <None Include="Resources\abstract-old-paper-textures-background_7182-1456.jpg" />
+    <None Include="Resources\17945597-vintage-film-background.jpg" />
+    <None Include="Resources\depositphotos_35874789-stock-photo-old-grunge-film-strip-background.jpg" />
+    <None Include="Resources\7657dbd30e97e5d.jpg" />
+    <None Include="Resources\1649.jpg" />
+    <None Include="Resources\Creative-cinema-elements-backgrounds-vector-material-021.jpg" />
+    <None Include="Resources\retro_cinema_background-.jpg" />
+    <None Include="Resources\Creative-cinema-elements-backgrounds-vector-material-02.jpg" />
+    <None Include="Resources\101229110-640x640.jpg" />
+    <None Include="Resources\587293596-stage-lighting-wallpaper.jpg" />
+    <None Include="Resources\7.jpg" />
+    <None Include="Resources\depositphotos_110481342-stock-illustration-cinema-icons-set-cinema-pattern.jpg" />
+    <None Include="Resources\1317646-cinema-wallpaper.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -23,16 +23,11 @@ Public Class frmMRegister
 
     End Sub
     Private Sub btnRegister_Click(sender As Object, e As EventArgs) Handles btnRegister.Click
-        If txtCon.Text.ToUpper() = TxtPass.Text.ToUpper() Then
-            picyes7.Visible = True
-            picno7.Visible = False
-        Else
-            picyes7.Visible = False
-            picno7.Visible = True
+        If picno7.Visible = True Then
             txtCon.Focus()
             txtCon.SelectAll()
-
         End If
+
         If TxtPass.TextLength < 7 Then
             picno6.Visible = True
             picyes6.Visible = False
@@ -106,9 +101,56 @@ Public Class frmMRegister
         If a = False Then
             MessageBox.Show("Somethings Error !!!", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
         Else
-            MessageBox.Show("Thank you for register !!!", "Member Registration", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+            MessageBox.Show("Thank you for register !!!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
+
+            Dim strConString As String
+            strConString = "Provider= Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\limyx\source\repos\COMPLETE\TARC-DEL-Y1S1-2018-G4-VB-Assignment\G4 Assignment\G4VBMOVIE.accdb"
+            Dim conBooking As OleDb.OleDbConnection
+
+            conBooking = New OleDb.OleDbConnection
+            conBooking.ConnectionString = strConString
+            conBooking.Open()
+
+
+            Dim Name As String
+
+            Dim cmdSelectmember As OleDb.OleDbCommand
+
+
+            Name = txtID.Text
+            cmdSelectmember = New OleDb.OleDbCommand("INSERT INTO Members(MemberID,MemberName) VALUES ('" & Name & "','" & txtName.Text & "')", conBooking)
+
+
+            cmdSelectmember.ExecuteNonQuery()
             frmHome.Show()
             Me.Close()
+
         End If
+
+
+    End Sub
+
+    Private Sub frmMRegister_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Timer1.Enabled = True
+
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        If txtCon.Text.ToUpper() = TxtPass.Text.ToUpper() Then
+            picyes7.Visible = True
+            picno7.Visible = False
+        Else
+            picyes7.Visible = False
+            picno7.Visible = True
+
+        End If
+    End Sub
+
+    Private Sub picno3_Click(sender As Object, e As EventArgs) Handles picno3.Click
+
+    End Sub
+
+    Private Sub txtID_TextChanged(sender As Object, e As EventArgs) Handles txtID.TextChanged
+
     End Sub
 End Class

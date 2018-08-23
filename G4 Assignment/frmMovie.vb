@@ -1,6 +1,7 @@
 ﻿Public Class frmMovie
     Private Sub frmMovie_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Enabled = True
+
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -8,7 +9,7 @@
     End Sub
 
     Private Sub Book()
-        frmCalcTest.Show()
+        frmBooking.Show()
         Me.Hide()
     End Sub
 
@@ -56,4 +57,6 @@
         frmCalcTest.lblFilmTitle.Text = Label3.Text
         Book()
     End Sub
+
+
 End Class

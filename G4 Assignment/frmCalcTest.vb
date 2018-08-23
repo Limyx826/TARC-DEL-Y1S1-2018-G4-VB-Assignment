@@ -16,6 +16,7 @@
         APrdTT = APrdQty + APrdKQty
         AStdTT = AStdQty + AStdKQty
 
+        frmSeatings.TextBox4.Text = lblFilmTitle.Text
         frmSeatings.Show()
         Me.Close()
     End Sub
@@ -60,20 +61,67 @@
     Private Sub btn1_Click(sender As Object, e As EventArgs) Handles btn1.Click
         lbl5 -= 1
         Label5.Text = lbl5
+        If Label5.Text < 0 Then
+            Label5.Text = 0
+            lbl5 = 0
+            MessageBox.Show("Input error!", "input error", MessageBoxButtons.OK)
+
+
+        End If
+    End Sub
+
+
+
+    Private Sub frmCalcTest_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        TextBox1.Text = members.TextBox1.Text
+        If TextBox1.Text = "" Then
+            btn4.Visible = False
+            btn1.Visible = False
+            btn2.Visible = False
+            btn3.Visible = False
+        Else
+            btn5.Visible = False
+            btn6.Visible = False
+            btn7.Visible = False
+            btn8.Visible = False
+        End If
+
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
     End Sub
 
     Private Sub btn5_Click(sender As Object, e As EventArgs) Handles btn5.Click
         lbl7 -= 1
         Label7.Text = lbl7
+        If Label7.Text < 0 Then
+            Label7.Text = 0
+            lbl7 = 0
+            MessageBox.Show("Input error!", "input error", MessageBoxButtons.OK)
+
+        End If
     End Sub
 
     Private Sub btn3_Click(sender As Object, e As EventArgs) Handles btn3.Click
         lbl6 -= 1
         Label6.Text = lbl6
+        If Label6.Text < 0 Then
+            Label6.Text = 0
+            lbl6 = 0
+            MessageBox.Show("Input error!", "input error", MessageBoxButtons.OK)
+
+        End If
     End Sub
 
     Private Sub btn7_Click(sender As Object, e As EventArgs) Handles btn7.Click
         lbl8 -= 1
         Label8.Text = lbl8
+        If Label8.Text < 0 Then
+            Label8.Text = 0
+            lbl8 = 0
+            MessageBox.Show("Input error!", "input error", MessageBoxButtons.OK)
+
+        End If
     End Sub
 End Class
